@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# Vector DB / Data artifacts
+*.faiss
+*.index
+data/raw/
+data/processed/
+*.db
+chroma_db/
+qdrant_storage/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.pid
+
+# Langfuse local
+langfuse_data/
+
+# Node (لو الـ UI استخدم أي أدوات JS مساعدة)
+node_modules/

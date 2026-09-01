@@ -1,0 +1,40 @@
+version: "3.9"
+
+# هيكل مبدئي - Bonus feature وليس إجباري
+# كل سيرفيس ليه Dockerfile خاص بيه جوا مجلده
+
+services:
+  orchestrator-api:
+    build: ./orchestrator-api
+    ports:
+      - "8000:8000"
+
+  doc-processor-api:
+    build: ./doc-processor-api
+    ports:
+      - "8001:8001"
+
+  retrieval-api:
+    build: ./retrieval-api
+    ports:
+      - "8002:8002"
+
+  agent-service:
+    build: ./agent-service
+    ports:
+      - "8003:8003"
+
+  eval-service:
+    build: ./eval-service
+    ports:
+      - "8004:8004"
+
+  ui-service:
+    build: ./ui-service
+    ports:
+      - "7860:7860"
+
+  answer-validator-api:
+    build: ./answer-validator-api
+    ports:
+      - "8005:8005"
