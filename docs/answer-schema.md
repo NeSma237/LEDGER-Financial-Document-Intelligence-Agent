@@ -1,8 +1,8 @@
 # Strict Answer Schema
 
-كل إجابة من agent-service لازم تتبع الشكل ده بالظبط، والـ answer-validator-api هيرفض أي انحراف عنه.
+Every answer from agent-service must follow this shape exactly, and answer-validator-api will reject any deviation.
 
-## البنية الأساسية
+## Base Structure
 
 ```json
 {
@@ -12,15 +12,15 @@
 }
 ```
 
-## الأنواع الأربعة (الحد الأدنى الإجباري)
+## The Four Types (Required Minimum)
 
 ### 1. direct
-لإجابة مباشرة من مستند واحد.
+A fact retrieved directly from a single document.
 
 | Parameter | Type | Constraints |
 |---|---|---|
-| value | string/number | إجباري |
-| evidence | array | إجباري — citation واحد على الأقل بـ document_id و page |
+| value | string/number | Required |
+| evidence | array | Required — at least one citation with document_id and page |
 
 ```json
 {
@@ -31,13 +31,13 @@
 ```
 
 ### 2. calculated
-لإجابة ناتجة عن عملية حسابية (لازم تعدي على calculator tool).
+An answer derived from an arithmetic operation (must go through the calculator tool).
 
 | Parameter | Type | Constraints |
 |---|---|---|
-| value | number | إجباري — النتيجة النهائية |
-| formula | string | إجباري — يوضح العملية، مثال: "(150-120)/120*100" |
-| evidence | array | إجباري — citation واحد لكل operand |
+| value | number | Required — the final result |
+| formula | string | Required — shows the operation, e.g. "(150-120)/120*100" |
+| evidence | array | Required — one citation per operand |
 
 ```json
 {
@@ -51,12 +51,12 @@
 ```
 
 ### 3. multi_span
-لإجابة فيها أكتر من قيمة (قائمة عناصر).
+An answer containing more than one value (a list of items).
 
 | Parameter | Type | Constraints |
 |---|---|---|
-| values | array of string/number | إجباري — قيمة لكل عنصر بالترتيب |
-| evidence | array | إجباري — citation واحد على الأقل لكل قيمة |
+| values | array of string/number | Required — one value per item, in order |
+| evidence | array | Required — at least one citation per value |
 
 ```json
 {
@@ -67,12 +67,12 @@
 ```
 
 ### 4. insufficient_evidence
-لما مفيش دليل كافي — ممنوع تخمين الإجابة.
+When there isn't enough grounding — guessing the answer is not allowed.
 
 | Parameter | Type | Constraints |
 |---|---|---|
-| reason | string | إجباري — شرح مختصر لللي مش موجود |
-| evidence | array | اختياري — ممكن تكون فاضية |
+| reason | string | Required — a brief explanation of what's missing |
+| evidence | array | Optional — may be empty |
 
 ```json
 {
@@ -82,4 +82,4 @@
 }
 ```
 
-> ملحوظة: أي نوع إضافي (زي comparison/ranking) لازم يتوثق هنا لو الفريق قرر يضيفه، وبنفس القاعدة: أي نوع لازم evidence.
+> Note: Any additional type (e.g. comparison/ranking) must be documented here if the team decides to add it, following the same rule: every type requires evidence.

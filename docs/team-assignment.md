@@ -1,14 +1,16 @@
-# توزيع الفريق
+# Team Assignment
 
-| الشخص | الخدمة الأساسية (Owner) | ملاحظات |
+| Person | Primary Service (Owner) | Notes |
 |---|---|---|
-| TBD | doc-processor-api | نقطة البداية اللي الكل محتاجها |
-| TBD | retrieval-api | Chunking + Vector DB + BM25 + Reranking |
-| TBD | agent-service | الأصعب تقنيًا — LangGraph |
-| TBD | orchestrator-api + answer-validator-api | لازم يفهم كل الـ APIs التانية |
-| TBD | ui-service + eval-service | الواجهة + القياس |
+| MounReda | `doc-processor-api` | The starting point everyone else depends on |
+| Nesma Nasser | `retrieval-api` | Chunking + Vector DB + BM25 + Reranking |
+| Thomas Mina | `agent-service` | The hardest technically — LangGraph |
+| Hassan Mohamed | `orchestrator-api` | Needs to understand all the other APIs |
+| Mohamed Aboulfottouh | `eval-service` | Evaluation + Langfuse tracing |
+| Marwan Bahy | `ui-service` | May help with core tasks later on |
+| — | `answer-validator-api` | ⚠️ Not yet assigned — needs to be confirmed with the team |
 
-## قواعد التعاون
-- Sync قصير كل يوم/يومين (15-20 دقيقة) — كل واحد يشرح إيه اللي عمله
-- مراجعة PRs من الكل، مش بس الـ owner
-- قبل الديمو بـ 2-3 أيام: swap session — كل واحد يشرح خدمة زميله
+## Collaboration Rules
+- Short sync every day/other day (15–20 min) — everyone shares what they worked on
+- PRs get reviewed by everyone, not just the owner
+- 2–3 days before the demo: swap session — everyone explains a teammate's service

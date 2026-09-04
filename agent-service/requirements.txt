@@ -1,4 +1,8 @@
+fastapi
+uvicorn
+httpx
+python-dotenv
 langgraph
 langchain
-langchain-community
-# أضيفوا LLM provider هنا
+langchain-core
+pydantic
