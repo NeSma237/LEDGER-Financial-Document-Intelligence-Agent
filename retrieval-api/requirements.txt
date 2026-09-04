@@ -1,3 +1,7 @@
 fastapi
 uvicorn[standard]
-# أضيفوا vector DB + embeddings + rank-bm25 هنا
+chromadb
+sentence-transformers
+rank-bm25
+pydantic
+requests
