@@ -53,7 +53,7 @@ ledger-repo/
 ## Definition of Done
 See [`docs/definition-of-done.md`](docs/definition-of-done.md)
 
-## Team & Mentors
+## Mentors
 - [@Mohamedh0](https://github.com/Mohamedh0)
 - [@BASSAT-BASSAT](https://github.com/BASSAT-BASSAT)
 - [@Gamal-Abouelhamd](https://github.com/Gamal-Abouelhamd)
