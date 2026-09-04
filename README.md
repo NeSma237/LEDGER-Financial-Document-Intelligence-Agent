@@ -51,4 +51,4 @@ ledger-repo/
 - كل الدمج عن طريق Pull Requests فقط
 
 ## Definition of Done
-راجعي [`docs/definition-of-done.md`](docs/definition-of-done.md)
+ [`docs/definition-of-done.md`](docs/definition-of-done.md)
