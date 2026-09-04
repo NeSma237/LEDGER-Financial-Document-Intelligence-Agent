@@ -1,6 +1,7 @@
 """
 docling_adapter.py
 =====================
+
 """
 from typing import Dict, Any, List, Optional
 
@@ -8,10 +9,6 @@ DEFAULT_SECTION_TITLE = "Document"
 
 
 def _table_item_to_rows(table_item: Dict[str, Any]) -> List[List[str]]:
-    """
-    Converts a table item from the raw Docling dictionary to a list of rows.
-    Each cell contains text along with its row and column indices.
-    """
     cells = table_item.get("data", {}).get("table_cells", [])
     num_rows = table_item.get("data", {}).get("num_rows", 0)
     num_cols = table_item.get("data", {}).get("num_cols", 0)
@@ -29,9 +26,6 @@ def _table_item_to_rows(table_item: Dict[str, Any]) -> List[List[str]]:
 
 
 def _resolve_ref(ref: str) -> tuple[str, int]:
-    """
-    Converts a reference string like "#/texts/12" to a tuple ("texts", 12) — so we can retrieve the original item from its dict.
-    """
     parts = ref.strip("#/").split("/")
     kind = parts[0]
     idx = int(parts[1])
@@ -41,15 +35,10 @@ def _resolve_ref(ref: str) -> tuple[str, int]:
 def _walk_body(
     node_ref: str,
     raw_docling_dict: Dict[str, Any],
-    current_section: List[str],  # mutable reference to the current section title, so that we can update it when we encounter a new section header
+    current_section: List[str],  #a mutable list to hold the current section title
     pages_map: Dict[int, List[Dict[str, Any]]],
 ) -> None:
-    """
-    Walks through the body.children tree in the correct document order (recursive)
-    so that the groups contain their child elements (like bullet lists), and updates
-    the current_section whenever a new section_header is found, passing it down to
-    any subsequent text/table elements until a new header is encountered.
-    """
+
     kind, idx = _resolve_ref(node_ref)
 
     if kind == "groups":
@@ -61,7 +50,7 @@ def _walk_body(
     if kind == "texts":
         text_item = raw_docling_dict.get("texts", [])[idx]
 
-        # text items that are not in the body layer (like headers, footers, or captions) are ignored for now, because we only want to index the main content of the document.
+        #ignore any text that is not part of the body content (like headers, footers, etc.)
         if text_item.get("content_layer") != "body":
             return
         parent_ref = (text_item.get("parent") or {}).get("$ref", "")
@@ -80,7 +69,7 @@ def _walk_body(
         label = text_item.get("label", "text")
 
         if label == "section_header":
-            # new section header — we update the current_section reference so that subsequent text/table items inherit this title until a new header is found.
+            # this is a new section header, so we update the current_section
             current_section[0] = text_content
             pages_map.setdefault(page_no, []).append({
                 "section_title": text_content,
@@ -91,7 +80,7 @@ def _walk_body(
             })
             return
 
-        # inherit the current section title for this text item
+        # in any other case, we treat it as a regular text chunk, and we inherit the current section title
         pages_map.setdefault(page_no, []).append({
             "section_title": current_section[0],
             "content_type": "text",
@@ -121,14 +110,14 @@ def _walk_body(
         })
         return
 
-    # ignore other kinds (like pictures, key-value pairs, etc.)
-    # because we don't want to index images or key-value pairs for now.
+    # ignore any other kinds (like pictures, etc.) that don't have a direct representation in our schema
+    # schema only supports text and tables, so we skip other content types for now.
 
 
 def adapt_docling_output(document_id: str, raw_docling_dict: Dict[str, Any]) -> Dict[str, Any]:
 
     pages_map: Dict[int, List[Dict[str, Any]]] = {}
-    current_section = [DEFAULT_SECTION_TITLE]  # mutable reference to the current section title, so that we can update it when we encounter a new section header
+    current_section = [DEFAULT_SECTION_TITLE]  # return a mutable list to hold the current section title
 
     body_children = raw_docling_dict.get("body", {}).get("children", [])
     for child in body_children:
