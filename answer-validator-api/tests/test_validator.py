@@ -217,9 +217,174 @@ class TestInvalidPageType:
         assert resp.status_code == 400
         assert resp.json()["valid"] is False
 
+    def test_evidence_negative_page(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "direct",
+            "evidence": [{"document_id": "doc_001", "page": -1}],
+            "params": {"value": "test"}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_evidence_boolean_page_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "direct",
+            "evidence": [{"document_id": "doc_001", "page": True}],
+            "params": {"value": "test"}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+
+class TestInvalidExtraFields:
+    def test_extra_root_field_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "direct",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"value": "test"},
+            "injected_root_field": "hack"
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+        assert "injected_root_field" in resp.json()["reason"]
+
+    def test_extra_params_field_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "direct",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"value": "test", "extra_param": 123}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+        assert "extra_param" in resp.json()["reason"]
+
+    def test_extra_evidence_field_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "direct",
+            "evidence": [{"document_id": "doc_001", "page": 1, "extra_info": "bad"}],
+            "params": {"value": "test"}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+
+class TestMultiSpanElementValidation:
+    def test_empty_string_element_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "multi_span",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"values": [""]}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_whitespace_string_element_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "multi_span",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"values": ["   "]}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_mixed_valid_and_empty_element_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "multi_span",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"values": ["A", ""]}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_mixed_valid_and_whitespace_element_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "multi_span",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"values": ["A", "   "]}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_valid_strings_accepted(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "multi_span",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"values": ["A", "B"]}
+        })
+        assert resp.status_code == 200
+        assert resp.json()["valid"] is True
+
+    def test_valid_numbers_accepted(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "multi_span",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"values": [1, 2, 3]}
+        })
+        assert resp.status_code == 200
+        assert resp.json()["valid"] is True
+
+
+class TestStrictTypeChecks:
+    def test_calculated_boolean_value_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "calculated",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"value": True, "formula": "1+1"}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_calculated_string_value_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "calculated",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"value": "13.4", "formula": "1+1"}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_calculated_missing_value_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "calculated",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"formula": "1+1"}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_direct_boolean_value_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "direct",
+            "evidence": [{"document_id": "doc_001", "page": 1}],
+            "params": {"value": True}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+
+class TestInsufficientEvidenceStrict:
+    def test_missing_reason_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "insufficient_evidence",
+            "evidence": [],
+            "params": {}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
+    def test_empty_reason_rejected(self):
+        resp = client.post("/validate_answer", json={
+            "answer_type": "insufficient_evidence",
+            "evidence": [],
+            "params": {"reason": ""}
+        })
+        assert resp.status_code == 400
+        assert resp.json()["valid"] is False
+
 
 class TestHealthCheck:
     def test_health(self):
         resp = client.get("/health")
         assert resp.status_code == 200
         assert resp.json() == {"status": "ok"}
+

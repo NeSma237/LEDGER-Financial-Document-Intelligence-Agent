@@ -1,25 +1,39 @@
 # answer-validator-api
 
-## المسؤولية
-المصدر الوحيد للحقيقة بخصوص شكل الإجابة الصحيحة. بيستقبل JSON ويتحقق إنه متوافق تمامًا مع الـ schema.
+## Responsibility
+The single source of truth for answer schema correctness in LEDGER. Validates that every answer produced by `agent-service` strictly adheres to the project contract before it can be presented to the user.
 
-## Framework
-FastAPI أو Flask
+## Framework & Port
+* **Framework:** FastAPI + Pydantic v2
+* **Default Port:** `8005`
 
-## Endpoint
-`POST /validate_answer`
+## Endpoints
+* `POST /validate_answer` — Accepts an answer payload (`answer_type`, `evidence`, `params`), strictly validates data types and citations, and returns `{"valid": bool, "message": Optional[str], "reason": Optional[str]}`. Returns HTTP 200 on success, HTTP 400 on validation failure.
+* `GET /health` — Health check endpoint.
 
-## الأنواع الأربعة المطلوبة (راجع docs/answer-schema.md للتفاصيل الكاملة)
-1. `direct` — قيمة واحدة + evidence
-2. `calculated` — قيمة + formula + evidence لكل operand
-3. `multi_span` — عدة قيم + evidence
-4. `insufficient_evidence` — لما مفيش دليل كافي
+## The Four Supported Answer Types
+1. `direct` — Single retrieved scalar value (`params.value`) + at least one evidence citation.
+2. `calculated` — Numeric scalar value (`params.value`) + arithmetic string (`params.formula`) + operand citations.
+3. `multi_span` — List of non-empty scalar values (`params.values`) + evidence citations.
+4. `insufficient_evidence` — Reason explanation (`params.reason`) + optional empty citation list (`evidence: []`).
 
-## Logging المطلوب
-- نجاح: `[ANSWER-VALIDATOR-SUCCESS] Received and validated answer of type '<type>' with evidence {...}`
-- فشل: `[ANSWER-VALIDATOR-ERROR] Invalid answer. Reason: <السبب بالتفصيل>`
+## Strict Validation Rules
+* Unknown/extra root fields are forbidden and rejected.
+* Unknown/extra parameter fields in `params` are forbidden and rejected.
+* Unknown/extra citation fields in `evidence` are forbidden and rejected.
+* Strict type enforcement: booleans are not accepted as numbers or page integers.
+* Whitespace-only strings in `multi_span` values or parameters are rejected.
 
-## التشغيل محليًا
+## Logging Format
+* **Success:** `[ANSWER-VALIDATOR-SUCCESS] Received and validated answer of type '<type>' with evidence {'document_id': '...', 'page': 0}.`
+* **Error:** `[ANSWER-VALIDATOR-ERROR] Invalid answer. Reason: <detailed reason>`
+
+## Running Locally
 ```bash
-# TODO
+uvicorn main:app --port 8005 --reload
+```
+
+## Running Tests
+```bash
+pytest tests/test_validator.py -v
 ```
