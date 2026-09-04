@@ -47,16 +47,15 @@ async def call_validator(answer_payload: Dict[str, Any]) -> Dict[str, Any]:
     """Send an answer to the validator service for validation."""
     url = f"{settings.VALIDATOR_SERVICE_URL}/validate_answer"
     logger.info(f"[ORCHESTRATOR] Sending answer to validator: {url}")
-    # Only send the fields the validator needs
+    # Forward the payload without pipeline wrapper metadata (_trace, validated, answer)
+    # Any unexpected extra fields injected by the agent are preserved so the validator can reject them
     validation_payload = {
-        "answer_type": answer_payload.get("answer_type"),
-        "evidence": answer_payload.get("evidence", []),
-        "params": answer_payload.get("params", {})
+        k: v for k, v in answer_payload.items()
+        if k not in ("_trace", "validated", "answer")
     }
     try:
         async with httpx.AsyncClient(timeout=settings.REQUEST_TIMEOUT) as client:
             resp = await client.post(url, json=validation_payload)
-            # Validator returns 400 for invalid answers, which is expected
             data = resp.json()
             logger.info(f"[ORCHESTRATOR] Validator responded: valid={data.get('valid')}")
             return data

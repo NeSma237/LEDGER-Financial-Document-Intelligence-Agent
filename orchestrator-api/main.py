@@ -3,6 +3,7 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse
 from schemas import AskRequest, AskResponse, IngestResponse, DocumentsResponse, ErrorResponse
 from services import call_agent, call_validator, call_doc_processor, call_retrieval_index, ServiceError
+from adapters import adapt_docling_output
 from config import settings
 
 # Configure logging
@@ -22,7 +23,7 @@ app = FastAPI(
 _document_registry: list = []
 
 
-@app.post("/ask")
+@app.post("/ask", response_model=AskResponse)
 async def ask_question(request: AskRequest):
     """
     Main question-answering pipeline:
@@ -80,33 +81,34 @@ async def ask_question(request: AskRequest):
         logger.warning(f"[ORCHESTRATOR] Answer rejected by validator: {val_reason}")
 
         # Return a safe insufficient_evidence response instead of the invalid answer
-        return {
-            "answer": "Insufficient evidence to answer the question.",
-            "answer_type": "insufficient_evidence",
-            "evidence": [],
-            "params": {"reason": f"Validation failed: {val_reason}"},
-            "validated": False,
-            "_trace": agent_response.get("_trace", {})
-        }
+        return AskResponse(
+            answer="Insufficient evidence to answer the question.",
+            answer_type="insufficient_evidence",
+            evidence=[],
+            params={"reason": f"Validation failed: {val_reason}"},
+            validated=False,
+            _trace=agent_response.get("_trace")
+        )
 
-    # Step 5: Return validated answer to UI
+    # Step 5: Return validated answer to UI using typed AskResponse model
     logger.info(f"[ORCHESTRATOR] Returning validated answer of type '{answer_type}'")
-    return {
-        "answer": agent_response.get("answer", ""),
-        "answer_type": answer_type,
-        "evidence": agent_response.get("evidence", []),
-        "params": agent_response.get("params", {}),
-        "validated": True,
-        "_trace": agent_response.get("_trace", {})
-    }
+    return AskResponse(
+        answer=agent_response.get("answer", ""),
+        answer_type=answer_type,
+        evidence=agent_response.get("evidence", []),
+        params=agent_response.get("params", {}),
+        validated=True,
+        _trace=agent_response.get("_trace")
+    )
 
 
-@app.post("/ingest")
+@app.post("/ingest", response_model=IngestResponse)
 async def ingest_document(file: UploadFile = File(...)):
     """
     Document ingestion pipeline:
     1. Forward PDF to doc-processor-api
-    2. Send processed content to retrieval-api for indexing
+    2. Adapt processed content to retrieval-api IndexRequest format
+    3. Send adapted pages to retrieval-api for indexing
     """
     if not file.filename:
         raise HTTPException(status_code=400, detail="No file provided")
@@ -128,19 +130,24 @@ async def ingest_document(file: UploadFile = File(...)):
         )
 
     document_id = processor_result.get("document_id", file.filename)
+    raw_docling_dict = processor_result.get("raw_docling_dict", {})
 
-    # Step 3: Index in retrieval service
-    # The doc processor returns raw_docling_dict which may contain pages
-    # We need to extract pages for the retrieval API's IndexRequest format
-    pages = processor_result.get("raw_docling_dict", {}).get("pages", [])
+    # Step 3: Adapt docling output to Retrieval IndexRequest format
+    adapted = adapt_docling_output(document_id, raw_docling_dict)
+    pages = adapted.get("pages", [])
 
-    chunks_indexed = 0
+    if not pages:
+        logger.error(f"[ORCHESTRATOR] No pages could be extracted from document '{document_id}'")
+        return JSONResponse(
+            status_code=422,
+            content={"error": "Document conversion failed",
+                     "detail": f"No extractable text or table pages found in '{document_id}'.",
+                     "document_id": document_id}
+        )
+
+    # Step 4: Index in retrieval service
     try:
-        if pages:
-            index_result = await call_retrieval_index(document_id, pages)
-            chunks_indexed = index_result.get("chunks_indexed", 0)
-        else:
-            logger.warning(f"[ORCHESTRATOR] No pages extracted from document {document_id}")
+        index_result = await call_retrieval_index(document_id, pages)
     except ServiceError as e:
         logger.error(f"[ORCHESTRATOR] Indexing failed: {e.message}")
         return JSONResponse(
@@ -150,7 +157,17 @@ async def ingest_document(file: UploadFile = File(...)):
                      "document_id": document_id}
         )
 
-    # Step 4: Track the document
+    chunks_indexed = index_result.get("chunks_indexed", 0)
+    if chunks_indexed == 0:
+        logger.warning(f"[ORCHESTRATOR] Indexing returned 0 chunks for document '{document_id}'")
+        return JSONResponse(
+            status_code=422,
+            content={"error": "Indexing resulted in zero chunks",
+                     "detail": "The retrieval service could not index any chunks from this document.",
+                     "document_id": document_id}
+        )
+
+    # Step 5: Track document in registry
     _document_registry.append({
         "document_id": document_id,
         "chunks_indexed": chunks_indexed
@@ -165,7 +182,7 @@ async def ingest_document(file: UploadFile = File(...)):
     )
 
 
-@app.get("/documents")
+@app.get("/documents", response_model=DocumentsResponse)
 async def list_documents():
     """List all ingested documents."""
     return DocumentsResponse(
