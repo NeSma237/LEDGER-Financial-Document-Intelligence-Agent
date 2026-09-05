@@ -1,0 +1,3248 @@
+{
+  "document_id": "f8387947641836bfecd3c6548d80fbb4",
+  "markdown_content": "## BENEFIT OBLIGATION AND PLAN ASSETS FOR PENSION BENEFIT PLANS\n\nThe vested benefit obligation for a defined-benefit pension plan is the actuarial present value of the vested benefits to which the employee is currently entitled based on the employee's expected date of separation or retirement.\n\n| (In Millions)                                               | Dec 28, 2019   | Dec 29, 2018   |\n|-------------------------------------------------------------|----------------|----------------|\n| Changes in projected benefit obligation:                    |                |                |\n| Beginning projected benefit obligation                      | $ 3,433        | $ 3,842        |\n| Service cost                                                | 54             | 65             |\n| Interest cost                                               | 113            | 113            |\n| Actuarial (gain) loss                                       | 829            | (204)          |\n| Currency exchange rate changes                              | (2)            | (121)          |\n| Plan curtailments                                           | -              | (150)          |\n| Plan settlements                                            | (57)           | (74)           |\n| Other                                                       | (86)           | (38)           |\n| Ending projected benefit obligation 1                       | 4,284          | 3,433          |\n| Changes in fair value of plan assets:                       |                |                |\n| Beginning fair value of plan assets                         | 2,551          | 2,287          |\n| Actual return on plan assets                                | 193            | (38)           |\n| Employer contributions                                      | 30             | 480            |\n| Currency exchange rate changes                              | 3              | (62)           |\n| Plan settlements                                            | (57)           | (74)           |\n| Other                                                       | (66)           | (42)           |\n| Ending fair value of plan assets 2                          | 2,654          | 2,551          |\n| Net funded status                                           | $ 1,630        | $ 882          |\n| Amounts recognized in the Consolidated Balance Sheets       |                |                |\n| Other long-term assets                                      | $ -            | $ 244          |\n| Other long-term liabilities                                 | $ 1,630        | $ 1,126        |\n| Accumulated other comprehensive loss (income), before tax 3 | $ 1,730        | $ 1,038        |\n\n1 The projected benefit obligation was approximately 35% in the U.S. and 65% outside of the U.S. as of December 28, 2019 and December 29, 2018.\n\n2 The fair value of plan assets was approximately 55% in the U.S. and 45% outside of the U.S. as of December 28, 2019 and December 29, 2018.\n\n3 The accumulated other comprehensive loss (income), before tax, was approximately 35% in the U.S. and 65% outside of the U.S. as of December 28, 2019 and December 29, 2018.\n\nChanges in actuarial gains and losses in the projected benefit obligation are generally driven by discount rate movement. We use the corridor approach to amortize actuarial gains and losses. Under this approach, net actuarial gains or losses in excess of 10% of the larger of the projected benefit obligation or the fair value of plan assets are amortized on a straight-line basis.\n\nAsc d   s   id            ets As of December 29, 2018, the accumulated benefit obligations were $1.2 billion and $2.0 billion for the U.S. Pension Plan and non-U.S. plans, respectively. In 2018, the U.S. Pension Plan was in the net asset position and all non-U.S. plans had accumulated benefit obligations and projected benefit obligations in excess of plan assets.\n\n<!-- image -->\n\n\\_",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmpsx6p43jv",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 7814171817353381527,
+      "filename": "tmpsx6p43jv.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/pictures/0"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 32.87109375,
+              "t": 735.3780237833658,
+              "r": 441.24609375,
+              "b": 725.2348785400391,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              60
+            ]
+          }
+        ],
+        "orig": "BENEFIT OBLIGATION AND PLAN ASSETS FOR PENSION BENEFIT PLANS",
+        "text": "BENEFIT OBLIGATION AND PLAN ASSETS FOR PENSION BENEFIT PLANS",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 32.09765625,
+              "t": 717.0423380533854,
+              "r": 555.328125,
+              "b": 695.585683186849,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              229
+            ]
+          }
+        ],
+        "orig": "The vested benefit obligation for a defined-benefit pension plan is the actuarial present value of the vested benefits to which the employee is currently entitled based on the employee's expected date of separation or retirement.",
+        "text": "The vested benefit obligation for a defined-benefit pension plan is the actuarial present value of the vested benefits to which the employee is currently entitled based on the employee's expected date of separation or retirement."
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 38.671875,
+              "t": 312.8769938151042,
+              "r": 552.62109375,
+              "b": 291.8104654947917,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              143
+            ]
+          }
+        ],
+        "orig": "1 The projected benefit obligation was approximately 35% in the U.S. and 65% outside of the U.S. as of December 28, 2019 and December 29, 2018.",
+        "text": "1 The projected benefit obligation was approximately 35% in the U.S. and 65% outside of the U.S. as of December 28, 2019 and December 29, 2018."
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 39.05859375,
+              "t": 286.3487548828125,
+              "r": 560.7421875,
+              "b": 275.8155110677083,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              140
+            ]
+          }
+        ],
+        "orig": "2 The fair value of plan assets was approximately 55% in the U.S. and 45% outside of the U.S. as of December 28, 2019 and December 29, 2018.",
+        "text": "2 The fair value of plan assets was approximately 55% in the U.S. and 45% outside of the U.S. as of December 28, 2019 and December 29, 2018."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 38.671875,
+              "t": 271.134033203125,
+              "r": 529.03125,
+              "b": 250.8477783203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              173
+            ]
+          }
+        ],
+        "orig": "3 The accumulated other comprehensive loss (income), before tax, was approximately 35% in the U.S. and 65% outside of the U.S. as of December 28, 2019 and December 29, 2018.",
+        "text": "3 The accumulated other comprehensive loss (income), before tax, was approximately 35% in the U.S. and 65% outside of the U.S. as of December 28, 2019 and December 29, 2018."
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 31.32421875,
+              "t": 241.48486328125,
+              "r": 562.2890625,
+              "b": 208.71468098958337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              381
+            ]
+          }
+        ],
+        "orig": "Changes in actuarial gains and losses in the projected benefit obligation are generally driven by discount rate movement. We use the corridor approach to amortize actuarial gains and losses. Under this approach, net actuarial gains or losses in excess of 10% of the larger of the projected benefit obligation or the fair value of plan assets are amortized on a straight-line basis.",
+        "text": "Changes in actuarial gains and losses in the projected benefit obligation are generally driven by discount rate movement. We use the corridor approach to amortize actuarial gains and losses. Under this approach, net actuarial gains or losses in excess of 10% of the larger of the projected benefit obligation or the fair value of plan assets are amortized on a straight-line basis."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 31.7109375,
+              "t": 200.13203938802087,
+              "r": 561.515625,
+              "b": 156.82861328125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              365
+            ]
+          }
+        ],
+        "orig": "Asc d   s   id            ets As of December 29, 2018, the accumulated benefit obligations were $1.2 billion and $2.0 billion for the U.S. Pension Plan and non-U.S. plans, respectively. In 2018, the U.S. Pension Plan was in the net asset position and all non-U.S. plans had accumulated benefit obligations and projected benefit obligations in excess of plan assets.",
+        "text": "Asc d   s   id            ets As of December 29, 2018, the accumulated benefit obligations were $1.2 billion and $2.0 billion for the U.S. Pension Plan and non-U.S. plans, respectively. In 2018, the U.S. Pension Plan was in the net asset position and all non-U.S. plans had accumulated benefit obligations and projected benefit obligations in excess of plan assets."
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/pictures/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 34.8046875,
+              "t": 35.11083984375,
+              "r": 55.30078125,
+              "b": 23.4072265625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "intel",
+        "text": "intel"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 196.83984375,
+              "t": 38.62190755208337,
+              "r": 203.4140625,
+              "b": 19.50602213541663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "_",
+        "text": "_"
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 58.0078125,
+              "t": 33.94051106770837,
+              "r": 152.75390625,
+              "b": 24.96769205729163,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              20
+            ]
+          }
+        ],
+        "orig": "FINANCIAL STATEMENTS",
+        "text": "FINANCIAL STATEMENTS"
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 206.12109375,
+              "t": 33.94051106770837,
+              "r": 317.109375,
+              "b": 24.57755533854163,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              29
+            ]
+          }
+        ],
+        "orig": "Notes to Financial Statements",
+        "text": "Notes to Financial Statements"
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 541.40625,
+              "t": 35.11083984375,
+              "r": 560.35546875,
+              "b": 23.4072265625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "103",
+        "text": "103"
+      }
+    ],
+    "pictures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/7"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 36.01700210571289,
+              "t": 35.3701171875,
+              "r": 54.28144454956055,
+              "b": 22.8427734375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "annotations": []
+      }
+    ],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 31.45088005065918,
+              "t": 684.751823425293,
+              "r": 562.2443237304688,
+              "b": 317.4598388671875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 33.0,
+                "t": 99.81740000000002,
+                "r": 82.86719999999998,
+                "b": 107.79157548746514,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "(In Millions)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 450.0,
+                "t": 90.81700000000001,
+                "r": 480.942,
+                "b": 107.79117548746513,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Dec 28, 2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 515.0,
+                "t": 90.81700000000001,
+                "r": 545.942,
+                "b": 107.79117548746513,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Dec 29, 2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 33.0,
+                "t": 117.81700000000001,
+                "r": 201.45930000000007,
+                "b": 125.79117548746513,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Changes in projected benefit obligation:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 42.0,
+                "t": 131.81740000000002,
+                "r": 204.50940000000003,
+                "b": 139.79157548746514,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Beginning projected benefit obligation",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 436.2504,
+                "t": 131.81740000000002,
+                "r": 493.08450000000005,
+                "b": 139.79157548746514,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 3,433",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 501.2502,
+                "t": 131.81740000000002,
+                "r": 558.0843,
+                "b": 139.79157548746514,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 3,842",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 42.0,
+                "t": 145.83490000000006,
+                "r": 90.7098,
+                "b": 153.7858610027855,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Service cost",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 482.7498,
+                "t": 145.83490000000006,
+                "r": 493.4418,
+                "b": 153.7858610027855,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "54",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 547.7496,
+                "t": 145.83490000000006,
+                "r": 558.4416,
+                "b": 153.7858610027855,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "65",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 42.0,
+                "t": 159.83530000000007,
+                "r": 92.50980000000001,
+                "b": 167.78626100278552,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Interest cost",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 477.4002,
+                "t": 159.83530000000007,
+                "r": 493.4382,
+                "b": 167.78626100278552,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "113",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 542.4,
+                "t": 159.83530000000007,
+                "r": 558.438,
+                "b": 167.78626100278552,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "113",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.99999999999994,
+                "t": 173.8366000000001,
+                "r": 120.68879999999994,
+                "b": 181.78756100278554,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Actuarial (gain) loss",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 477.4001999999999,
+                "t": 173.8366000000001,
+                "r": 493.43819999999994,
+                "b": 181.78756100278554,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "829",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 539.8503,
+                "t": 173.8366000000001,
+                "r": 561.0362999999999,
+                "b": 181.78756100278554,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(204)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 42.0,
+                "t": 187.8370000000001,
+                "r": 173.48189999999994,
+                "b": 195.78796100278555,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Currency exchange rate changes",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 485.5497,
+                "t": 187.8370000000001,
+                "r": 496.0437,
+                "b": 195.78796100278555,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(2)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 539.8485,
+                "t": 187.8370000000001,
+                "r": 561.0344999999999,
+                "b": 195.78796100278555,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(121)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.9982,
+                "t": 201.83830000000012,
+                "r": 113.02980000000001,
+                "b": 209.78926100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Plan curtailments",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 484.44809999999995,
+                "t": 201.83830000000012,
+                "r": 493.44809999999995,
+                "b": 209.78926100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 539.8485,
+                "t": 201.83830000000012,
+                "r": 561.0344999999999,
+                "b": 209.78926100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(150)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.9982,
+                "t": 215.83870000000013,
+                "r": 110.28480000000002,
+                "b": 223.78966100278558,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Plan settlements",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 480.19829999999996,
+                "t": 215.83870000000013,
+                "r": 496.0383,
+                "b": 223.78966100278558,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(57)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 545.1981,
+                "t": 215.83870000000013,
+                "r": 561.0380999999999,
+                "b": 223.78966100278558,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(74)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.9982,
+                "t": 229.84000000000015,
+                "r": 65.4972,
+                "b": 237.7909610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Other",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 480.19829999999996,
+                "t": 229.84000000000015,
+                "r": 496.0383,
+                "b": 237.7909610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(86)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 545.1981,
+                "t": 229.84000000000015,
+                "r": 561.0380999999999,
+                "b": 237.7909610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(38)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 42.0,
+                "t": 247.73104999999998,
+                "r": 195.17489999999998,
+                "b": 255.79117548746513,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Ending projected benefit obligation 1",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 469.45,
+                "t": 247.817,
+                "r": 493.084,
+                "b": 255.79117548746513,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "4,284",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 534.4498,
+                "t": 247.817,
+                "r": 558.0838,
+                "b": 255.79117548746513,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "3,433",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 33.0,
+                "t": 265.817,
+                "r": 182.60790000000003,
+                "b": 273.7911754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Changes in fair value of plan assets:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 42.0,
+                "t": 279.8174,
+                "r": 185.65890000000002,
+                "b": 287.7915754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Beginning fair value of plan assets",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 469.4496,
+                "t": 279.8174,
+                "r": 493.0836,
+                "b": 287.7915754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2,551",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 534.4485,
+                "t": 279.8174,
+                "r": 558.0825,
+                "b": 287.7915754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2,287",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.99819999999994,
+                "t": 293.8367,
+                "r": 155.4422999999999,
+                "b": 301.78766100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Actual return on plan assets",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 477.3983999999999,
+                "t": 293.8367,
+                "r": 493.43639999999994,
+                "b": 301.78766100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "193",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 545.1981,
+                "t": 293.8367,
+                "r": 561.0380999999999,
+                "b": 301.78766100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(38)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.9982,
+                "t": 307.8371,
+                "r": 137.74649999999997,
+                "b": 315.7880610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Employer contributions",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 482.748,
+                "t": 307.8371,
+                "r": 493.44,
+                "b": 315.7880610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "30",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 542.3982,
+                "t": 307.8371,
+                "r": 558.4362,
+                "b": 315.7880610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "480",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.99819999999994,
+                "t": 321.83840000000004,
+                "r": 173.47919999999988,
+                "b": 329.7893610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Currency exchange rate changes",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 488.0984999999999,
+                "t": 321.83840000000004,
+                "r": 493.4444999999999,
+                "b": 329.7893610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 545.1980999999998,
+                "t": 321.83840000000004,
+                "r": 561.0380999999998,
+                "b": 329.7893610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(62)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.99819999999988,
+                "t": 335.83880000000005,
+                "r": 110.2847999999999,
+                "b": 343.7897610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Plan settlements",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 480.19829999999985,
+                "t": 335.83880000000005,
+                "r": 496.0382999999999,
+                "b": 343.7897610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(57)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 545.1980999999998,
+                "t": 335.83880000000005,
+                "r": 561.0380999999998,
+                "b": 343.7897610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(74)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 41.99819999999988,
+                "t": 349.83920000000006,
+                "r": 65.49719999999989,
+                "b": 357.7901610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 17,
+              "end_row_offset_idx": 18,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Other",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 480.19829999999985,
+                "t": 349.83920000000006,
+                "r": 496.0382999999999,
+                "b": 357.7901610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 17,
+              "end_row_offset_idx": 18,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(66)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 545.1980999999998,
+                "t": 349.83920000000006,
+                "r": 561.0380999999998,
+                "b": 357.7901610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 17,
+              "end_row_offset_idx": 18,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(42)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 42.0,
+                "t": 367.73105,
+                "r": 176.2749,
+                "b": 375.7911754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 18,
+              "end_row_offset_idx": 19,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Ending fair value of plan assets 2",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 469.45,
+                "t": 367.817,
+                "r": 493.084,
+                "b": 375.7911754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 18,
+              "end_row_offset_idx": 19,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2,654",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 534.4498,
+                "t": 367.817,
+                "r": 558.0838,
+                "b": 375.7911754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 18,
+              "end_row_offset_idx": 19,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2,551",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 33.0,
+                "t": 385.817,
+                "r": 107.84759999999997,
+                "b": 393.7911754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 19,
+              "end_row_offset_idx": 20,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Net funded status",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 436.2504,
+                "t": 385.817,
+                "r": 493.08450000000005,
+                "b": 393.7911754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 19,
+              "end_row_offset_idx": 20,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 1,630",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 501.2502,
+                "t": 385.817,
+                "r": 558.0879,
+                "b": 393.7911754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 19,
+              "end_row_offset_idx": 20,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 882",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 33.0,
+                "t": 405.817,
+                "r": 270.27150000000006,
+                "b": 413.7911754874652,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 20,
+              "end_row_offset_idx": 21,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Amounts recognized in the Consolidated Balance Sheets",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 33.0,
+                "t": 419.8345,
+                "r": 127.09410000000003,
+                "b": 427.78546100278555,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 21,
+              "end_row_offset_idx": 22,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Other long-term assets",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 436.2504,
+                "t": 419.8345,
+                "r": 493.4508,
+                "b": 427.78546100278555,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 21,
+              "end_row_offset_idx": 22,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ -",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 501.2502,
+                "t": 419.8345,
+                "r": 558.438,
+                "b": 427.78546100278555,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 21,
+              "end_row_offset_idx": 22,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 244",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 33.0,
+                "t": 433.8349,
+                "r": 137.94809999999998,
+                "b": 441.78586100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 22,
+              "end_row_offset_idx": 23,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Other long-term liabilities",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 436.2504,
+                "t": 433.8349,
+                "r": 493.4373,
+                "b": 441.78586100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 22,
+              "end_row_offset_idx": 23,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 1,630",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 501.2502,
+                "t": 433.8349,
+                "r": 558.4371,
+                "b": 441.78586100278557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 22,
+              "end_row_offset_idx": 23,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 1,126",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 33.0,
+                "t": 447.74275,
+                "r": 279.7749,
+                "b": 455.7862610027856,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 23,
+              "end_row_offset_idx": 24,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Accumulated other comprehensive loss (income), before tax 3",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 436.25,
+                "t": 447.835,
+                "r": 493.4369,
+                "b": 455.78596100278554,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 23,
+              "end_row_offset_idx": 24,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 1,730",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 501.2498,
+                "t": 447.835,
+                "r": 558.4367,
+                "b": 455.78596100278554,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 23,
+              "end_row_offset_idx": 24,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 1,038",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 24,
+          "num_cols": 3,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 33.0,
+                  "t": 99.81740000000002,
+                  "r": 82.86719999999998,
+                  "b": 107.79157548746514,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "(In Millions)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 450.0,
+                  "t": 90.81700000000001,
+                  "r": 480.942,
+                  "b": 107.79117548746513,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Dec 28, 2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 515.0,
+                  "t": 90.81700000000001,
+                  "r": 545.942,
+                  "b": 107.79117548746513,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Dec 29, 2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 33.0,
+                  "t": 117.81700000000001,
+                  "r": 201.45930000000007,
+                  "b": 125.79117548746513,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Changes in projected benefit obligation:",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 42.0,
+                  "t": 131.81740000000002,
+                  "r": 204.50940000000003,
+                  "b": 139.79157548746514,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Beginning projected benefit obligation",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 436.2504,
+                  "t": 131.81740000000002,
+                  "r": 493.08450000000005,
+                  "b": 139.79157548746514,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 3,433",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 501.2502,
+                  "t": 131.81740000000002,
+                  "r": 558.0843,
+                  "b": 139.79157548746514,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 3,842",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 42.0,
+                  "t": 145.83490000000006,
+                  "r": 90.7098,
+                  "b": 153.7858610027855,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Service cost",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 482.7498,
+                  "t": 145.83490000000006,
+                  "r": 493.4418,
+                  "b": 153.7858610027855,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "54",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 547.7496,
+                  "t": 145.83490000000006,
+                  "r": 558.4416,
+                  "b": 153.7858610027855,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "65",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 42.0,
+                  "t": 159.83530000000007,
+                  "r": 92.50980000000001,
+                  "b": 167.78626100278552,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Interest cost",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 477.4002,
+                  "t": 159.83530000000007,
+                  "r": 493.4382,
+                  "b": 167.78626100278552,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "113",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 542.4,
+                  "t": 159.83530000000007,
+                  "r": 558.438,
+                  "b": 167.78626100278552,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "113",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.99999999999994,
+                  "t": 173.8366000000001,
+                  "r": 120.68879999999994,
+                  "b": 181.78756100278554,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Actuarial (gain) loss",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 477.4001999999999,
+                  "t": 173.8366000000001,
+                  "r": 493.43819999999994,
+                  "b": 181.78756100278554,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "829",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 539.8503,
+                  "t": 173.8366000000001,
+                  "r": 561.0362999999999,
+                  "b": 181.78756100278554,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(204)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 42.0,
+                  "t": 187.8370000000001,
+                  "r": 173.48189999999994,
+                  "b": 195.78796100278555,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Currency exchange rate changes",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 485.5497,
+                  "t": 187.8370000000001,
+                  "r": 496.0437,
+                  "b": 195.78796100278555,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(2)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 539.8485,
+                  "t": 187.8370000000001,
+                  "r": 561.0344999999999,
+                  "b": 195.78796100278555,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(121)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.9982,
+                  "t": 201.83830000000012,
+                  "r": 113.02980000000001,
+                  "b": 209.78926100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Plan curtailments",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 484.44809999999995,
+                  "t": 201.83830000000012,
+                  "r": 493.44809999999995,
+                  "b": 209.78926100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 539.8485,
+                  "t": 201.83830000000012,
+                  "r": 561.0344999999999,
+                  "b": 209.78926100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(150)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.9982,
+                  "t": 215.83870000000013,
+                  "r": 110.28480000000002,
+                  "b": 223.78966100278558,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Plan settlements",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 480.19829999999996,
+                  "t": 215.83870000000013,
+                  "r": 496.0383,
+                  "b": 223.78966100278558,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(57)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 545.1981,
+                  "t": 215.83870000000013,
+                  "r": 561.0380999999999,
+                  "b": 223.78966100278558,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(74)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.9982,
+                  "t": 229.84000000000015,
+                  "r": 65.4972,
+                  "b": 237.7909610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Other",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 480.19829999999996,
+                  "t": 229.84000000000015,
+                  "r": 496.0383,
+                  "b": 237.7909610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(86)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 545.1981,
+                  "t": 229.84000000000015,
+                  "r": 561.0380999999999,
+                  "b": 237.7909610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(38)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 42.0,
+                  "t": 247.73104999999998,
+                  "r": 195.17489999999998,
+                  "b": 255.79117548746513,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Ending projected benefit obligation 1",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 469.45,
+                  "t": 247.817,
+                  "r": 493.084,
+                  "b": 255.79117548746513,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "4,284",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 534.4498,
+                  "t": 247.817,
+                  "r": 558.0838,
+                  "b": 255.79117548746513,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "3,433",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 33.0,
+                  "t": 265.817,
+                  "r": 182.60790000000003,
+                  "b": 273.7911754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Changes in fair value of plan assets:",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 42.0,
+                  "t": 279.8174,
+                  "r": 185.65890000000002,
+                  "b": 287.7915754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Beginning fair value of plan assets",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 469.4496,
+                  "t": 279.8174,
+                  "r": 493.0836,
+                  "b": 287.7915754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2,551",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 534.4485,
+                  "t": 279.8174,
+                  "r": 558.0825,
+                  "b": 287.7915754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2,287",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.99819999999994,
+                  "t": 293.8367,
+                  "r": 155.4422999999999,
+                  "b": 301.78766100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Actual return on plan assets",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 477.3983999999999,
+                  "t": 293.8367,
+                  "r": 493.43639999999994,
+                  "b": 301.78766100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "193",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 545.1981,
+                  "t": 293.8367,
+                  "r": 561.0380999999999,
+                  "b": 301.78766100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(38)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.9982,
+                  "t": 307.8371,
+                  "r": 137.74649999999997,
+                  "b": 315.7880610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Employer contributions",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 482.748,
+                  "t": 307.8371,
+                  "r": 493.44,
+                  "b": 315.7880610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "30",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 542.3982,
+                  "t": 307.8371,
+                  "r": 558.4362,
+                  "b": 315.7880610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "480",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.99819999999994,
+                  "t": 321.83840000000004,
+                  "r": 173.47919999999988,
+                  "b": 329.7893610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Currency exchange rate changes",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 488.0984999999999,
+                  "t": 321.83840000000004,
+                  "r": 493.4444999999999,
+                  "b": 329.7893610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "3",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 545.1980999999998,
+                  "t": 321.83840000000004,
+                  "r": 561.0380999999998,
+                  "b": 329.7893610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(62)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.99819999999988,
+                  "t": 335.83880000000005,
+                  "r": 110.2847999999999,
+                  "b": 343.7897610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 16,
+                "end_row_offset_idx": 17,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Plan settlements",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 480.19829999999985,
+                  "t": 335.83880000000005,
+                  "r": 496.0382999999999,
+                  "b": 343.7897610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 16,
+                "end_row_offset_idx": 17,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(57)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 545.1980999999998,
+                  "t": 335.83880000000005,
+                  "r": 561.0380999999998,
+                  "b": 343.7897610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 16,
+                "end_row_offset_idx": 17,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(74)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 41.99819999999988,
+                  "t": 349.83920000000006,
+                  "r": 65.49719999999989,
+                  "b": 357.7901610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 17,
+                "end_row_offset_idx": 18,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Other",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 480.19829999999985,
+                  "t": 349.83920000000006,
+                  "r": 496.0382999999999,
+                  "b": 357.7901610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 17,
+                "end_row_offset_idx": 18,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(66)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 545.1980999999998,
+                  "t": 349.83920000000006,
+                  "r": 561.0380999999998,
+                  "b": 357.7901610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 17,
+                "end_row_offset_idx": 18,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(42)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 42.0,
+                  "t": 367.73105,
+                  "r": 176.2749,
+                  "b": 375.7911754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 18,
+                "end_row_offset_idx": 19,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Ending fair value of plan assets 2",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 469.45,
+                  "t": 367.817,
+                  "r": 493.084,
+                  "b": 375.7911754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 18,
+                "end_row_offset_idx": 19,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2,654",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 534.4498,
+                  "t": 367.817,
+                  "r": 558.0838,
+                  "b": 375.7911754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 18,
+                "end_row_offset_idx": 19,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2,551",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 33.0,
+                  "t": 385.817,
+                  "r": 107.84759999999997,
+                  "b": 393.7911754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 19,
+                "end_row_offset_idx": 20,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Net funded status",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 436.2504,
+                  "t": 385.817,
+                  "r": 493.08450000000005,
+                  "b": 393.7911754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 19,
+                "end_row_offset_idx": 20,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 1,630",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 501.2502,
+                  "t": 385.817,
+                  "r": 558.0879,
+                  "b": 393.7911754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 19,
+                "end_row_offset_idx": 20,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 882",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 33.0,
+                  "t": 405.817,
+                  "r": 270.27150000000006,
+                  "b": 413.7911754874652,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 20,
+                "end_row_offset_idx": 21,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Amounts recognized in the Consolidated Balance Sheets",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 20,
+                "end_row_offset_idx": 21,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 20,
+                "end_row_offset_idx": 21,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 33.0,
+                  "t": 419.8345,
+                  "r": 127.09410000000003,
+                  "b": 427.78546100278555,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 21,
+                "end_row_offset_idx": 22,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Other long-term assets",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 436.2504,
+                  "t": 419.8345,
+                  "r": 493.4508,
+                  "b": 427.78546100278555,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 21,
+                "end_row_offset_idx": 22,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ -",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 501.2502,
+                  "t": 419.8345,
+                  "r": 558.438,
+                  "b": 427.78546100278555,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 21,
+                "end_row_offset_idx": 22,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 244",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 33.0,
+                  "t": 433.8349,
+                  "r": 137.94809999999998,
+                  "b": 441.78586100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 22,
+                "end_row_offset_idx": 23,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Other long-term liabilities",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 436.2504,
+                  "t": 433.8349,
+                  "r": 493.4373,
+                  "b": 441.78586100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 22,
+                "end_row_offset_idx": 23,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 1,630",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 501.2502,
+                  "t": 433.8349,
+                  "r": 558.4371,
+                  "b": 441.78586100278557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 22,
+                "end_row_offset_idx": 23,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 1,126",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 33.0,
+                  "t": 447.74275,
+                  "r": 279.7749,
+                  "b": 455.7862610027856,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 23,
+                "end_row_offset_idx": 24,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Accumulated other comprehensive loss (income), before tax 3",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 436.25,
+                  "t": 447.835,
+                  "r": 493.4369,
+                  "b": 455.78596100278554,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 23,
+                "end_row_offset_idx": 24,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 1,730",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 501.2498,
+                  "t": 447.835,
+                  "r": 558.4367,
+                  "b": 455.78596100278554,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 23,
+                "end_row_offset_idx": 24,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 1,038",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 594.0,
+          "height": 774.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

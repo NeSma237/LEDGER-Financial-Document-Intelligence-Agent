@@ -1,0 +1,1106 @@
+{
+  "document_id": "a445e868a9070b7f9151c2bd40cee298",
+  "markdown_content": "## Foreign Currency Exchange Risk\n\nOur foreign exchange forward contracts outstanding at fiscal year-end are summarized in U.S. dollar equivalents as follows (in millions):\n\n|                    | July 27, 2019   | July 27, 2019   | July 28, 2018   | July 28, 2018   |\n|--------------------|-----------------|-----------------|-----------------|-----------------|\n|                    | Notional Amount | Fair Value      | Notional Amount | Fair Value      |\n| Forward contracts: |                 |                 |                 |                 |\n| Purchased\b���������������������������������������������������������������������������������������                    | $ 2,239         | $ 14            | $ 1,850         | $ (2)           |\n| Sold\b�������������������������������������������������������������������������������������������������                    | $ 1,441         | $ (14)          | $ 845           | $ 2             |\n\nAt July 27, 2019 and July 28, 2018, we had no option contracts outstanding.\n\nWe conduct business globally in numerous currencies. The direct effect of foreign currency fluctuations on revenue has not been material because our revenue is primarily denominated in U.S. dollars. However, if the U.S. dollar strengthens relative to other currencies, such strengthening could have an indirect effect on our revenue to the extent it raises the cost of our products to non-U.S. customers and thereby reduces demand. A weaker U.S. dollar could have the opposite effect. However, the precise indirect effect of currency fluctuations is difficult to measure or predict because our revenue is influenced by many factors in addition to the impact of such currency fluctuations.\n\nA ts    t r  - or      dnnet of hedging, decreased our combined R&amp;D, sales and marketing, and G&amp;A expenses by approximately $233 million, or 1.3%, as compared with fiscal 2018. In fiscal 2018, foreign currency fluctuations, net of hedging, increased our combined R&amp;D, sales and marketing, and G&amp;A expenses by approximately $93 million, or 0.5%, as compared with fiscal 2017. To reduce variability pas s s s seos s  a-ns   ss  s eos s sod  as hedge certain forecasted foreign currency transactions with currency options and forward contracts. These hedging programs are not designed to provide foreign currency protection over long time horizons. In designing a specific hedging approach, we consider several factors, including offsetting exposures, significance of exposures, costs associated with entering into a particular hedge instrument, and potential effectiveness of the hedge. The gains and losses on foreign exchange contracts mitigate the effect of currency movements on our operating expenses and service cost of sales.\n\nWe also enter into foreign exchange forward and option contracts to reduce the short-term effects of foreign currency fluctuations on receivables and payables that are denominated in currencies other than the functional currencies of the entities. The market risks associated with these foreign currency receivables, investments, and payables relate primarily to variances from our forecasted foreign currency transactions and balances. We do not enter into foreign exchange forward or option contracts for speculative purposes.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmppdnje_sp",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 9343196382869914870,
+      "filename": "tmppdnje_sp.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 39.854382832845054,
+              "t": 734.6287130900065,
+              "r": 185.34222412109375,
+              "b": 724.4811987467448,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              30
+            ]
+          }
+        ],
+        "orig": "Foreign Currency Exchange Risk",
+        "text": "Foreign Currency Exchange Risk",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 39.467445373535156,
+              "t": 716.6754177001953,
+              "r": 554.4789225260416,
+              "b": 693.6483689534506,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              137
+            ]
+          }
+        ],
+        "orig": "Our foreign exchange forward contracts outstanding at fiscal year-end are summarized in U.S. dollar equivalents as follows (in millions):",
+        "text": "Our foreign exchange forward contracts outstanding at fiscal year-end are summarized in U.S. dollar equivalents as follows (in millions):"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 39.467445373535156,
+              "t": 612.8585486002604,
+              "r": 344.759765625,
+              "b": 601.5401688802084,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              75
+            ]
+          }
+        ],
+        "orig": "At July 27, 2019 and July 28, 2018, we had no option contracts outstanding.",
+        "text": "At July 27, 2019 and July 28, 2018, we had no option contracts outstanding."
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 38.30663808186849,
+              "t": 592.563525,
+              "r": 554.8658854166666,
+              "b": 521.1406327473959,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              688
+            ]
+          }
+        ],
+        "orig": "We conduct business globally in numerous currencies. The direct effect of foreign currency fluctuations on revenue has not been material because our revenue is primarily denominated in U.S. dollars. However, if the U.S. dollar strengthens relative to other currencies, such strengthening could have an indirect effect on our revenue to the extent it raises the cost of our products to non-U.S. customers and thereby reduces demand. A weaker U.S. dollar could have the opposite effect. However, the precise indirect effect of currency fluctuations is difficult to measure or predict because our revenue is influenced by many factors in addition to the impact of such currency fluctuations.",
+        "text": "We conduct business globally in numerous currencies. The direct effect of foreign currency fluctuations on revenue has not been material because our revenue is primarily denominated in U.S. dollars. However, if the U.S. dollar strengthens relative to other currencies, such strengthening could have an indirect effect on our revenue to the extent it raises the cost of our products to non-U.S. customers and thereby reduces demand. A weaker U.S. dollar could have the opposite effect. However, the precise indirect effect of currency fluctuations is difficult to measure or predict because our revenue is influenced by many factors in addition to the impact of such currency fluctuations."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 38.69357554117838,
+              "t": 512.1639888671875,
+              "r": 555.2528076171875,
+              "b": 392.7355627604167,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1030
+            ]
+          }
+        ],
+        "orig": "A ts    t r  - or      dnnet of hedging, decreased our combined R&D, sales and marketing, and G&A expenses by approximately $233 million, or 1.3%, as compared with fiscal 2018. In fiscal 2018, foreign currency fluctuations, net of hedging, increased our combined R&D, sales and marketing, and G&A expenses by approximately $93 million, or 0.5%, as compared with fiscal 2017. To reduce variability pas s s s seos s  a-ns   ss  s eos s sod  as hedge certain forecasted foreign currency transactions with currency options and forward contracts. These hedging programs are not designed to provide foreign currency protection over long time horizons. In designing a specific hedging approach, we consider several factors, including offsetting exposures, significance of exposures, costs associated with entering into a particular hedge instrument, and potential effectiveness of the hedge. The gains and losses on foreign exchange contracts mitigate the effect of currency movements on our operating expenses and service cost of sales.",
+        "text": "A ts    t r  - or      dnnet of hedging, decreased our combined R&D, sales and marketing, and G&A expenses by approximately $233 million, or 1.3%, as compared with fiscal 2018. In fiscal 2018, foreign currency fluctuations, net of hedging, increased our combined R&D, sales and marketing, and G&A expenses by approximately $93 million, or 0.5%, as compared with fiscal 2017. To reduce variability pas s s s seos s  a-ns   ss  s eos s sod  as hedge certain forecasted foreign currency transactions with currency options and forward contracts. These hedging programs are not designed to provide foreign currency protection over long time horizons. In designing a specific hedging approach, we consider several factors, including offsetting exposures, significance of exposures, costs associated with entering into a particular hedge instrument, and potential effectiveness of the hedge. The gains and losses on foreign exchange contracts mitigate the effect of currency movements on our operating expenses and service cost of sales."
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 38.69357554117838,
+              "t": 383.3686194010417,
+              "r": 555.2528076171875,
+              "b": 324.04468548177084,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              528
+            ]
+          }
+        ],
+        "orig": "We also enter into foreign exchange forward and option contracts to reduce the short-term effects of foreign currency fluctuations on receivables and payables that are denominated in currencies other than the functional currencies of the entities. The market risks associated with these foreign currency receivables, investments, and payables relate primarily to variances from our forecasted foreign currency transactions and balances. We do not enter into foreign exchange forward or option contracts for speculative purposes.",
+        "text": "We also enter into foreign exchange forward and option contracts to reduce the short-term effects of foreign currency fluctuations on receivables and payables that are denominated in currencies other than the functional currencies of the entities. The market risks associated with these foreign currency receivables, investments, and payables relate primarily to variances from our forecasted foreign currency transactions and balances. We do not enter into foreign exchange forward or option contracts for speculative purposes."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 289.4279378255208,
+              "t": 34.0599442708334,
+              "r": 304.13149007161456,
+              "b": 21.180468359375027,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "53",
+        "text": "53"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 39.90575304802646,
+              "t": 683.1293444213228,
+              "r": 555.0242018816165,
+              "b": 621.5065261384199,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 360.49269999999996,
+                "t": 94.2645,
+                "r": 405.1222999999999,
+                "b": 101.15556432748531,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "July 27, 2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 478.9566999999999,
+                "t": 94.2645,
+                "r": 521.9295,
+                "b": 101.18550893743793,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 5,
+              "text": "July 28, 2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 327.79669999999993,
+                "t": 106.86450000000002,
+                "r": 388.20149999999984,
+                "b": 113.75556432748533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Notional Amount",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 399.9486999999999,
+                "t": 106.86450000000002,
+                "r": 436.5167,
+                "b": 113.75556432748533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Fair Value",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 448.3166999999999,
+                "t": 106.86450000000002,
+                "r": 505.78950000000015,
+                "b": 113.78550893743795,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Notional Amount",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 517.5327,
+                "t": 106.86450000000002,
+                "r": 551.3839000000003,
+                "b": 113.78550893743795,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "Fair Value",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 40.523900000000005,
+                "t": 118.14430000000004,
+                "r": 116.6719,
+                "b": 126.79556117179743,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Forward contracts:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 54.693900000000006,
+                "t": 130.74430000000007,
+                "r": 318.02389999999997,
+                "b": 139.39556117179745,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Purchased\b���������������������������������������������������������������������������������������",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 327.4939,
+                "t": 130.74430000000007,
+                "r": 389.1839,
+                "b": 139.35813040935682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 2,239",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 398.3539,
+                "t": 130.74430000000007,
+                "r": 434.5339,
+                "b": 139.35813040935682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 14",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 447.9639,
+                "t": 130.74430000000007,
+                "r": 506.82390000000004,
+                "b": 139.39556117179745,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 1,850",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 515.9939,
+                "t": 130.74430000000007,
+                "r": 552.6739000000001,
+                "b": 139.39556117179745,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "$ (2)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 54.693900000000006,
+                "t": 143.3443000000001,
+                "r": 318.02389999999997,
+                "b": 151.99556117179748,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Sold\b�������������������������������������������������������������������������������������������������",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 327.4939,
+                "t": 143.3443000000001,
+                "r": 389.1839,
+                "b": 151.95813040935684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 1,441",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 398.3539,
+                "t": 143.3443000000001,
+                "r": 437.8639,
+                "b": 151.95813040935684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ (14)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 447.9639,
+                "t": 143.3443000000001,
+                "r": 506.82390000000004,
+                "b": 151.99556117179748,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 845",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 515.9939,
+                "t": 143.3443000000001,
+                "r": 549.3439000000001,
+                "b": 151.99556117179748,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "$ 2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 5,
+          "num_cols": 5,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 360.49269999999996,
+                  "t": 94.2645,
+                  "r": 405.1222999999999,
+                  "b": 101.15556432748531,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "July 27, 2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 360.49269999999996,
+                  "t": 94.2645,
+                  "r": 405.1222999999999,
+                  "b": 101.15556432748531,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "July 27, 2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 478.9566999999999,
+                  "t": 94.2645,
+                  "r": 521.9295,
+                  "b": 101.18550893743793,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 5,
+                "text": "July 28, 2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 478.9566999999999,
+                  "t": 94.2645,
+                  "r": 521.9295,
+                  "b": 101.18550893743793,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 5,
+                "text": "July 28, 2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 327.79669999999993,
+                  "t": 106.86450000000002,
+                  "r": 388.20149999999984,
+                  "b": 113.75556432748533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Notional Amount",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 399.9486999999999,
+                  "t": 106.86450000000002,
+                  "r": 436.5167,
+                  "b": 113.75556432748533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Fair Value",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 448.3166999999999,
+                  "t": 106.86450000000002,
+                  "r": 505.78950000000015,
+                  "b": 113.78550893743795,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "Notional Amount",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 517.5327,
+                  "t": 106.86450000000002,
+                  "r": 551.3839000000003,
+                  "b": 113.78550893743795,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "Fair Value",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 40.523900000000005,
+                  "t": 118.14430000000004,
+                  "r": 116.6719,
+                  "b": 126.79556117179743,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Forward contracts:",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 54.693900000000006,
+                  "t": 130.74430000000007,
+                  "r": 318.02389999999997,
+                  "b": 139.39556117179745,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Purchased\b���������������������������������������������������������������������������������������",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 327.4939,
+                  "t": 130.74430000000007,
+                  "r": 389.1839,
+                  "b": 139.35813040935682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 2,239",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 398.3539,
+                  "t": 130.74430000000007,
+                  "r": 434.5339,
+                  "b": 139.35813040935682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 14",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 447.9639,
+                  "t": 130.74430000000007,
+                  "r": 506.82390000000004,
+                  "b": 139.39556117179745,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 1,850",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 515.9939,
+                  "t": 130.74430000000007,
+                  "r": 552.6739000000001,
+                  "b": 139.39556117179745,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "$ (2)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 54.693900000000006,
+                  "t": 143.3443000000001,
+                  "r": 318.02389999999997,
+                  "b": 151.99556117179748,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Sold\b�������������������������������������������������������������������������������������������������",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 327.4939,
+                  "t": 143.3443000000001,
+                  "r": 389.1839,
+                  "b": 151.95813040935684,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 1,441",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 398.3539,
+                  "t": 143.3443000000001,
+                  "r": 437.8639,
+                  "b": 151.95813040935684,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ (14)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 447.9639,
+                  "t": 143.3443000000001,
+                  "r": 506.82390000000004,
+                  "b": 151.99556117179748,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 845",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 515.9939,
+                  "t": 143.3443000000001,
+                  "r": 549.3439000000001,
+                  "b": 151.99556117179748,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "$ 2",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 594.0479,
+          "height": 774.0479
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

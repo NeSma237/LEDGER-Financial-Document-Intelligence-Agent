@@ -1,0 +1,2224 @@
+{
+  "document_id": "f027a55b663a52379cdbdd3415d657db",
+  "markdown_content": "Net sales of products by category were as follows for the years ended December 31:\n\n|                                    | 2019     | 2019   | 2018      | 2018   |\n|------------------------------------|----------|--------|-----------|--------|\n| In thousands                       | $        | %      | $         | %      |\n| Drinkable Kefir other than ProBugs | $ 71,822 | 77%    | $ 78,523  | 76%    |\n| Cheese                             | 11,459   | 12%    | 11,486    | 11%    |\n| Cream and other                    | 4,228    | 4%     | 5,276     | 5%     |\n| ProBugs Kefir                      | 2,780    | 3%     | 2,795     | 3%     |\n| Other dairy                        | 1,756    | 2%     | 3,836     | 4%     |\n| Frozen Kefir (a)                   | 1,617    | 2%     | 1,434     | 1%     |\n| Net Sales                          | $ 93,662 | 100%   | $ 103,350 | 100%   |\n\n(a) Includes Lifeway Kefir Shop sales\n\n## Product innovation and new product development\n\nLifeway is committed to maintaining its positions as the leading producer of kefir and a recognized leader in the market for probiotic products. We routinely evaluate opportunities for new product flavors and formulations, o o oonn oo on oo o ooo oond nr p aar on drinkable kefir products, we have an ongoing effort to extend the strength of the Lifeway brand and leverage the capabilities of the Lifeway organization into categories both inside and outside of the dairy aisle, including into nonfood categories and into additional channels, such as gyms and fitness studios. In 2019, we maintained the level of focus on product innovations, packaging innovations, and growth opportunities. As noted above, these product innovation and development efforts have led to additional revenue opportunities from Plantiful and Kefir minis. New items introduced or expanded through our innovation efforts were offset by lower volumes of our core drinkable kefir products in 2019.\n\nLifeway considers research and development of new products to be a significant part of our overall business philosophy. Where possible, we leverage our existing staff and facilities to conduct our innovation, research, and development efforts, rather than maintaining a dedicated research and development staff and facilities or relying solely on third parties. In 2020, in light of the Covid-19 outbreak, and our focus on expanding sales of our current products, we don't expect to focus on new product development.\n\n## PRODUCTION\n\n## Manufacturing\n\nDuring 2019 and 2018, approximately 99% and 98%, respectively of our revenue was derived from products manufactured at our own facilities. We currently operate the following manufacturing and distribution facilities:\n\n- Morton Grove, Illinois, which produces drinkable kefir, drinkable ProBugs kefir, Kefir Cups, and cheese C products;\n- Waukesha, Wisconsin, which produces drinkable kefir products and from which we store and distribute products;\n- Niles, Illinois, which stores and serves as a distribution point for products, including those manufactured by co-packers;\n- Philadelphia, Pennsylvania, which produces drinkable kefir, cheese, and butter products, from which we store and distribute products.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmp8e7ptm1w",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 525181286702184745,
+      "filename": "tmp8e7ptm1w.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/8"
+          },
+          {
+            "$ref": "#/texts/9"
+          },
+          {
+            "$ref": "#/texts/10"
+          },
+          {
+            "$ref": "#/texts/11"
+          }
+        ],
+        "content_layer": "body",
+        "name": "list",
+        "label": "list"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 70.921875,
+              "t": 683.8185424804688,
+              "r": 409.59375,
+              "b": 673.4395141601562,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              82
+            ]
+          }
+        ],
+        "orig": "Net sales of products by category were as follows for the years ended December 31:",
+        "text": "Net sales of products by category were as follows for the years ended December 31:"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 70.5234375,
+              "t": 529.3306274414062,
+              "r": 234.28125,
+              "b": 517.3548177083333,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              37
+            ]
+          }
+        ],
+        "orig": "(a) Includes Lifeway Kefir Shop sales",
+        "text": "(a) Includes Lifeway Kefir Shop sales"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 70.921875,
+              "t": 506.1774088541667,
+              "r": 278.90625,
+              "b": 494.99997965494794,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              46
+            ]
+          }
+        ],
+        "orig": "Product innovation and new product development",
+        "text": "Product innovation and new product development",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 70.125,
+              "t": 483.4233805338542,
+              "r": 542.2734375,
+              "b": 368.8548177083333,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              971
+            ]
+          }
+        ],
+        "orig": "Lifeway is committed to maintaining its positions as the leading producer of kefir and a recognized leader in the market for probiotic products. We routinely evaluate opportunities for new product flavors and formulations, o o oonn oo on oo o ooo oond nr p aar on drinkable kefir products, we have an ongoing effort to extend the strength of the Lifeway brand and leverage the capabilities of the Lifeway organization into categories both inside and outside of the dairy aisle, including into nonfood categories and into additional channels, such as gyms and fitness studios. In 2019, we maintained the level of focus on product innovations, packaging innovations, and growth opportunities. As noted above, these product innovation and development efforts have led to additional revenue opportunities from Plantiful and Kefir minis. New items introduced or expanded through our innovation efforts were offset by lower volumes of our core drinkable kefir products in 2019.",
+        "text": "Lifeway is committed to maintaining its positions as the leading producer of kefir and a recognized leader in the market for probiotic products. We routinely evaluate opportunities for new product flavors and formulations, o o oonn oo on oo o ooo oond nr p aar on drinkable kefir products, we have an ongoing effort to extend the strength of the Lifeway brand and leverage the capabilities of the Lifeway organization into categories both inside and outside of the dairy aisle, including into nonfood categories and into additional channels, such as gyms and fitness studios. In 2019, we maintained the level of focus on product innovations, packaging innovations, and growth opportunities. As noted above, these product innovation and development efforts have led to additional revenue opportunities from Plantiful and Kefir minis. New items introduced or expanded through our innovation efforts were offset by lower volumes of our core drinkable kefir products in 2019."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 69.7265625,
+              "t": 356.8790283203125,
+              "r": 541.4765625,
+              "b": 298.9959309895833,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              516
+            ]
+          }
+        ],
+        "orig": "Lifeway considers research and development of new products to be a significant part of our overall business philosophy. Where possible, we leverage our existing staff and facilities to conduct our innovation, research, and development efforts, rather than maintaining a dedicated research and development staff and facilities or relying solely on third parties. In 2020, in light of the Covid-19 outbreak, and our focus on expanding sales of our current products, we don't expect to focus on new product development.",
+        "text": "Lifeway considers research and development of new products to be a significant part of our overall business philosophy. Where possible, we leverage our existing staff and facilities to conduct our innovation, research, and development efforts, rather than maintaining a dedicated research and development staff and facilities or relying solely on third parties. In 2020, in light of the Covid-19 outbreak, and our focus on expanding sales of our current products, we don't expect to focus on new product development."
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 70.921875,
+              "t": 287.8185221354167,
+              "r": 141.4453125,
+              "b": 277.43949381510413,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              10
+            ]
+          }
+        ],
+        "orig": "PRODUCTION",
+        "text": "PRODUCTION",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 70.125,
+              "t": 265.06449381510413,
+              "r": 137.0625,
+              "b": 252.290283203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              13
+            ]
+          }
+        ],
+        "orig": "Manufacturing",
+        "text": "Manufacturing",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 70.125,
+              "t": 241.9112548828125,
+              "r": 541.4765625,
+              "b": 218.758056640625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              216
+            ]
+          }
+        ],
+        "orig": "During 2019 and 2018, approximately 99% and 98%, respectively of our revenue was derived from products manufactured at our own facilities. We currently operate the following manufacturing and distribution facilities:",
+        "text": "During 2019 and 2018, approximately 99% and 98%, respectively of our revenue was derived from products manufactured at our own facilities. We currently operate the following manufacturing and distribution facilities:"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 90.046875,
+              "t": 207.18143717447913,
+              "r": 541.078125,
+              "b": 183.22981770833337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              115
+            ]
+          }
+        ],
+        "orig": "Morton Grove, Illinois, which produces drinkable kefir, drinkable ProBugs kefir, Kefir Cups, and cheese C products;",
+        "text": "Morton Grove, Illinois, which produces drinkable kefir, drinkable ProBugs kefir, Kefir Cups, and cheese C products;",
+        "enumerated": false,
+        "marker": ""
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 105.984375,
+              "t": 173.24995930989587,
+              "r": 540.28125,
+              "b": 149.29838053385413,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              109
+            ]
+          }
+        ],
+        "orig": "Waukesha, Wisconsin, which produces drinkable kefir products and from which we store and distribute products;",
+        "text": "Waukesha, Wisconsin, which produces drinkable kefir products and from which we store and distribute products;",
+        "enumerated": false,
+        "marker": ""
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 105.5859375,
+              "t": 138.9193115234375,
+              "r": 540.28125,
+              "b": 114.56852213541663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              122
+            ]
+          }
+        ],
+        "orig": "Niles, Illinois, which stores and serves as a distribution point for products, including those manufactured by co-packers;",
+        "text": "Niles, Illinois, which stores and serves as a distribution point for products, including those manufactured by co-packers;",
+        "enumerated": false,
+        "marker": ""
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 106.3828125,
+              "t": 103.790283203125,
+              "r": 541.078125,
+              "b": 81.03629557291663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              133
+            ]
+          }
+        ],
+        "orig": "Philadelphia, Pennsylvania, which produces drinkable kefir, cheese, and butter products, from which we store and distribute products.",
+        "text": "Philadelphia, Pennsylvania, which produces drinkable kefir, cheese, and butter products, from which we store and distribute products.",
+        "enumerated": false,
+        "marker": ""
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 70.6778335571289,
+              "t": 662.7431030273438,
+              "r": 540.2238159179688,
+              "b": 540.2677154541016,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 321.88,
+                "t": 132.37,
+                "r": 341.88,
+                "b": 140.9799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 462.2,
+                "t": 132.37,
+                "r": 482.2,
+                "b": 140.9799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 5,
+              "text": "2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 72.025,
+                "t": 144.87,
+                "r": 122.895,
+                "b": 153.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "In thousands",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 294.38,
+                "t": 144.87,
+                "r": 299.38,
+                "b": 153.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 362.65,
+                "t": 144.87,
+                "r": 370.97999999999996,
+                "b": 153.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "%",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 434.67,
+                "t": 144.87,
+                "r": 439.67,
+                "b": 153.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 503.2,
+                "t": 144.87,
+                "r": 511.53,
+                "b": 153.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "%",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 72.025,
+                "t": 168.87,
+                "r": 215.08499999999995,
+                "b": 177.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Drinkable Kefir other than ProBugs",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 268.6,
+                "t": 168.87,
+                "r": 325.13,
+                "b": 177.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 71,822",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 376.9,
+                "t": 168.87,
+                "r": 395.22999999999996,
+                "b": 177.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "77%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 408.92,
+                "t": 168.87,
+                "r": 465.42,
+                "b": 177.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 78,523",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 517.45,
+                "t": 168.87,
+                "r": 535.7800000000001,
+                "b": 177.4799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "76%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 72.025,
+                "t": 180.37,
+                "r": 101.17499999999998,
+                "b": 188.9799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Cheese",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 297.63,
+                "t": 180.37,
+                "r": 325.13,
+                "b": 188.9799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "11,459",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 376.9,
+                "t": 180.37,
+                "r": 395.22999999999996,
+                "b": 188.9799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "12%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 437.92,
+                "t": 180.37,
+                "r": 465.42,
+                "b": 188.9799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "11,486",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 517.45,
+                "t": 180.37,
+                "r": 535.7800000000001,
+                "b": 188.9799999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "11%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 72.025,
+                "t": 191.9000000000001,
+                "r": 138.805,
+                "b": 200.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Cream and other",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 302.63,
+                "t": 191.9000000000001,
+                "r": 325.13,
+                "b": 200.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "4,228",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 381.9,
+                "t": 191.9000000000001,
+                "r": 395.22999999999996,
+                "b": 200.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "4%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 442.93,
+                "t": 191.9000000000001,
+                "r": 465.43,
+                "b": 200.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "5,276",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 522.47,
+                "t": 191.9000000000001,
+                "r": 535.8000000000001,
+                "b": 200.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "5%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 72.025,
+                "t": 203.4000000000001,
+                "r": 130.095,
+                "b": 212.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "ProBugs Kefir",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 302.63,
+                "t": 203.4000000000001,
+                "r": 325.13,
+                "b": 212.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2,780",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 381.9,
+                "t": 203.4000000000001,
+                "r": 395.22999999999996,
+                "b": 212.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "3%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 442.93,
+                "t": 203.4000000000001,
+                "r": 465.43,
+                "b": 212.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "2,795",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 522.47,
+                "t": 203.4000000000001,
+                "r": 535.8000000000001,
+                "b": 212.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "3%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 72.025,
+                "t": 214.9000000000001,
+                "r": 117.74499999999999,
+                "b": 223.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Other dairy",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 302.63,
+                "t": 214.9000000000001,
+                "r": 325.13,
+                "b": 223.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "1,756",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 381.9,
+                "t": 214.9000000000001,
+                "r": 395.22999999999996,
+                "b": 223.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 442.93,
+                "t": 214.9000000000001,
+                "r": 465.43,
+                "b": 223.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "3,836",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 522.47,
+                "t": 214.9000000000001,
+                "r": 535.8000000000001,
+                "b": 223.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "4%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 72.025,
+                "t": 226.4000000000001,
+                "r": 136.805,
+                "b": 235.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Frozen Kefir (a)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 302.63,
+                "t": 226.4000000000001,
+                "r": 325.13,
+                "b": 235.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "1,617",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 381.9,
+                "t": 226.4000000000001,
+                "r": 395.22999999999996,
+                "b": 235.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 442.93,
+                "t": 226.4000000000001,
+                "r": 465.43,
+                "b": 235.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "1,434",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 522.47,
+                "t": 226.4000000000001,
+                "r": 535.8000000000001,
+                "b": 235.01,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "1%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 72.025,
+                "t": 238.9000000000001,
+                "r": 110.16999999999999,
+                "b": 247.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Net Sales",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 268.6,
+                "t": 238.9000000000001,
+                "r": 325.13,
+                "b": 247.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 93,662",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 371.9,
+                "t": 238.9000000000001,
+                "r": 395.22999999999996,
+                "b": 247.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "100%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 408.92,
+                "t": 238.9000000000001,
+                "r": 465.43,
+                "b": 247.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 103,350",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 512.45,
+                "t": 238.9000000000001,
+                "r": 535.7800000000001,
+                "b": 247.51,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "100%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 9,
+          "num_cols": 5,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 321.88,
+                  "t": 132.37,
+                  "r": 341.88,
+                  "b": 140.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 321.88,
+                  "t": 132.37,
+                  "r": 341.88,
+                  "b": 140.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 462.2,
+                  "t": 132.37,
+                  "r": 482.2,
+                  "b": 140.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 5,
+                "text": "2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 462.2,
+                  "t": 132.37,
+                  "r": 482.2,
+                  "b": 140.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 5,
+                "text": "2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 72.025,
+                  "t": 144.87,
+                  "r": 122.895,
+                  "b": 153.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "In thousands",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 294.38,
+                  "t": 144.87,
+                  "r": 299.38,
+                  "b": 153.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.65,
+                  "t": 144.87,
+                  "r": 370.97999999999996,
+                  "b": 153.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "%",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 434.67,
+                  "t": 144.87,
+                  "r": 439.67,
+                  "b": 153.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 503.2,
+                  "t": 144.87,
+                  "r": 511.53,
+                  "b": 153.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "%",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 72.025,
+                  "t": 168.87,
+                  "r": 215.08499999999995,
+                  "b": 177.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Drinkable Kefir other than ProBugs",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 268.6,
+                  "t": 168.87,
+                  "r": 325.13,
+                  "b": 177.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 71,822",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 376.9,
+                  "t": 168.87,
+                  "r": 395.22999999999996,
+                  "b": 177.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "77%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 408.92,
+                  "t": 168.87,
+                  "r": 465.42,
+                  "b": 177.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 78,523",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 517.45,
+                  "t": 168.87,
+                  "r": 535.7800000000001,
+                  "b": 177.4799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "76%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 72.025,
+                  "t": 180.37,
+                  "r": 101.17499999999998,
+                  "b": 188.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Cheese",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 297.63,
+                  "t": 180.37,
+                  "r": 325.13,
+                  "b": 188.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "11,459",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 376.9,
+                  "t": 180.37,
+                  "r": 395.22999999999996,
+                  "b": 188.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "12%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 437.92,
+                  "t": 180.37,
+                  "r": 465.42,
+                  "b": 188.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "11,486",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 517.45,
+                  "t": 180.37,
+                  "r": 535.7800000000001,
+                  "b": 188.9799999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "11%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 72.025,
+                  "t": 191.9000000000001,
+                  "r": 138.805,
+                  "b": 200.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Cream and other",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 302.63,
+                  "t": 191.9000000000001,
+                  "r": 325.13,
+                  "b": 200.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "4,228",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 381.9,
+                  "t": 191.9000000000001,
+                  "r": 395.22999999999996,
+                  "b": 200.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "4%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 442.93,
+                  "t": 191.9000000000001,
+                  "r": 465.43,
+                  "b": 200.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "5,276",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 522.47,
+                  "t": 191.9000000000001,
+                  "r": 535.8000000000001,
+                  "b": 200.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "5%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 72.025,
+                  "t": 203.4000000000001,
+                  "r": 130.095,
+                  "b": 212.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "ProBugs Kefir",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 302.63,
+                  "t": 203.4000000000001,
+                  "r": 325.13,
+                  "b": 212.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2,780",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 381.9,
+                  "t": 203.4000000000001,
+                  "r": 395.22999999999996,
+                  "b": 212.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "3%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 442.93,
+                  "t": 203.4000000000001,
+                  "r": 465.43,
+                  "b": 212.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "2,795",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 522.47,
+                  "t": 203.4000000000001,
+                  "r": 535.8000000000001,
+                  "b": 212.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "3%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 72.025,
+                  "t": 214.9000000000001,
+                  "r": 117.74499999999999,
+                  "b": 223.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Other dairy",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 302.63,
+                  "t": 214.9000000000001,
+                  "r": 325.13,
+                  "b": 223.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "1,756",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 381.9,
+                  "t": 214.9000000000001,
+                  "r": 395.22999999999996,
+                  "b": 223.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 442.93,
+                  "t": 214.9000000000001,
+                  "r": 465.43,
+                  "b": 223.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "3,836",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 522.47,
+                  "t": 214.9000000000001,
+                  "r": 535.8000000000001,
+                  "b": 223.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "4%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 72.025,
+                  "t": 226.4000000000001,
+                  "r": 136.805,
+                  "b": 235.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Frozen Kefir (a)",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 302.63,
+                  "t": 226.4000000000001,
+                  "r": 325.13,
+                  "b": 235.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "1,617",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 381.9,
+                  "t": 226.4000000000001,
+                  "r": 395.22999999999996,
+                  "b": 235.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 442.93,
+                  "t": 226.4000000000001,
+                  "r": 465.43,
+                  "b": 235.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "1,434",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 522.47,
+                  "t": 226.4000000000001,
+                  "r": 535.8000000000001,
+                  "b": 235.01,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "1%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 72.025,
+                  "t": 238.9000000000001,
+                  "r": 110.16999999999999,
+                  "b": 247.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Net Sales",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 268.6,
+                  "t": 238.9000000000001,
+                  "r": 325.13,
+                  "b": 247.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 93,662",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 371.9,
+                  "t": 238.9000000000001,
+                  "r": 395.22999999999996,
+                  "b": 247.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "100%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 408.92,
+                  "t": 238.9000000000001,
+                  "r": 465.43,
+                  "b": 247.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 103,350",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 512.45,
+                  "t": 238.9000000000001,
+                  "r": 535.7800000000001,
+                  "b": 247.51,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "100%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 612.0,
+          "height": 792.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

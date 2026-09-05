@@ -1,0 +1,1167 @@
+{
+  "document_id": "d2101d68fecbc262815d27ef9dd020ba",
+  "markdown_content": "## Table of Contents\n\nGross Profit. Interface segment gross profit decreased $6.5 million, or 45.5%, to $7.8 million in fiscal 2019, 0 s            0 The decrease primarily relates to lower sales volumes of our appliance products and lower sales volumes and unfavorable sales mix of our data solutions products, partially offset by lower cost of products purchased from Mexico as a result of the weakening of the Mexican peso.\n\nIncome (Loss) From Operations. Interface segment income from operations decreased $6.3 million, or 105.0%, to a loss of $0.3 million in fiscal 2019, compared to income of $6.0 million in fiscal 2018. The decrease was due to lower gross profit.\n\n## Medical Segment Results\n\nBelow is a table summarizing results for the fiscal years ended:\n\n| (Dollars in Millions)   | April 27, 2019   | April 28, 2018   | Net Change ($)   | Net Change (%)   |\n|-------------------------|------------------|------------------|------------------|------------------|\n| Net Sales               | $ 1.1            | $ 0.3            | $ 0.8            | 266.7 %          |\n| Gross Profit            | $ (2.8)          | $ (3.5)          | $ 0.7            | 20.0 %           |\n| Loss from Operations    | $ (8.6)          | $ (11.4)         | $ 2.8            | 24.6 %           |\n\nNet Sales. The Medical segment had $1.1 million of net sales in fiscal 2019, compared to $0.3 million of net sales in fiscal 2018. The increase was due to new business gained in fiscal 2019.\n\nGross Profit. Medical segment gross profit was a loss of $2.8 million in fiscal 2019, compared to a loss of $3.5 million in fiscal 2018. The improvement primarily relates to an increase in sales volumes during fiscal 2019.\n\nLoss from Operations. Medical segment loss from operations decreased $2.8 million to $8.6 million in fiscal 2019, compared to $11.4 million in fiscal 2018. The decrease was due to an improvement in gross profit and lower selling and administrative expenses. Selling and administrative expenses were reduced by lower marketing and professional fee expenses, partially offset by initiatives to reduce overall costs and improve operational profitability of $0.9 million.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmppa5ronib",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 16256058454758860230,
+      "filename": "tmppa5ronib.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 48.2109375,
+              "t": 782.4193547566732,
+              "r": 122.71875,
+              "b": 769.645159403483,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "Table of Contents",
+        "text": "Table of Contents",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 48.609375,
+              "t": 750.8830617268881,
+              "r": 560.203125,
+              "b": 691.4032185872396,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              404
+            ]
+          }
+        ],
+        "orig": "Gross Profit. Interface segment gross profit decreased $6.5 million, or 45.5%, to $7.8 million in fiscal 2019, 0 s            0 The decrease primarily relates to lower sales volumes of our appliance products and lower sales volumes and unfavorable sales mix of our data solutions products, partially offset by lower cost of products purchased from Mexico as a result of the weakening of the Mexican peso.",
+        "text": "Gross Profit. Interface segment gross profit decreased $6.5 million, or 45.5%, to $7.8 million in fiscal 2019, 0 s            0 The decrease primarily relates to lower sales volumes of our appliance products and lower sales volumes and unfavorable sales mix of our data solutions products, partially offset by lower cost of products purchased from Mexico as a result of the weakening of the Mexican peso."
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 47.4140625,
+              "t": 681.8225809733073,
+              "r": 553.03125,
+              "b": 645.0967712402344,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              243
+            ]
+          }
+        ],
+        "orig": "Income (Loss) From Operations. Interface segment income from operations decreased $6.3 million, or 105.0%, to a loss of $0.3 million in fiscal 2019, compared to income of $6.0 million in fiscal 2018. The decrease was due to lower gross profit.",
+        "text": "Income (Loss) From Operations. Interface segment income from operations decreased $6.3 million, or 105.0%, to a loss of $0.3 million in fiscal 2019, compared to income of $6.0 million in fiscal 2018. The decrease was due to lower gross profit."
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 49.0078125,
+              "t": 636.3145141601562,
+              "r": 158.1796875,
+              "b": 625.9354756673177,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              23
+            ]
+          }
+        ],
+        "orig": "Medical Segment Results",
+        "text": "Medical Segment Results",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 49.8046875,
+              "t": 612.3628946940104,
+              "r": 304.8046875,
+              "b": 601.9838663736979,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              64
+            ]
+          }
+        ],
+        "orig": "Below is a table summarizing results for the fiscal years ended:",
+        "text": "Below is a table summarizing results for the fiscal years ended:"
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 48.609375,
+              "t": 516.157246907552,
+              "r": 558.2109375,
+              "b": 493.0040283203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              190
+            ]
+          }
+        ],
+        "orig": "Net Sales. The Medical segment had $1.1 million of net sales in fiscal 2019, compared to $0.3 million of net sales in fiscal 2018. The increase was due to new business gained in fiscal 2019.",
+        "text": "Net Sales. The Medical segment had $1.1 million of net sales in fiscal 2019, compared to $0.3 million of net sales in fiscal 2018. The increase was due to new business gained in fiscal 2019."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 48.609375,
+              "t": 483.02419026692706,
+              "r": 533.5078125,
+              "b": 459.87095133463544,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              222
+            ]
+          }
+        ],
+        "orig": "Gross Profit. Medical segment gross profit was a loss of $2.8 million in fiscal 2019, compared to a loss of $3.5 million in fiscal 2018. The improvement primarily relates to an increase in sales volumes during fiscal 2019.",
+        "text": "Gross Profit. Medical segment gross profit was a loss of $2.8 million in fiscal 2019, compared to a loss of $3.5 million in fiscal 2018. The improvement primarily relates to an increase in sales volumes during fiscal 2019."
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 48.609375,
+              "t": 449.4919026692708,
+              "r": 556.6171875,
+              "b": 401.9878743489583,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              467
+            ]
+          }
+        ],
+        "orig": "Loss from Operations. Medical segment loss from operations decreased $2.8 million to $8.6 million in fiscal 2019, compared to $11.4 million in fiscal 2018. The decrease was due to an improvement in gross profit and lower selling and administrative expenses. Selling and administrative expenses were reduced by lower marketing and professional fee expenses, partially offset by initiatives to reduce overall costs and improve operational profitability of $0.9 million.",
+        "text": "Loss from Operations. Medical segment loss from operations decreased $2.8 million to $8.6 million in fiscal 2019, compared to $11.4 million in fiscal 2018. The decrease was due to an improvement in gross profit and lower selling and administrative expenses. Selling and administrative expenses were reduced by lower marketing and professional fee expenses, partially offset by initiatives to reduce overall costs and improve operational profitability of $0.9 million."
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 298.03125,
+              "t": 41.51611328125,
+              "r": 312.7734375,
+              "b": 28.34269205729163,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "21",
+        "text": "21"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 49.13320541381836,
+              "t": 592.8742523193359,
+              "r": 564.552734375,
+              "b": 530.3133850097656,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 53.0,
+                "t": 209.85399999999993,
+                "r": 119.22400000000002,
+                "b": 216.4338787878787,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "(Dollars in Millions)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 307.35,
+                "t": 201.8739999999999,
+                "r": 337.574,
+                "b": 216.4538787878787,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "April 27, 2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 376.35,
+                "t": 201.8739999999999,
+                "r": 406.574,
+                "b": 216.4538787878787,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "April 28, 2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 434.7,
+                "t": 209.8739999999999,
+                "r": 486.24399999999997,
+                "b": 216.4538787878787,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Net Change ($)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 501.7,
+                "t": 209.8739999999999,
+                "r": 557.2439999999999,
+                "b": 216.4538787878787,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "Net Change (%)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 53.0,
+                "t": 222.21000000000004,
+                "r": 91.05,
+                "b": 230.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Net Sales",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 293.0,
+                "t": 222.21000000000004,
+                "r": 346.65,
+                "b": 230.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 1.1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 362.0,
+                "t": 222.21000000000004,
+                "r": 415.65,
+                "b": 230.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 0.3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 431.0,
+                "t": 222.21000000000004,
+                "r": 489.65,
+                "b": 230.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 0.8",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 527.8,
+                "t": 222.21000000000004,
+                "r": 561.98,
+                "b": 230.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "266.7 %",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 53.0,
+                "t": 236.21000000000004,
+                "r": 101.61,
+                "b": 244.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Gross Profit",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 293.0,
+                "t": 236.15999999999997,
+                "r": 349.97999999999996,
+                "b": 244.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ (2.8)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 362.0,
+                "t": 236.15999999999997,
+                "r": 418.97999999999996,
+                "b": 244.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ (3.5)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 431.0,
+                "t": 236.21000000000004,
+                "r": 489.65,
+                "b": 244.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 0.7",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 532.8,
+                "t": 236.21000000000004,
+                "r": 561.98,
+                "b": 244.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "20.0 %",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 53.0,
+                "t": 250.21000000000004,
+                "r": 140.20999999999998,
+                "b": 258.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Loss from Operations",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 293.0,
+                "t": 250.15999999999997,
+                "r": 349.97999999999996,
+                "b": 258.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ (8.6)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 362.0,
+                "t": 250.15999999999997,
+                "r": 418.97999999999996,
+                "b": 258.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ (11.4)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 431.0,
+                "t": 250.21000000000004,
+                "r": 489.65,
+                "b": 258.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 2.8",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 532.8,
+                "t": 250.21000000000004,
+                "r": 561.98,
+                "b": 258.43484848484854,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "24.6 %",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 5,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 53.0,
+                  "t": 209.85399999999993,
+                  "r": 119.22400000000002,
+                  "b": 216.4338787878787,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "(Dollars in Millions)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 307.35,
+                  "t": 201.8739999999999,
+                  "r": 337.574,
+                  "b": 216.4538787878787,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "April 27, 2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 376.35,
+                  "t": 201.8739999999999,
+                  "r": 406.574,
+                  "b": 216.4538787878787,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "April 28, 2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 434.7,
+                  "t": 209.8739999999999,
+                  "r": 486.24399999999997,
+                  "b": 216.4538787878787,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "Net Change ($)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 501.7,
+                  "t": 209.8739999999999,
+                  "r": 557.2439999999999,
+                  "b": 216.4538787878787,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "Net Change (%)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 53.0,
+                  "t": 222.21000000000004,
+                  "r": 91.05,
+                  "b": 230.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Net Sales",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 293.0,
+                  "t": 222.21000000000004,
+                  "r": 346.65,
+                  "b": 230.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 1.1",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.0,
+                  "t": 222.21000000000004,
+                  "r": 415.65,
+                  "b": 230.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 0.3",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 431.0,
+                  "t": 222.21000000000004,
+                  "r": 489.65,
+                  "b": 230.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 0.8",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 527.8,
+                  "t": 222.21000000000004,
+                  "r": 561.98,
+                  "b": 230.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "266.7 %",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 53.0,
+                  "t": 236.21000000000004,
+                  "r": 101.61,
+                  "b": 244.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Gross Profit",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 293.0,
+                  "t": 236.15999999999997,
+                  "r": 349.97999999999996,
+                  "b": 244.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ (2.8)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.0,
+                  "t": 236.15999999999997,
+                  "r": 418.97999999999996,
+                  "b": 244.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ (3.5)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 431.0,
+                  "t": 236.21000000000004,
+                  "r": 489.65,
+                  "b": 244.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 0.7",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 532.8,
+                  "t": 236.21000000000004,
+                  "r": 561.98,
+                  "b": 244.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "20.0 %",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 53.0,
+                  "t": 250.21000000000004,
+                  "r": 140.20999999999998,
+                  "b": 258.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Loss from Operations",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 293.0,
+                  "t": 250.15999999999997,
+                  "r": 349.97999999999996,
+                  "b": 258.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ (8.6)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.0,
+                  "t": 250.15999999999997,
+                  "r": 418.97999999999996,
+                  "b": 258.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ (11.4)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 431.0,
+                  "t": 250.21000000000004,
+                  "r": 489.65,
+                  "b": 258.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 2.8",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 532.8,
+                  "t": 250.21000000000004,
+                  "r": 561.98,
+                  "b": 258.43484848484854,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "24.6 %",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 612.0,
+          "height": 792.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}
