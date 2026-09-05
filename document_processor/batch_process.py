@@ -1,4 +1,6 @@
 from pathlib import Path
+import re
+import mimetypes
 import requests
 import subprocess
 import sys
@@ -9,7 +11,7 @@ import json
 
 BASE_DIR = Path(__file__).resolve().parent
 
-INPUT_FOLDER = BASE_DIR / "input_data"
+INPUT_FOLDER = BASE_DIR / "input_data_new"
 OUTPUT_FOLDER = BASE_DIR / "JSON_data"
 
 API_URL = "http://127.0.0.1:8000/process"
@@ -22,10 +24,10 @@ OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 def start_api():
     print("\nStarting FastAPI...")
 
-    server = subprocess.Popen([
-        sys.executable,
-        str(BASE_DIR / "doc_processor_api.py")
-    ])
+    server = subprocess.Popen(
+    [sys.executable, "-m", "document_processor.doc_processor_api"],
+    cwd=BASE_DIR.parent
+     )
 
     # Wait until API is actually ready
     for _ in range(30):
@@ -49,26 +51,47 @@ if server is None:
     print("Could not start API. Exiting.")
     sys.exit(1)
 
-# Get PDFs
 
-pdf_files = list(INPUT_FOLDER.glob("*.pdf"))
+pdf_files = list(INPUT_FOLDER.rglob("*.pdf"))
+pdf_stems = {p.stem for p in pdf_files}
 
-print(f"Found {len(pdf_files)} PDF files.\n")
+image_extensions = ["*.png", "*.jpg", "*.jpeg"]
+image_files = []
+for ext in image_extensions:
+    image_files.extend(INPUT_FOLDER.rglob(ext))
+
+standalone_images = []
+for img in image_files:
+    base_id = re.sub(r"_\d+$", "", img.stem)  
+    if base_id not in pdf_stems:
+        standalone_images.append(img)
+
+files_to_process = pdf_files + standalone_images
+
+print(
+    f"Found {len(pdf_files)} PDF files and {len(standalone_images)} "
+    f"standalone image files (images with a matching PDF were skipped as duplicates).\n"
+)
 
 # Process files
 
-for i, pdf_path in enumerate(pdf_files, start=1):
+for i, file_path in enumerate(files_to_process, start=1):
 
-    output_path = OUTPUT_FOLDER / f"{pdf_path.stem}.json"
+    output_path = OUTPUT_FOLDER / f"{file_path.stem}.json"
 
     # Already processed
     if output_path.exists():
-        print(f"[{i}/{len(pdf_files)}] Skipping: {pdf_path.name}")
+        print(f"[{i}/{len(files_to_process)}] Skipping: {file_path.name}")
         continue
 
-    print(f"[{i}/{len(pdf_files)}] Processing: {pdf_path.name}")
+    print(f"[{i}/{len(files_to_process)}] Processing: {file_path.name}")
 
     success = False
+
+    # نحدد الـ mime type الصح حسب امتداد الملف نفسه (PDF أو صورة)
+    mime_type, _ = mimetypes.guess_type(file_path.name)
+    if mime_type is None:
+        mime_type = "application/octet-stream"
 
     # Try the file up to 3 times
     for attempt in range(1, 4):
@@ -78,15 +101,15 @@ for i, pdf_path in enumerate(pdf_files, start=1):
             # Check if API is alive
             requests.get(HEALTH_URL, timeout=2)
 
-            with open(pdf_path, "rb") as file:
+            with open(file_path, "rb") as file:
 
                 response = requests.post(
                     API_URL,
                     files={
                         "file": (
-                            pdf_path.name,
+                            file_path.name,
                             file,
-                            "application/pdf"
+                            mime_type
                         )
                     },
                     timeout=600
@@ -138,7 +161,7 @@ for i, pdf_path in enumerate(pdf_files, start=1):
                 time.sleep(5)
 
     if not success:
-        print(f" Failed permanently: {pdf_path.name}\n")
+        print(f" Failed permanently: {file_path.name}\n")
 
 print("Batch processing finished.")
 

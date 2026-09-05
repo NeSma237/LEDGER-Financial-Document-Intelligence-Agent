@@ -12,10 +12,16 @@ def table_to_text(table_rows: List[List[str]]) -> str:
 
     lines = []
     for row in table_rows:
-        if len(row) >= 2:
-            lines.append(f"{row[0]}: {row[1]}")
+        if not row:
+            continue
+        if len(row) == 1:
+            lines.append(row[0])
         else:
-            lines.append(" | ".join(row))
+            # first column is treated as the row label, remaining columns
+            # (e.g. one per year/period) are all preserved instead of only the second
+            label = row[0]
+            values = " | ".join(row[1:])
+            lines.append(f"{label}: {values}")
     return " | ".join(lines)
 
 
