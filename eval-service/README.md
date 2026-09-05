@@ -17,7 +17,7 @@ eval-service/
 │   └── schemas.py         Pydantic models mirroring the Strict Answer Schema
 ├── tests/test_metrics.py  Standalone tests for the scoring functions
 ├── requirements.txt
-└── .env.example
+└── .env
 ```
 
 ## Why it's structured this way
