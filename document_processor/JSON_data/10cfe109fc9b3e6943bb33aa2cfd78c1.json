@@ -1,0 +1,1334 @@
+{
+  "document_id": "10cfe109fc9b3e6943bb33aa2cfd78c1",
+  "markdown_content": "## Non-GAAP Financial Measures\n\nManagement believes that certain non-GAAP financial measures may be useful to investors in certain instances to provide additional meaningful comparisons between current results and results in prior operating periods. Adjusted earnings before interest, taxes, depreciation, amortization and stock-based compensation (\"Adjusted EBITDA\") is a metric used by management and frequently used by the financial community. Adjusted EBITDA from operations provides insight into an organization's operating trends and facilitates comparisons between peer companies, since interest, taxes, depreciation, amortization and stock-based compensation can differ greatly between organizations as a result of differing capital structures and tax strategies. Adjusted EBITDA from operations is one of the measures used for determining our debt covenant compliance. Adjusted EBITDA from operations excludes certain items that are unusual in nature or not comparable from period to period. While management believes that non-GAAP measurements are useful supplemental information, such adjusted results are not intended to replace our GAAP financial results. Adjusted EBITDA from operations is not, and should not be considered, an alternative to net income (loss), operating income (loss), or any other measure for determining operating performance or liquidity, as determined under accounting principles generally accepted in the United States (GAAP). In assessing the overall health of its business for the years ended December 31, 2019 and 2018, the Company excluded items in the following general categories described below:\n\n- Stock-based compensation: The Company believes that because of the variety of equity awards used by companies, varying methodologies for determining stock-based compensation and the assumptions and estimates involved in those determinations, the exclusion of non-cash stock-based compensation enhances the ability of management and investors to understand the impact of non-cash stock-based compensation on our operating results. Further, the Company believes that excluding stockbased compensation expense allows for a more transparent comparison of its financial results to the previous year.\n\n## RECONCILIATION OF NET LOSS TO ADJUSTED EBITDA FOR THE YEARS ENDED DECEMBER 31,\n\n|                                | 2019           | 2018           |\n|--------------------------------|----------------|----------------|\n| Net loss                       | $ (1,934,133)  | $ (3,016,750)  |\n| Interest (income) expense, net | 53,139         | (13,622)       |\n| Income tax provision (benefit) | (100,363)      | 9,623          |\n| Depreciation and amortization  | 66,082         | 67,107         |\n| EBITDA                         | (1,915,275)    | (2,953,642)    |\n| Adjustments:                   |                |                |\n| Stock-based compensation       | 7,261          | 6,404          |\n| Adjusted EBITDA                | $ (1,908,014 ) | $ (2,947,238 ) |\n\n## Liquidity and Capital Resources\n\nFor the year ended December 31, 2019, the Company reported a net loss of $1,934,133 and had cash used in operating activities of $1,875,846, and ended the year with an accumulated deficit of $125,105,539 and total current assets in excess of current liabilities of $4,187,449. At December 31, 2019, the Company had $3,300,600 of cash and approximately $424,000 of availability on its credit facility. The credit facility is a $2,000,000 line of credit, which is subject to a borrowing base calculation based on the Company's eligible accounts receivable and eligible inventory each- multiplied by an applicable advance rate, with an overall limitation tied to the Company's eligible accounts receivable. As of December 31, 2019, we had borrowing capacity of $1,102,917 and an outstanding balance of $624,347, resulting in the approximate availability of $424,000 on the credit facility. During the twelve-month period between January 1, 2019 and December 31, 2019, the Company's cash balance decreased from $4,678,891 to $3,300,600, or approximately $115,000 per month. In comparison, during the twelve-month period between January 1, 2018 and December 31, 2018, the Company's cash balance decreased from $8,385,595 to $4,678,891, or approximately $309,000 per month. This improvement is the result of improved revenues and cost management efforts.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmpymq06f41",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 1945779199169556506,
+      "filename": "tmpymq06f41.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/2"
+          }
+        ],
+        "content_layer": "body",
+        "name": "list",
+        "label": "list"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.5078125,
+              "t": 746.491933186849,
+              "r": 129.09375,
+              "b": 738.5080617268881,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              27
+            ]
+          }
+        ],
+        "orig": "Non-GAAP Financial Measures",
+        "text": "Non-GAAP Financial Measures",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 22.7109375,
+              "t": 728.9274190266927,
+              "r": 576.9375,
+              "b": 639.1088663736979,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1607
+            ]
+          }
+        ],
+        "orig": "Management believes that certain non-GAAP financial measures may be useful to investors in certain instances to provide additional meaningful comparisons between current results and results in prior operating periods. Adjusted earnings before interest, taxes, depreciation, amortization and stock-based compensation (\"Adjusted EBITDA\") is a metric used by management and frequently used by the financial community. Adjusted EBITDA from operations provides insight into an organization's operating trends and facilitates comparisons between peer companies, since interest, taxes, depreciation, amortization and stock-based compensation can differ greatly between organizations as a result of differing capital structures and tax strategies. Adjusted EBITDA from operations is one of the measures used for determining our debt covenant compliance. Adjusted EBITDA from operations excludes certain items that are unusual in nature or not comparable from period to period. While management believes that non-GAAP measurements are useful supplemental information, such adjusted results are not intended to replace our GAAP financial results. Adjusted EBITDA from operations is not, and should not be considered, an alternative to net income (loss), operating income (loss), or any other measure for determining operating performance or liquidity, as determined under accounting principles generally accepted in the United States (GAAP). In assessing the overall health of its business for the years ended December 31, 2019 and 2018, the Company excluded items in the following general categories described below:",
+        "text": "Management believes that certain non-GAAP financial measures may be useful to investors in certain instances to provide additional meaningful comparisons between current results and results in prior operating periods. Adjusted earnings before interest, taxes, depreciation, amortization and stock-based compensation (\"Adjusted EBITDA\") is a metric used by management and frequently used by the financial community. Adjusted EBITDA from operations provides insight into an organization's operating trends and facilitates comparisons between peer companies, since interest, taxes, depreciation, amortization and stock-based compensation can differ greatly between organizations as a result of differing capital structures and tax strategies. Adjusted EBITDA from operations is one of the measures used for determining our debt covenant compliance. Adjusted EBITDA from operations excludes certain items that are unusual in nature or not comparable from period to period. While management believes that non-GAAP measurements are useful supplemental information, such adjusted results are not intended to replace our GAAP financial results. Adjusted EBITDA from operations is not, and should not be considered, an alternative to net income (loss), operating income (loss), or any other measure for determining operating performance or liquidity, as determined under accounting principles generally accepted in the United States (GAAP). In assessing the overall health of its business for the years ended December 31, 2019 and 2018, the Company excluded items in the following general categories described below:"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 45.421875,
+              "t": 629.9274088541666,
+              "r": 583.3125,
+              "b": 593.6007893880209,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              594
+            ]
+          }
+        ],
+        "orig": "Stock-based compensation: The Company believes that because of the variety of equity awards used by companies, varying methodologies for determining stock-based compensation and the assumptions and estimates involved in those determinations, the exclusion of non-cash stock-based compensation enhances the ability of management and investors to understand the impact of non-cash stock-based compensation on our operating results. Further, the Company believes that excluding stockbased compensation expense allows for a more transparent comparison of its financial results to the previous year.",
+        "text": "Stock-based compensation: The Company believes that because of the variety of equity awards used by companies, varying methodologies for determining stock-based compensation and the assumptions and estimates involved in those determinations, the exclusion of non-cash stock-based compensation enhances the ability of management and investors to understand the impact of non-cash stock-based compensation on our operating results. Further, the Company believes that excluding stockbased compensation expense allows for a more transparent comparison of its financial results to the previous year.",
+        "enumerated": false,
+        "marker": ""
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 224.3203125,
+              "t": 584.8185424804688,
+              "r": 376.921875,
+              "b": 558.4717610677084,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              78
+            ]
+          }
+        ],
+        "orig": "RECONCILIATION OF NET LOSS TO ADJUSTED EBITDA FOR THE YEARS ENDED DECEMBER 31,",
+        "text": "RECONCILIATION OF NET LOSS TO ADJUSTED EBITDA FOR THE YEARS ENDED DECEMBER 31,",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 22.7109375,
+              "t": 444.3024088541667,
+              "r": 133.4765625,
+              "b": 434.7217610677083,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              31
+            ]
+          }
+        ],
+        "orig": "Liquidity and Capital Resources",
+        "text": "Liquidity and Capital Resources",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 22.3125,
+              "t": 425.9394938151042,
+              "r": 576.5390625,
+              "b": 353.6854654947917,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1348
+            ]
+          }
+        ],
+        "orig": "For the year ended December 31, 2019, the Company reported a net loss of $1,934,133 and had cash used in operating activities of $1,875,846, and ended the year with an accumulated deficit of $125,105,539 and total current assets in excess of current liabilities of $4,187,449. At December 31, 2019, the Company had $3,300,600 of cash and approximately $424,000 of availability on its credit facility. The credit facility is a $2,000,000 line of credit, which is subject to a borrowing base calculation based on the Company's eligible accounts receivable and eligible inventory each- multiplied by an applicable advance rate, with an overall limitation tied to the Company's eligible accounts receivable. As of December 31, 2019, we had borrowing capacity of $1,102,917 and an outstanding balance of $624,347, resulting in the approximate availability of $424,000 on the credit facility. During the twelve-month period between January 1, 2019 and December 31, 2019, the Company's cash balance decreased from $4,678,891 to $3,300,600, or approximately $115,000 per month. In comparison, during the twelve-month period between January 1, 2018 and December 31, 2018, the Company's cash balance decreased from $8,385,595 to $4,678,891, or approximately $309,000 per month. This improvement is the result of improved revenues and cost management efforts.",
+        "text": "For the year ended December 31, 2019, the Company reported a net loss of $1,934,133 and had cash used in operating activities of $1,875,846, and ended the year with an accumulated deficit of $125,105,539 and total current assets in excess of current liabilities of $4,187,449. At December 31, 2019, the Company had $3,300,600 of cash and approximately $424,000 of availability on its credit facility. The credit facility is a $2,000,000 line of credit, which is subject to a borrowing base calculation based on the Company's eligible accounts receivable and eligible inventory each- multiplied by an applicable advance rate, with an overall limitation tied to the Company's eligible accounts receivable. As of December 31, 2019, we had borrowing capacity of $1,102,917 and an outstanding balance of $624,347, resulting in the approximate availability of $424,000 on the credit facility. During the twelve-month period between January 1, 2019 and December 31, 2019, the Company's cash balance decreased from $4,678,891 to $3,300,600, or approximately $115,000 per month. In comparison, during the twelve-month period between January 1, 2018 and December 31, 2018, the Company's cash balance decreased from $8,385,595 to $4,678,891, or approximately $309,000 per month. This improvement is the result of improved revenues and cost management efforts."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 294.046875,
+              "t": 323.3467610677083,
+              "r": 306.0,
+              "b": 312.9677327473958,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "28",
+        "text": "28"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.128082275390625,
+              "t": 547.9808502197266,
+              "r": 581.7257080078125,
+              "b": 452.8040771484375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 435.600005721375,
+                "t": 243.54932501892836,
+                "r": 451.16880593544596,
+                "b": 252.18721572370123,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 529.8000070166249,
+                "t": 243.54932501892836,
+                "r": 545.368807230696,
+                "b": 252.18721572370123,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 253.14932515092733,
+                "r": 49.60455041393756,
+                "b": 261.7872158557002,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Net loss",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 404.10000528825,
+                "t": 253.14932515092733,
+                "r": 485.2740064043925,
+                "b": 261.7872158557002,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ (1,934,133)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 498.90000659175,
+                "t": 253.14932515092733,
+                "r": 578.8740076913924,
+                "b": 261.7872158557002,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ (3,016,750)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 262.1493252746768,
+                "r": 118.23405135759319,
+                "b": 270.7872159794497,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Interest (income) expense, net",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 461.100006072,
+                "t": 262.1493252746768,
+                "r": 482.5188063665085,
+                "b": 270.7872159794497,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "53,139",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 552.300007326,
+                "t": 262.1493252746768,
+                "r": 578.8740076913924,
+                "b": 270.7872159794497,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(13,622)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 271.1493253984263,
+                "r": 119.33025137266593,
+                "b": 279.78721610319917,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Income tax provision (benefit)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 454.50000598125,
+                "t": 271.1493253984263,
+                "r": 485.2740064043925,
+                "b": 279.78721610319917,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(100,363)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 558.90000741675,
+                "t": 271.1493253984263,
+                "r": 576.4188076576335,
+                "b": 279.78721610319917,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "9,623",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 280.1493255221758,
+                "r": 119.08755136932882,
+                "b": 288.7872162269523,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Depreciation and amortization",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 461.100006072,
+                "t": 280.7493255304289,
+                "r": 482.5188063665085,
+                "b": 289.3872162352018,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "66,082",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 554.700007359,
+                "t": 280.7493255304289,
+                "r": 576.1188076535085,
+                "b": 289.3872162352018,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "67,107",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 290.3493256624279,
+                "r": 52.82542545822459,
+                "b": 298.98721636720074,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "EBITDA",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 449.10000590699997,
+                "t": 290.3493256624279,
+                "r": 485.2740064043925,
+                "b": 298.98721636720074,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(1,915,275)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 542.700007194,
+                "t": 290.3493256624279,
+                "r": 578.8740076913924,
+                "b": 298.98721636720074,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(2,953,642)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 299.34932578617736,
+                "r": 65.85592563739397,
+                "b": 307.98721649095023,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Adjustments:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 308.34932590992685,
+                "r": 107.62192621167647,
+                "b": 316.9872166146997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Stock-based compensation",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 465.30000612975,
+                "t": 308.34932590992685,
+                "r": 482.81880637063347,
+                "b": 316.9872166146997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "7,261",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 558.90000741675,
+                "t": 308.34932590992685,
+                "r": 576.4188076576335,
+                "b": 316.9872166146997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "6,404",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 326.94932616567894,
+                "r": 82.91917587201365,
+                "b": 335.5872168704518,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Adjusted EBITDA",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 404.10000528825,
+                "t": 326.94932616567894,
+                "r": 485.2740064043925,
+                "b": 336.7872168869508,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ (1,908,014 )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 498.90000659175,
+                "t": 326.94932616567894,
+                "r": 578.8740076913924,
+                "b": 336.7872168869508,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ (2,947,238 )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 9,
+          "num_cols": 3,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 435.600005721375,
+                  "t": 243.54932501892836,
+                  "r": 451.16880593544596,
+                  "b": 252.18721572370123,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 529.8000070166249,
+                  "t": 243.54932501892836,
+                  "r": 545.368807230696,
+                  "b": 252.18721572370123,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 253.14932515092733,
+                  "r": 49.60455041393756,
+                  "b": 261.7872158557002,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Net loss",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 404.10000528825,
+                  "t": 253.14932515092733,
+                  "r": 485.2740064043925,
+                  "b": 261.7872158557002,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ (1,934,133)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 498.90000659175,
+                  "t": 253.14932515092733,
+                  "r": 578.8740076913924,
+                  "b": 261.7872158557002,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ (3,016,750)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 262.1493252746768,
+                  "r": 118.23405135759319,
+                  "b": 270.7872159794497,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Interest (income) expense, net",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 461.100006072,
+                  "t": 262.1493252746768,
+                  "r": 482.5188063665085,
+                  "b": 270.7872159794497,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "53,139",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 552.300007326,
+                  "t": 262.1493252746768,
+                  "r": 578.8740076913924,
+                  "b": 270.7872159794497,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(13,622)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 271.1493253984263,
+                  "r": 119.33025137266593,
+                  "b": 279.78721610319917,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Income tax provision (benefit)",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 454.50000598125,
+                  "t": 271.1493253984263,
+                  "r": 485.2740064043925,
+                  "b": 279.78721610319917,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(100,363)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 558.90000741675,
+                  "t": 271.1493253984263,
+                  "r": 576.4188076576335,
+                  "b": 279.78721610319917,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "9,623",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 280.1493255221758,
+                  "r": 119.08755136932882,
+                  "b": 288.7872162269523,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Depreciation and amortization",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 461.100006072,
+                  "t": 280.7493255304289,
+                  "r": 482.5188063665085,
+                  "b": 289.3872162352018,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "66,082",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 554.700007359,
+                  "t": 280.7493255304289,
+                  "r": 576.1188076535085,
+                  "b": 289.3872162352018,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "67,107",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 290.3493256624279,
+                  "r": 52.82542545822459,
+                  "b": 298.98721636720074,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "EBITDA",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 449.10000590699997,
+                  "t": 290.3493256624279,
+                  "r": 485.2740064043925,
+                  "b": 298.98721636720074,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(1,915,275)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 542.700007194,
+                  "t": 290.3493256624279,
+                  "r": 578.8740076913924,
+                  "b": 298.98721636720074,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(2,953,642)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 299.34932578617736,
+                  "r": 65.85592563739397,
+                  "b": 307.98721649095023,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Adjustments:",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 308.34932590992685,
+                  "r": 107.62192621167647,
+                  "b": 316.9872166146997,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Stock-based compensation",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 465.30000612975,
+                  "t": 308.34932590992685,
+                  "r": 482.81880637063347,
+                  "b": 316.9872166146997,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "7,261",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 558.90000741675,
+                  "t": 308.34932590992685,
+                  "r": 576.4188076576335,
+                  "b": 316.9872166146997,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "6,404",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 326.94932616567894,
+                  "r": 82.91917587201365,
+                  "b": 335.5872168704518,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Adjusted EBITDA",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 404.10000528825,
+                  "t": 326.94932616567894,
+                  "r": 485.2740064043925,
+                  "b": 336.7872168869508,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ (1,908,014 )",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 498.90000659175,
+                  "t": 326.94932616567894,
+                  "r": 578.8740076913924,
+                  "b": 336.7872168869508,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ (2,947,238 )",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 612.0,
+          "height": 792.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}
