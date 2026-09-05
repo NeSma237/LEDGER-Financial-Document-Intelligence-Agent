@@ -14,13 +14,28 @@ The project is built as 7 separate microservices communicating over HTTP:
 | 4 | `agent-service` | LangGraph | Thomas Mina |
 | 5 | `eval-service` | FastAPI + Langfuse | Mohamed Aboulfottouh |
 | 6 | `ui-service` | Gradio | Marwan Bahy |
-| 7 | `answer-validator-api` | FastAPI/Flask | TBD |
+| 7 | `answer-validator-api` | FastAPI + Pydantic | Hassan Mohamed |
 
 ## Running the Project
 
+To launch all available active microservices in their required dependency order with automatic environment configuration:
+
 ```bash
-# TODO: run instructions (Docker Compose or startup script)
+# Cross-platform runner (starts validator, doc processor, retrieval, agent, orchestrator)
+python run_services.py
+
+# Alternatively, on Windows PowerShell:
+powershell -ExecutionPolicy Bypass -File scripts/start_services.ps1
 ```
+
+## Running the Tests
+
+To run the full test suite across services without module collisions:
+
+```bash
+python scripts/run_tests.py
+```
+
 
 ## Repo Structure
 

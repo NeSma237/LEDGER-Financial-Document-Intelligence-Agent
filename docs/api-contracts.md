@@ -10,7 +10,7 @@
 - `POST /search` — بياخد query، بيرجع أفضل chunks بعد الـ reranking
 
 ## orchestrator-api ↔ agent-service
-- `POST /reason` — بياخد السؤال + نتايج الـ retrieval، بيرجع إجابة بشكل الـ schema
+- `POST /agent/answer` — بياخد `{"question": str, "conversation_id": str}`، بيرجع إجابة مهيكلة حسب Answer Schema + `_trace`
 
 ## orchestrator-api ↔ answer-validator-api
 - `POST /validate_answer` — بياخد الإجابة، بيرجع valid/invalid + سبب لو فشل

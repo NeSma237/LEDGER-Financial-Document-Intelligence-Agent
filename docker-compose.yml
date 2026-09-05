@@ -10,7 +10,7 @@ services:
       - "8000:8000"
 
   doc-processor-api:
-    build: ./doc-processor-api
+    build: ./document_processor
     ports:
       - "8001:8001"
 

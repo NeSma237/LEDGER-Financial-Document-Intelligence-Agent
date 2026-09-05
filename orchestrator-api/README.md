@@ -1,22 +1,32 @@
 # orchestrator-api
 
-## المسؤولية
-العصب المركزي للسيستم. بيستقبل طلبات المستخدم (من ui-service)، بيوجهها للخدمات المناسبة (doc-processor, retrieval, agent)، ولما الـ agent يطلع إجابة، بيبعتها لـ answer-validator-api قبل ما ترجع للمستخدم.
+## Responsibility
+The central nervous system of the LEDGER platform. It receives requests from `ui-service`, routes document ingestion through `doc-processor-api` and `retrieval-api`, and coordinates question answering across `agent-service` and `answer-validator-api`.
 
-## Framework
-FastAPI
+## Framework & Port
+* **Framework:** FastAPI
+* **Default Port:** `8000`
 
-## Endpoints المتوقعة (تتفق عليها مع الفريق)
-- `POST /ingest` — استقبال PDF جديد وتوجيهه لـ doc-processor-api
-- `POST /ask` — استقبال سؤال المستخدم وتنسيق الرحلة الكاملة (retrieval → agent → validator)
-- `GET /documents` — قائمة المستندات المفهرسة (للـ dashboard)
+## Endpoints
+* `POST /ask` — Receives `{"question": str, "conversation_id": str}`, queries the agent, strictly validates the answer via `answer-validator-api`, and returns `AskResponse`. Unvalidated or rejected answers never reach the UI as successful answers.
+* `POST /ingest` — Uploads PDF (`multipart/form-data`), processes with IBM Docling via `doc-processor-api`, adapts the output structure, and indexes chunks in `retrieval-api`. Returns `IngestResponse`.
+* `GET /documents` — Lists ingested documents and total indexed chunks (`DocumentsResponse`).
+* `GET /health` — Health check endpoint.
 
-## Checklist
-- [ ] تعريف الـ API contracts مع كل خدمة (راجع `docs/api-contracts.md`)
-- [ ] معالجة الأخطاء لو أي خدمة تانية وقعت
-- [ ] Logging لكل خطوة
+## Environment Variables
+* `AGENT_SERVICE_URL` (default: `http://localhost:8003`)
+* `VALIDATOR_SERVICE_URL` (default: `http://localhost:8005`)
+* `DOC_PROCESSOR_URL` (default: `http://localhost:8001`)
+* `RETRIEVAL_SERVICE_URL` (default: `http://localhost:8002`)
+* `REQUEST_TIMEOUT` (default: `30`)
+* `ORCHESTRATOR_PORT` (default: `8000`)
 
-## التشغيل محليًا
+## Running Locally
 ```bash
-# TODO
+uvicorn main:app --port 8000 --reload
+```
+
+## Running Tests
+```bash
+pytest tests/test_orchestrator.py tests/test_e2e_integration.py -v
 ```
