@@ -62,6 +62,7 @@ class RetrievalResult(BaseModel):
     document_id: str
     page: int
     section: Optional[str] = None
+    content_type: Literal["text", "table"]
     content: str
     score: float
 

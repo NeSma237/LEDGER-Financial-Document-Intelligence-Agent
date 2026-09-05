@@ -4,7 +4,7 @@ test_retrieval.py
 import requests
 from sample_data import ALL_DOCUMENTS, TEST_QUERIES
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:8002"
 
 
 def print_results(title, results):
@@ -26,7 +26,7 @@ def main():
         health = requests.get(f"{BASE_URL}/health", timeout=5)
         print(f"✅ the server is running: {health.json()}")
     except requests.exceptions.ConnectionError:
-        print("❌ the server is not running! please start it first: uvicorn main:app --reload --port 8000")
+        print("❌ the server is not running! please start it first: uvicorn main:app --reload --port 8002")
         return
 
     # 1. index the sample documents

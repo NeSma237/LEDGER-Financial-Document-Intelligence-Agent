@@ -141,6 +141,7 @@ def search_documents(payload: SearchQueryRequest):
                 document_id=result["document_id"],
                 page=result["page"],
                 section=result.get("section"),
+                content_type=result["content_type"],
                 content=result["text"],
                 score=result.get(
                     "rerank_score",
@@ -174,6 +175,7 @@ def search_tables(payload: SearchQueryRequest):
                 document_id=result["document_id"],
                 page=result["page"],
                 section=result.get("section"),
+                content_type=result["content_type"],
                 content=result["text"],
                 score=result.get(
                     "rerank_score",
@@ -206,6 +208,7 @@ def filter_documents(payload: FilterDocumentsRequest):
                 document_id=result["document_id"],
                 page=result["page"],
                 section=result.get("section"),
+                content_type=result["content_type"],
                 content=result["text"],
                 score=result.get("score", 1.0)
             )
