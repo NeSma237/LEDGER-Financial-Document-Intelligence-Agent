@@ -25,6 +25,7 @@ import uuid
 from pathlib import Path
 from typing import Callable, List, Optional
 
+from app.langfuse_client import traced_run
 from app.metrics import (
     exact_match,
     f1_score,
@@ -100,9 +101,20 @@ def load_holdout_set(path: str) -> List[BenchmarkQuestion]:
 # --------------------------------------------------------------------------
 
 OrchestratorCall = Callable[[str, str], dict]
-"""Signature: call_orchestrator(question, doc_scope) -> raw JSON answer dict
-(plus, optionally, a "_retrieved_ids" and "_usage" side-channel key —
-see `run_benchmark` for how those are used if present)."""
+"""Signature: call_orchestrator(question, question_id) -> raw JSON answer dict.
+
+question_id gets passed through as conversation_id — orchestrator's
+AskRequest only accepts `question`/`conversation_id` (extra="forbid"),
+so there's no way to scope a call to one document; the pipeline is
+corpus-wide by default, which is what we want to benchmark anyway."""
+
+RetrievalCall = Callable[[str, int], List[str]]
+"""Signature: call_retrieval(question, top_k) -> ranked list of "doc_id:page"
+strings, most relevant first. Confirmed against retrieval-api's real
+RetrievalResponse (document_id/page/section/content/score per result).
+This is a separate call from call_orchestrator — Recall@K/Precision@K
+measure retrieval quality on its own, independent of what the agent
+ends up doing with what it retrieved."""
 
 
 def _score_one(q: BenchmarkQuestion, raw_answer: Optional[dict], latency_ms: float) -> BenchmarkResult:
@@ -119,8 +131,23 @@ def _score_one(q: BenchmarkQuestion, raw_answer: Optional[dict], latency_ms: flo
         result.f1 = 0.0
         return result
 
+    # agent-service's real contract wraps the base answer schema with
+    # `validated` (bool) and a `_trace` object — pull latency from
+    # there when present, since it's the pipeline's own measurement
+    # rather than our round-trip timing (which also includes network
+    # overhead outside the pipeline itself).
+    trace = raw_answer.get("_trace") or {}
+    if trace.get("latency_ms") is not None:
+        result.latency_ms = trace["latency_ms"]
+
+    if raw_answer.get("validated") is False:
+        # Validator rejected it — agent-service already downgrades this
+        # to insufficient_evidence before it reaches us, but guard here
+        # too in case that contract changes.
+        result.error = raw_answer.get("params", {}).get("reason", "failed validation")
+
     try:
-        answer = Answer(**raw_answer)
+        answer = Answer(**{k: v for k, v in raw_answer.items() if k in ("answer_type", "evidence", "params")})
     except Exception as e:  # malformed response — treat as a scored failure, not a crash
         result.error = f"invalid answer schema: {e}"
         result.exact_match = False
@@ -170,15 +197,26 @@ def run_benchmark(
     call_orchestrator: OrchestratorCall,
     k: int = 5,
     run_id: Optional[str] = None,
+    call_retrieval: Optional[RetrievalCall] = None,
 ) -> BenchmarkSummary:
     """Run every held-out question through the pipeline and score it.
 
-    `call_orchestrator(question, doc_id)` should return the parsed
-    JSON body of the orchestrator's response — i.e. the schema in
-    the spec (`answer_type`/`evidence`/`params`), optionally plus
-    `_retrieved_ids` (ranked list of chunk/page ids, for Recall@K)
-    and `_usage` (`{"llm_calls": int, "tokens": int}`) side-channel
-    keys if the orchestrator is instrumented to return them.
+    `call_orchestrator(question, question_id)` should return the
+    parsed JSON body of the orchestrator's response. Per agent-service's
+    contract (confirmed with Thomas), that's the base answer schema
+    (`answer_type`/`evidence`/`params`) plus `validated` (bool) and a
+    `_trace` object with `latency_ms`, `question_type_classified`,
+    `retrieval_attempts`, etc. There's still no token/LLM-call count in
+    `_trace`, so those stay unscored until Thomas adds them — `_usage`
+    is supported as an optional side-channel key in the meantime, in
+    case anyone wires it up ad hoc.
+
+    `call_retrieval(question, top_k)`, if given, is called separately
+    against retrieval-api directly (confirmed against its real schema)
+    to score Recall@K/Precision@K — a deliberate exception to "only
+    talk to the orchestrator", since retrieval quality is measured on
+    its own, independent of what the agent does with what it retrieved.
+    Pass None to skip this and leave those two metrics as None.
     """
     run_id = run_id or f"run-{uuid.uuid4().hex[:8]}"
     results: List[BenchmarkResult] = []
@@ -187,21 +225,35 @@ def run_benchmark(
 
     for q in questions:
         start = time.time()
-        try:
-            raw = call_orchestrator(q.question, q.doc_id)
-        except Exception as e:
-            raw = None
-            print(f"[EVAL] orchestrator call failed for {q.question_id}: {e}")
-        latency_ms = (time.time() - start) * 1000
+        raw = None
 
-        result = _score_one(q, raw, latency_ms)
+        with traced_run(question_id=q.question_id, question=q.question) as run:
+            with run.span("call_orchestrator", input={"question": q.question, "conversation_id": q.question_id}) as sp:
+                try:
+                    raw = call_orchestrator(q.question, q.question_id)
+                    sp.end(output=raw)
+                except Exception as e:
+                    print(f"[EVAL] orchestrator call failed for {q.question_id}: {e}")
+                    sp.end(output={"error": str(e)})
+
+            if call_retrieval and q.gt_evidence_pages:
+                with run.span("call_retrieval", input={"question": q.question, "top_k": max(k, 30)}) as sp:
+                    try:
+                        retrieved = call_retrieval(q.question, max(k, 30))
+                        sp.end(output={"retrieved": retrieved})
+                        retrieved_lists.append(retrieved)
+                        relevant_lists.append([f"{q.doc_id}:{p}" for p in q.gt_evidence_pages])
+                    except Exception as e:
+                        print(f"[EVAL] retrieval call failed for {q.question_id}: {e}")
+                        sp.end(output={"error": str(e)})
+
+            latency_ms = (time.time() - start) * 1000
+            result = _score_one(q, raw, latency_ms)
+            run.finish(output={"exact_match": result.exact_match, "f1": result.f1, "error": result.error})
+
         results.append(result)
 
         if raw:
-            retrieved = raw.get("_retrieved_ids", [])
-            if retrieved and q.gt_evidence_pages:
-                retrieved_lists.append(retrieved)
-                relevant_lists.append([str(p) for p in q.gt_evidence_pages])
             usage = raw.get("_usage", {})
             total_llm_calls += usage.get("llm_calls", 0)
             total_tokens += usage.get("tokens", 0)

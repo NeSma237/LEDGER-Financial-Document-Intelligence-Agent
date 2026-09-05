@@ -15,8 +15,9 @@ eval-service/
 │   ├── metrics.py         EM, F1, numerical accuracy, Recall@K, Precision@K, MRR (unit tested)
 │   ├── langfuse_client.py Tracing helper — no-ops safely if Langfuse isn't configured yet
 │   └── schemas.py         Pydantic models mirroring the Strict Answer Schema
+├── tests/test_metrics.py  Standalone tests for the scoring functions
 ├── requirements.txt
-└── .env
+└── .env.example
 ```
 
 ## Why it's structured this way
@@ -31,11 +32,10 @@ online:
   Exact Match / F1 / numerical accuracy / Recall@K / Precision@K
   numbers the spec requires.
 - **`benchmark.py`'s `run_benchmark` takes a `call_orchestrator`
-  function as a parameter.** Until orchestrator-api exists, you can
-  pass a stub (see below) and get a fully working, scored benchmark
-  run on fake data — useful for testing your own scoring logic and
-  for showing "the eval harness works" independent of whether the
-  rest of the team has shipped anything.
+  function as a parameter.** Orchestrator-api's real `/ask` contract
+  is now confirmed (see below), and `app/main.py`'s `_call_orchestrator`
+  is wired up to it — but you can still swap in a stub for testing
+  your own scoring logic in isolation.
 - **`langfuse_client.py` degrades to a no-op tracer** if
   `LANGFUSE_PUBLIC_KEY`/`LANGFUSE_SECRET_KEY` aren't set, so the
   service runs today and just starts actually sending traces once you
@@ -47,13 +47,19 @@ online:
 cd eval-service
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env   # fill in Langfuse keys inside your .env
+cp .env.example .env   # fill in Langfuse keys once you have an account
 ```
 
 ## Run the API
 
 ```bash
-uvicorn app.main:app --reload --port 8005
+uvicorn app.main:app --reload --port 8006
+```
+
+## Run the metric unit tests
+
+```bash
+pytest tests/ -v
 ```
 
 ## Building the held-out benchmark
@@ -61,7 +67,7 @@ uvicorn app.main:app --reload --port 8005
 Once you have a copy of TAT-DQA downloaded:
 
 ```bash
-curl -X POST localhost:8005/benchmark/build \
+curl -X POST localhost:8006/benchmark/build \
   -H "Content-Type: application/json" \
   -d '{"tatdqa_path": "/path/to/tatdqa_dataset.json", "n": 100, "seed": 42}'
 ```
@@ -74,12 +80,15 @@ that function if your copy differs.
 
 ## Running the benchmark against the live pipeline
 
-Once orchestrator-api exists and exposes a `POST /ask` endpoint (see
-`_call_orchestrator` in `app/main.py` — update the path/payload to match
-whatever the Leader/Orchestration Engineer actually builds):
+orchestrator-api's real contract is confirmed: `POST /ask` takes
+`{"question": str, "conversation_id": str}` — that's it, no way to
+scope a question to one document (matches the spec: corpus-wide by
+default). `_call_orchestrator` in `app/main.py` reuses each
+question's `question_id` as `conversation_id`, so a run can be traced
+back through orchestrator/agent logs or Langfuse later.
 
 ```bash
-curl -X POST localhost:8005/benchmark/run \
+curl -X POST localhost:8006/benchmark/run \
   -H "Content-Type: application/json" \
   -d '{"limit": 10}'   # smoke-test on 10 questions first
 ```
@@ -91,11 +100,11 @@ from app.benchmark import build_holdout_set, run_benchmark
 
 questions = build_holdout_set("tatdqa_dataset.json", n=5)
 
-def fake_orchestrator(question: str, doc_id: str) -> dict:
-    # stand-in until orchestrator-api is live
+def fake_orchestrator(question: str, question_id: str) -> dict:
+    # stand-in for testing scoring logic without hitting a real server
     return {
         "answer_type": "direct",
-        "evidence": [{"document_id": doc_id, "page": 1}],
+        "evidence": [{"document_id": "doc_001", "page": 1}],
         "params": {"value": "placeholder"},
     }
 
@@ -119,8 +128,13 @@ whatever `retrieval-api` returns.
       module can be imported by other services too).
 - [ ] Confirm the real TAT-DQA field names once the dataset is
       downloaded and adjust `build_holdout_set` accordingly.
-- [ ] Confirm orchestrator-api's real request/response contract and
-      update `_call_orchestrator` in `main.py`.
+- [ ] Ask Thomas to add `llm_calls`/token counts to agent-service's
+      `_trace` — needed for the spec's "token usage / cost" metric,
+      not there yet.
+- [ ] Ask Nesma/Hassan whether retrieval-api's raw ranked candidates
+      can get forwarded through to `_trace` or a side-channel key —
+      Recall@K/Precision@K can't be computed without them; right now
+      `_trace` only has final cited evidence, not the full candidate list.
 - [ ] Add a `/benchmark/experiment` endpoint (or a small script) that
       runs two pipeline variants back-to-back and diffs their metrics
       — this is what "Experiments" in the spec is asking for.
