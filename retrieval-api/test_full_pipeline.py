@@ -9,7 +9,7 @@ import requests
 from docling_adapter import adapt_docling_output
 from schemas import IndexRequest
 
-DOC_PROCESSOR_URL = "http://127.0.0.1:8000/process"   # port doc-processor-api بتاعها
+DOC_PROCESSOR_URL = "http://127.0.0.1:8001/process"   # port doc-processor-api بتاعها
 RETRIEVAL_INDEX_URL = "http://127.0.0.1:8002/index"   # port retrieval-api بتاعك (لو مختلف عدّليه)
 
 
