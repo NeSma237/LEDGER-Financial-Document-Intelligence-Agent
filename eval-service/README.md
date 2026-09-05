@@ -17,7 +17,7 @@ eval-service/
 │   └── schemas.py         Pydantic models mirroring the Strict Answer Schema
 ├── tests/test_metrics.py  Standalone tests for the scoring functions
 ├── requirements.txt
-└── .env.example           Copy to .env and fill in — .env itself is gitignored
+└── .env           Copy to .env and fill in — .env itself is gitignored
 ```
 
 ## Why it's structured this way
@@ -42,7 +42,6 @@ eval-service/
 cd eval-service
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env   # fill in real values — see below
 ```
 
 ## Configuration (`.env`)
