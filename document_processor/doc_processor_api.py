@@ -6,7 +6,6 @@ import uvicorn
 
 from document_processor.processor import process_file
 
-
 app = FastAPI(title="Document Processor API")
 
 
@@ -32,4 +31,4 @@ async def process_document(file: UploadFile = File(...)):
         Path(temp_path).unlink(missing_ok=True)
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="127.0.0.1", port=8001)
