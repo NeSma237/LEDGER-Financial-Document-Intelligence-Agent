@@ -33,7 +33,8 @@ def classify_question(state: AgentState) -> AgentState:
 
 def retrieve_text(state: AgentState) -> AgentState:
     results = search_documents(state["question"])
-    return {**state, "retrieved_chunks": results}
+    return {**state, "retrieved_chunks": results, "retry_count": state["retry_count"] + 1}
+
 
 def retrieve_tables(state: AgentState) -> AgentState:
     text = search_documents(state["question"])
@@ -92,6 +93,12 @@ def execute_calculation(state: AgentState) -> AgentState:
             answer["answer_type"] = "insufficient_evidence"
             answer["params"] = {"reason": f"Calculation error: {calc['error']}"}
 
+    return {**state, "final_answer": answer}
+
+def finalize_answer(state: AgentState) -> AgentState:
+    """Strips internal-only fields before the answer leaves the agent,
+    regardless of which path (calculated or not) produced it."""
+    answer = dict(state["final_answer"])
     answer.pop("needs_calculation", None)
     answer.pop("formula_to_calculate", None)
     return {**state, "final_answer": answer}
@@ -128,6 +135,7 @@ def build_graph():
     g.add_node("check_evidence", check_evidence)
     g.add_node("generate", generate_answer)
     g.add_node("calculate", execute_calculation)
+    g.add_node("finalize", finalize_answer)
     g.add_node("insufficient", insufficient_node)
 
     g.set_entry_point("classify")
@@ -144,8 +152,9 @@ def build_graph():
     })
     g.add_conditional_edges("generate", route_after_generation, {
         "calculate": "calculate",
-        "done": END
+        "done": "finalize"
     })
-    g.add_edge("calculate", END)
+    g.add_edge("calculate", "finalize")
+    g.add_edge("finalize", END)
     g.add_edge("insufficient", END)
     return g.compile()

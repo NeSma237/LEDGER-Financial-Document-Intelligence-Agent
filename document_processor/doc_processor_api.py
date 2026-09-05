@@ -4,7 +4,7 @@ import tempfile
 from fastapi import FastAPI, UploadFile, File
 import uvicorn
 
-from document_processor.processor import process_file
+from processor import process_file
 
 app = FastAPI(title="Document Processor API")
 

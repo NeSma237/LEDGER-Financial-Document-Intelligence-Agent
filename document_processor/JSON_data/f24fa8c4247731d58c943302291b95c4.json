@@ -1,0 +1,2096 @@
+{
+  "document_id": "f24fa8c4247731d58c943302291b95c4",
+  "markdown_content": "## NOTE 4. OTHER ASSETS\n\n## Goodwill\n\nThe carrying amount of goodwill for the fiscal years ended June 30, 2019 and 2018, by reportable segments, is as follows:\n\n|                                               | June 30,   | June 30,   |\n|-----------------------------------------------|------------|------------|\n| Core                                          | 2019       | 2018       |\n| Beginning balance                             | $ 195,956  | $ 195,956  |\n| Goodwill, acquired during the year            | 4,000      | -          |\n| Goodwill, adjustments related to dispositions | -          | -          |\n| Ending balance                                | $ 199,956  | $ 195,956  |\n| Payments                                      |            |            |\n| Beginning balance                             | $ 325,204  | $ 234,106  |\n| Goodwill, acquired during the year            | 122        | 91,098     |\n| Goodwill, adjustments related to dispositions | -          | -          |\n| Ending balance                                | $ 325,326  | $ 325,204  |\n| Complementary                                 |            |            |\n| Beginning balance                             | $ 128,769  | $ 122,403  |\n| Goodwill, acquired during the year            | 12,893     | 6,499      |\n| Goodwill, adjustments related to dispositions | -          | (133)      |\n| Ending balance                                | $ 141,662  | $ 128,769  |\n\nGoodwill acquired during fiscal 2019 totaled $17,015, with $12,893 of that resulting from the purchase of BOLTS Technologies, Inc., $3,999 resulting from the purchase of Agiletics, Inc., and the remainder resulting from a measurement period adjustment on the Ensenta valuation. The goodwill arising from these acquisitions consists largely of the growth potential, synergies and economies of scale expected from combining the operations of the Company with those of BOLTS Technologies and Agiletics, together with the value of their assembled workforces. No goodwill was assigned to the Company's Corporate and Other reportable segment.\n\nGoodwill acquired during fiscal 2018 totaled $97,597, with $91,098 of that resulting from the purchase of Ensenta Corporation, included in the Payments segment. The remaining $6,499 of goodwill acquired during fiscal 2018 resulted from the purchase of Vanguard Software Group, which was added to the Company's Complementary segment. The goodwill arising from these acquisitions consists largely of the growth potential, synergies and economies of scale expected from combining the operations of the Company with those of Ensenta and Vanguard, together with the value of their assembled workforces. No goodwill was assigned to the Company's Corporate and Other reportable segment.\n\nThe Goodwill reduction during fiscal 2018 was a result of the Company's sale of jhaDirect product line in the first quarter. Goodwill allocated to the carrying amount of the net assets sold was calculated based on the relative fair values of the business disposed and the portion of the reporting unit that was retained.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmpbzokeiy1",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 17308943270800752186,
+      "filename": "tmpbzokeiy1.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 34.265625,
+              "t": 749.2862904866537,
+              "r": 185.671875,
+              "b": 738.1088663736979,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              20
+            ]
+          }
+        ],
+        "orig": "NOTE 4. OTHER ASSETS",
+        "text": "NOTE 4. OTHER ASSETS",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 35.4609375,
+              "t": 723.3387044270834,
+              "r": 76.5,
+              "b": 712.1612854003906,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              8
+            ]
+          }
+        ],
+        "orig": "Goodwill",
+        "text": "Goodwill",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 35.0625,
+              "t": 706.5725809733073,
+              "r": 521.5546875,
+              "b": 696.1935424804688,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              121
+            ]
+          }
+        ],
+        "orig": "The carrying amount of goodwill for the fiscal years ended June 30, 2019 and 2018, by reportable segments, is as follows:",
+        "text": "The carrying amount of goodwill for the fiscal years ended June 30, 2019 and 2018, by reportable segments, is as follows:"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 34.265625,
+              "t": 419.5524088541667,
+              "r": 577.734375,
+              "b": 364.4637044270833,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              636
+            ]
+          }
+        ],
+        "orig": "Goodwill acquired during fiscal 2019 totaled $17,015, with $12,893 of that resulting from the purchase of BOLTS Technologies, Inc., $3,999 resulting from the purchase of Agiletics, Inc., and the remainder resulting from a measurement period adjustment on the Ensenta valuation. The goodwill arising from these acquisitions consists largely of the growth potential, synergies and economies of scale expected from combining the operations of the Company with those of BOLTS Technologies and Agiletics, together with the value of their assembled workforces. No goodwill was assigned to the Company's Corporate and Other reportable segment.",
+        "text": "Goodwill acquired during fiscal 2019 totaled $17,015, with $12,893 of that resulting from the purchase of BOLTS Technologies, Inc., $3,999 resulting from the purchase of Agiletics, Inc., and the remainder resulting from a measurement period adjustment on the Ensenta valuation. The goodwill arising from these acquisitions consists largely of the growth potential, synergies and economies of scale expected from combining the operations of the Company with those of BOLTS Technologies and Agiletics, together with the value of their assembled workforces. No goodwill was assigned to the Company's Corporate and Other reportable segment."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 34.265625,
+              "t": 356.8790283203125,
+              "r": 578.1328125,
+              "b": 292.2096761067708,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              679
+            ]
+          }
+        ],
+        "orig": "Goodwill acquired during fiscal 2018 totaled $97,597, with $91,098 of that resulting from the purchase of Ensenta Corporation, included in the Payments segment. The remaining $6,499 of goodwill acquired during fiscal 2018 resulted from the purchase of Vanguard Software Group, which was added to the Company's Complementary segment. The goodwill arising from these acquisitions consists largely of the growth potential, synergies and economies of scale expected from combining the operations of the Company with those of Ensenta and Vanguard, together with the value of their assembled workforces. No goodwill was assigned to the Company's Corporate and Other reportable segment.",
+        "text": "Goodwill acquired during fiscal 2018 totaled $97,597, with $91,098 of that resulting from the purchase of Ensenta Corporation, included in the Payments segment. The remaining $6,499 of goodwill acquired during fiscal 2018 resulted from the purchase of Vanguard Software Group, which was added to the Company's Complementary segment. The goodwill arising from these acquisitions consists largely of the growth potential, synergies and economies of scale expected from combining the operations of the Company with those of Ensenta and Vanguard, together with the value of their assembled workforces. No goodwill was assigned to the Company's Corporate and Other reportable segment."
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 34.6640625,
+              "t": 284.6249593098958,
+              "r": 576.9375,
+              "b": 251.89111328125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              320
+            ]
+          }
+        ],
+        "orig": "The Goodwill reduction during fiscal 2018 was a result of the Company's sale of jhaDirect product line in the first quarter. Goodwill allocated to the carrying amount of the net assets sold was calculated based on the relative fair values of the business disposed and the portion of the reporting unit that was retained.",
+        "text": "The Goodwill reduction during fiscal 2018 was a result of the Company's sale of jhaDirect product line in the first quarter. Goodwill allocated to the carrying amount of the net assets sold was calculated based on the relative fair values of the business disposed and the portion of the reporting unit that was retained."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 35.0625,
+              "t": 45.10880533854163,
+              "r": 172.5234375,
+              "b": 35.52815755208337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          }
+        ],
+        "orig": "48 2019 ANNUAL REPORT",
+        "text": "48 2019 ANNUAL REPORT"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 34.5804557800293,
+              "t": 681.7742767333984,
+              "r": 577.8177490234375,
+              "b": 425.163818359375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 483.1461,
+                "t": 112.9624,
+                "r": 517.6701,
+                "b": 121.48820914512919,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "June 30,",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 127.22140000000002,
+                "r": 56.501999999999995,
+                "b": 136.07596,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Core",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 448.6292,
+                "t": 127.2124,
+                "r": 468.6452000000001,
+                "b": 136.05535445544547,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 532.6843,
+                "t": 127.2124,
+                "r": 552.7003000000001,
+                "b": 135.7382091451292,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 143.81230000000005,
+                "r": 110.04300000000003,
+                "b": 152.33810914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Beginning balance",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.3,
+                "t": 144.06230000000005,
+                "r": 486.44330000000014,
+                "b": 152.90525445544552,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 195,956",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 509.87,
+                "t": 144.06230000000005,
+                "r": 571.0132000000001,
+                "b": 152.58810914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 195,956",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 160.41240000000005,
+                "r": 172.55700000000004,
+                "b": 168.93820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Goodwill, acquired during the year",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 463.928,
+                "t": 160.41240000000005,
+                "r": 486.4460000000001,
+                "b": 169.2553544554455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "4,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 562.02,
+                "t": 160.41240000000005,
+                "r": 571.02,
+                "b": 168.93820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 174.41240000000005,
+                "r": 213.56999999999994,
+                "b": 182.93820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Goodwill, adjustments related to dispositions",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 477.45,
+                "t": 174.16240000000005,
+                "r": 486.45,
+                "b": 183.0053544554455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 562.02,
+                "t": 174.16240000000005,
+                "r": 571.02,
+                "b": 182.68820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 189.88740000000007,
+                "r": 98.03700000000002,
+                "b": 198.41320914512926,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Ending balance",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.3,
+                "t": 189.63740000000007,
+                "r": 486.44330000000014,
+                "b": 198.48035445544554,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 199,956",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 509.87,
+                "t": 189.63740000000007,
+                "r": 571.0132000000001,
+                "b": 198.16320914512926,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 195,956",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 214.3714000000001,
+                "r": 78.51599999999999,
+                "b": 223.2259600000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Payments",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 228.3624000000001,
+                "r": 110.04300000000003,
+                "b": 236.88820914512928,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Beginning balance",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.3,
+                "t": 228.3624000000001,
+                "r": 486.44330000000014,
+                "b": 237.20535445544556,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 325,204",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 509.87,
+                "t": 228.3624000000001,
+                "r": 571.0132000000001,
+                "b": 236.88820914512928,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 234,106",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 242.3624000000001,
+                "r": 172.55700000000004,
+                "b": 250.88820914512928,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Goodwill, acquired during the year",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 471.4339,
+                "t": 242.3624000000001,
+                "r": 486.44590000000005,
+                "b": 251.20535445544556,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "122",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 543.4927,
+                "t": 242.3624000000001,
+                "r": 571.0147000000001,
+                "b": 250.88820914512928,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "91,098",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 256.3624000000001,
+                "r": 213.56999999999994,
+                "b": 264.8882091451293,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Goodwill, adjustments related to dispositions",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 477.45,
+                "t": 256.1124000000001,
+                "r": 486.45,
+                "b": 264.95535445544556,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 562.02,
+                "t": 256.1124000000001,
+                "r": 571.02,
+                "b": 264.6382091451293,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 272.51240000000007,
+                "r": 98.03700000000002,
+                "b": 281.03820914512926,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Ending balance",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.3,
+                "t": 272.26240000000007,
+                "r": 486.44330000000014,
+                "b": 281.1053544554456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 325,326",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 509.87,
+                "t": 272.26240000000007,
+                "r": 571.0132000000001,
+                "b": 280.78820914512926,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 325,204",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 297.6714,
+                "r": 104.01300000000002,
+                "b": 306.52596,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Complementary",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 311.6624,
+                "r": 110.04300000000003,
+                "b": 320.18820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Beginning balance",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.3,
+                "t": 311.6624,
+                "r": 486.44330000000014,
+                "b": 320.50535445544557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 128,769",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 509.87,
+                "t": 311.6624,
+                "r": 571.0132000000001,
+                "b": 320.18820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 122,403",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 325.6624,
+                "r": 172.55700000000004,
+                "b": 334.18820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Goodwill, acquired during the year",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 458.9226,
+                "t": 325.6624,
+                "r": 486.4446000000001,
+                "b": 334.50535445544557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "12,893",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 548.498,
+                "t": 325.6624,
+                "r": 571.0160000000001,
+                "b": 334.18820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "6,499",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 339.6624,
+                "r": 213.56999999999994,
+                "b": 348.18820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Goodwill, adjustments related to dispositions",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 477.45,
+                "t": 339.4124,
+                "r": 486.45,
+                "b": 348.25535445544557,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 553.0068,
+                "t": 339.4124,
+                "r": 574.5169999999999,
+                "b": 347.93820914512924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(133)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 36.0,
+                "t": 354.4624,
+                "r": 98.03700000000002,
+                "b": 362.98820914512925,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Ending balance",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.3,
+                "t": 354.2124,
+                "r": 486.44330000000014,
+                "b": 363.0553544554456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 141,662",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 509.87,
+                "t": 354.2124,
+                "r": 571.0132000000001,
+                "b": 362.73820914512925,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 128,769",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 16,
+          "num_cols": 3,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 483.1461,
+                  "t": 112.9624,
+                  "r": 517.6701,
+                  "b": 121.48820914512919,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "June 30,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 483.1461,
+                  "t": 112.9624,
+                  "r": 517.6701,
+                  "b": 121.48820914512919,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "June 30,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 127.22140000000002,
+                  "r": 56.501999999999995,
+                  "b": 136.07596,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Core",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 448.6292,
+                  "t": 127.2124,
+                  "r": 468.6452000000001,
+                  "b": 136.05535445544547,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 532.6843,
+                  "t": 127.2124,
+                  "r": 552.7003000000001,
+                  "b": 135.7382091451292,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 143.81230000000005,
+                  "r": 110.04300000000003,
+                  "b": 152.33810914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Beginning balance",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 425.3,
+                  "t": 144.06230000000005,
+                  "r": 486.44330000000014,
+                  "b": 152.90525445544552,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 195,956",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 509.87,
+                  "t": 144.06230000000005,
+                  "r": 571.0132000000001,
+                  "b": 152.58810914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 195,956",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 160.41240000000005,
+                  "r": 172.55700000000004,
+                  "b": 168.93820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Goodwill, acquired during the year",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 463.928,
+                  "t": 160.41240000000005,
+                  "r": 486.4460000000001,
+                  "b": 169.2553544554455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "4,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 562.02,
+                  "t": 160.41240000000005,
+                  "r": 571.02,
+                  "b": 168.93820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 174.41240000000005,
+                  "r": 213.56999999999994,
+                  "b": 182.93820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Goodwill, adjustments related to dispositions",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 477.45,
+                  "t": 174.16240000000005,
+                  "r": 486.45,
+                  "b": 183.0053544554455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 562.02,
+                  "t": 174.16240000000005,
+                  "r": 571.02,
+                  "b": 182.68820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 189.88740000000007,
+                  "r": 98.03700000000002,
+                  "b": 198.41320914512926,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Ending balance",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 425.3,
+                  "t": 189.63740000000007,
+                  "r": 486.44330000000014,
+                  "b": 198.48035445544554,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 199,956",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 509.87,
+                  "t": 189.63740000000007,
+                  "r": 571.0132000000001,
+                  "b": 198.16320914512926,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 195,956",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 214.3714000000001,
+                  "r": 78.51599999999999,
+                  "b": 223.2259600000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Payments",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 228.3624000000001,
+                  "r": 110.04300000000003,
+                  "b": 236.88820914512928,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Beginning balance",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 425.3,
+                  "t": 228.3624000000001,
+                  "r": 486.44330000000014,
+                  "b": 237.20535445544556,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 325,204",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 509.87,
+                  "t": 228.3624000000001,
+                  "r": 571.0132000000001,
+                  "b": 236.88820914512928,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 234,106",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 242.3624000000001,
+                  "r": 172.55700000000004,
+                  "b": 250.88820914512928,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Goodwill, acquired during the year",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 471.4339,
+                  "t": 242.3624000000001,
+                  "r": 486.44590000000005,
+                  "b": 251.20535445544556,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "122",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 543.4927,
+                  "t": 242.3624000000001,
+                  "r": 571.0147000000001,
+                  "b": 250.88820914512928,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "91,098",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 256.3624000000001,
+                  "r": 213.56999999999994,
+                  "b": 264.8882091451293,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Goodwill, adjustments related to dispositions",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 477.45,
+                  "t": 256.1124000000001,
+                  "r": 486.45,
+                  "b": 264.95535445544556,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 562.02,
+                  "t": 256.1124000000001,
+                  "r": 571.02,
+                  "b": 264.6382091451293,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 272.51240000000007,
+                  "r": 98.03700000000002,
+                  "b": 281.03820914512926,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Ending balance",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 425.3,
+                  "t": 272.26240000000007,
+                  "r": 486.44330000000014,
+                  "b": 281.1053544554456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 325,326",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 509.87,
+                  "t": 272.26240000000007,
+                  "r": 571.0132000000001,
+                  "b": 280.78820914512926,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 325,204",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 297.6714,
+                  "r": 104.01300000000002,
+                  "b": 306.52596,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Complementary",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 311.6624,
+                  "r": 110.04300000000003,
+                  "b": 320.18820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Beginning balance",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 425.3,
+                  "t": 311.6624,
+                  "r": 486.44330000000014,
+                  "b": 320.50535445544557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 128,769",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 509.87,
+                  "t": 311.6624,
+                  "r": 571.0132000000001,
+                  "b": 320.18820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 122,403",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 325.6624,
+                  "r": 172.55700000000004,
+                  "b": 334.18820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Goodwill, acquired during the year",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 458.9226,
+                  "t": 325.6624,
+                  "r": 486.4446000000001,
+                  "b": 334.50535445544557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "12,893",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 548.498,
+                  "t": 325.6624,
+                  "r": 571.0160000000001,
+                  "b": 334.18820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "6,499",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 339.6624,
+                  "r": 213.56999999999994,
+                  "b": 348.18820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Goodwill, adjustments related to dispositions",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 477.45,
+                  "t": 339.4124,
+                  "r": 486.45,
+                  "b": 348.25535445544557,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 553.0068,
+                  "t": 339.4124,
+                  "r": 574.5169999999999,
+                  "b": 347.93820914512924,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(133)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 36.0,
+                  "t": 354.4624,
+                  "r": 98.03700000000002,
+                  "b": 362.98820914512925,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Ending balance",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 425.3,
+                  "t": 354.2124,
+                  "r": 486.44330000000014,
+                  "b": 363.0553544554456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 141,662",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 509.87,
+                  "t": 354.2124,
+                  "r": 571.0132000000001,
+                  "b": 362.73820914512925,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 128,769",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 612.0,
+          "height": 792.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}
