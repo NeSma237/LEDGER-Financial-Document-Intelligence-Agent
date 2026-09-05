@@ -1,0 +1,1373 @@
+{
+  "document_id": "3450a483f063f4d5b476a433d50f35c4",
+  "markdown_content": "During Fiscal 2019, Mr. Sadler received approximately CAD $0.9 million in consulting fees from OpenText (equivalent to $0.6 million USD), inclusive of CAD $0.8 million bonus fees for assistance with acquisition-related business activities. Mr. Sadler abstained from voting on all transactions from which he would potentially derive consulting fees.\n\n## Item 14. Principal Accountant Fees and Services\n\nThe aggregate fees for professional services rendered by our independent registered public accounting firm, KPMG LLP, for Fiscal 2019 and Fiscal 2018 were:\n\n|                        | Year ended June 30,   | Year ended June 30,   | Year ended June 30,   |\n|------------------------|-----------------------|-----------------------|-----------------------|\n| (In thousands)         | 2019                  | 2019                  | 2018                  |\n| Audit fees (1)         | $                     | 4,598                 | $ 4,701               |\n| Audit-related fees (2) |                       | -                     | -                     |\n| Tax fees (3)           |                       | 108                   | 116                   |\n| All other fees (4)     |                       | 40                    | 101                   |\n| Total                  | $                     | 4,746                 | $ 4,918               |\n\n(1) Audit fees were primarily for professional services rendered for (a) the annual audits of our consolidated financial statements and the accompanying attestation report regarding our ICFR contained in our Annual Report on Form 10K, (b) the review of quarterly financial information included in our Quarterly Reports on Form 10-Q, (c) audit services related to mergers and acquisitions and offering documents, and (d) annual statutory audits where applicable.\n\n- (2) Audit-related fees were primarily for assurance and related services, such as the review of non-periodic filings with the SEC.\n- (3) Tax fees were for services related to tax compliance, including the preparation of tax returns, tax planning and tax advice.\n\n(4) All other fees consist of fees for services other than the services reported in audit fees, audit-related fees, and tax fees.\n\nOpenText's Audit Committee has established a policy of reviewing, in advance, and either approving or not approving, all audit, audit-related, tax and other non-audit services that our independent registered public accounting firm provides to us. This policy requires that all services received from our independent registered public accounting firm be approved in advance by the Audit Committee or a delegate of the Audit Committee. The Audit Committee has delegated the pre-approval responsibility to the Chair of the Audit Committee. All services that KPMG LLP provided to us in Fiscal 2019 and Fiscal 2018 have been preapproved by the Audit Committee.\n\nThe Audit Committee has determined that the provision of the services as set out above is compatible with the maintaining of KPMG LLP's independence in the conduct of its auditing functions.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmpyx_ngbmg",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 7282211000721104772,
+      "filename": "tmpyx_ngbmg.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/4"
+          },
+          {
+            "$ref": "#/texts/5"
+          }
+        ],
+        "content_layer": "body",
+        "name": "list",
+        "label": "list"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 47.1796875,
+              "t": 731.4768117268881,
+              "r": 539.47265625,
+              "b": 697.1461639404297,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              348
+            ]
+          }
+        ],
+        "orig": "During Fiscal 2019, Mr. Sadler received approximately CAD $0.9 million in consulting fees from OpenText (equivalent to $0.6 million USD), inclusive of CAD $0.8 million bonus fees for assistance with acquisition-related business activities. Mr. Sadler abstained from voting on all transactions from which he would potentially derive consulting fees.",
+        "text": "During Fiscal 2019, Mr. Sadler received approximately CAD $0.9 million in consulting fees from OpenText (equivalent to $0.6 million USD), inclusive of CAD $0.8 million bonus fees for assistance with acquisition-related business activities. Mr. Sadler abstained from voting on all transactions from which he would potentially derive consulting fees."
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 46.40625,
+              "t": 683.491933186849,
+              "r": 283.078125,
+              "b": 671.398183186849,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              47
+            ]
+          }
+        ],
+        "orig": "Item 14. Principal Accountant Fees and Services",
+        "text": "Item 14. Principal Accountant Fees and Services",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 47.56640625,
+              "t": 666.3266092936198,
+              "r": 542.56640625,
+              "b": 644.0897115071615,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              155
+            ]
+          }
+        ],
+        "orig": "The aggregate fees for professional services rendered by our independent registered public accounting firm, KPMG LLP, for Fiscal 2019 and Fiscal 2018 were:",
+        "text": "The aggregate fees for professional services rendered by our independent registered public accounting firm, KPMG LLP, for Fiscal 2019 and Fiscal 2018 were:"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 64.1953125,
+              "t": 521.9818522135416,
+              "r": 546.046875,
+              "b": 475.94757080078125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              461
+            ]
+          }
+        ],
+        "orig": "(1) Audit fees were primarily for professional services rendered for (a) the annual audits of our consolidated financial statements and the accompanying attestation report regarding our ICFR contained in our Annual Report on Form 10K, (b) the review of quarterly financial information included in our Quarterly Reports on Form 10-Q, (c) audit services related to mergers and acquisitions and offering documents, and (d) annual statutory audits where applicable.",
+        "text": "(1) Audit fees were primarily for professional services rendered for (a) the annual audits of our consolidated financial statements and the accompanying attestation report regarding our ICFR contained in our Annual Report on Form 10K, (b) the review of quarterly financial information included in our Quarterly Reports on Form 10-Q, (c) audit services related to mergers and acquisitions and offering documents, and (d) annual statutory audits where applicable."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 64.1953125,
+              "t": 470.09576416015625,
+              "r": 532.8984375,
+              "b": 447.85886637369794,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              130
+            ]
+          }
+        ],
+        "orig": "(2) Audit-related fees were primarily for assurance and related services, such as the review of non-periodic filings with the SEC.",
+        "text": "Audit-related fees were primarily for assurance and related services, such as the review of non-periodic filings with the SEC.",
+        "enumerated": true,
+        "marker": "(2)"
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "list_item",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 63.80859375,
+              "t": 442.78729248046875,
+              "r": 526.7109375,
+              "b": 418.9899088541667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              128
+            ]
+          }
+        ],
+        "orig": "(3) Tax fees were for services related to tax compliance, including the preparation of tax returns, tax planning and tax advice.",
+        "text": "Tax fees were for services related to tax compliance, including the preparation of tax returns, tax planning and tax advice.",
+        "enumerated": true,
+        "marker": "(3)"
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 64.96875,
+              "t": 413.5281982421875,
+              "r": 541.79296875,
+              "b": 403.3850504557292,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              129
+            ]
+          }
+        ],
+        "orig": "(4) All other fees consist of fees for services other than the services reported in audit fees, audit-related fees, and tax fees.",
+        "text": "(4) All other fees consist of fees for services other than the services reported in audit fees, audit-related fees, and tax fees."
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 46.40625,
+              "t": 385.4394938151042,
+              "r": 546.046875,
+              "b": 315.9979654947917,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              655
+            ]
+          }
+        ],
+        "orig": "OpenText's Audit Committee has established a policy of reviewing, in advance, and either approving or not approving, all audit, audit-related, tax and other non-audit services that our independent registered public accounting firm provides to us. This policy requires that all services received from our independent registered public accounting firm be approved in advance by the Audit Committee or a delegate of the Audit Committee. The Audit Committee has delegated the pre-approval responsibility to the Chair of the Audit Committee. All services that KPMG LLP provided to us in Fiscal 2019 and Fiscal 2018 have been preapproved by the Audit Committee.",
+        "text": "OpenText's Audit Committee has established a policy of reviewing, in advance, and either approving or not approving, all audit, audit-related, tax and other non-audit services that our independent registered public accounting firm provides to us. This policy requires that all services received from our independent registered public accounting firm be approved in advance by the Audit Committee or a delegate of the Audit Committee. The Audit Committee has delegated the pre-approval responsibility to the Chair of the Audit Committee. All services that KPMG LLP provided to us in Fiscal 2019 and Fiscal 2018 have been preapproved by the Audit Committee."
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 46.40625,
+              "t": 309.7560221354167,
+              "r": 500.4140625,
+              "b": 287.1290283203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              190
+            ]
+          }
+        ],
+        "orig": "The Audit Committee has determined that the provision of the services as set out above is compatible with the maintaining of KPMG LLP's independence in the conduct of its auditing functions.",
+        "text": "The Audit Committee has determined that the provision of the services as set out above is compatible with the maintaining of KPMG LLP's independence in the conduct of its auditing functions."
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 290.42578125,
+              "t": 43.30338541666663,
+              "r": 309.76171875,
+              "b": 30.039306640625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "101",
+        "text": "101"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 47.34937286376953,
+              "t": 628.621826171875,
+              "r": 547.046875,
+              "b": 527.9894561767578,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 390.7607,
+                "t": 148.13636269999995,
+                "r": 457.5549788099999,
+                "b": 154.49376964848477,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 4,
+              "text": "Year ended June 30,",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.472722499999975,
+                "t": 162.6951752,
+                "r": 98.56416842,
+                "b": 169.05258214848482,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "(In thousands)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 355.2371975,
+                "t": 162.6951752,
+                "r": 370.7665974999999,
+                "b": 169.05258214848482,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 477.5312224999999,
+                "t": 162.6951752,
+                "r": 493.0606224999998,
+                "b": 169.05258214848482,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.4708,
+                "t": 173.38990080000008,
+                "r": 99.56716080000001,
+                "b": 183.4948910545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Audit fees (1)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 306.7066,
+                "t": 175.54811189999998,
+                "r": 311.55955,
+                "b": 183.4948910545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 397.1170585,
+                "t": 175.54811189999998,
+                "r": 418.95533350000005,
+                "b": 183.4948910545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "4,598",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.00094000000007,
+                "t": 175.54811189999998,
+                "r": 541.2496735,
+                "b": 183.4948910545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 4,701",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.47084000000001,
+                "t": 187.94880080000007,
+                "r": 130.0482608,
+                "b": 198.0537410545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Audit-related fees (2)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 409.2498,
+                "t": 190.10721190000004,
+                "r": 418.9557,
+                "b": 198.05399105454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 531.54414,
+                "t": 190.10721190000004,
+                "r": 541.25004,
+                "b": 198.05399105454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.471206499999994,
+                "t": 202.50790080000002,
+                "r": 92.71946080000001,
+                "b": 212.61284105454547,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Tax fees (3)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 404.3968,
+                "t": 204.6662119,
+                "r": 418.95565000000005,
+                "b": 212.61299105454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "108",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 526.69114,
+                "t": 204.6662119,
+                "r": 541.2499899999999,
+                "b": 212.61299105454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "116",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.47115649999995,
+                "t": 217.06690079999998,
+                "r": 113.07326080000001,
+                "b": 227.17184105454544,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "All other fees (4)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 409.2498,
+                "t": 219.22531189999995,
+                "r": 418.95570000000004,
+                "b": 227.17209105454538,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "40",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 526.69119,
+                "t": 219.22531189999995,
+                "r": 541.2500399999999,
+                "b": 227.17209105454538,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "101",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.471206499999994,
+                "t": 233.78319131,
+                "r": 70.28483075999999,
+                "b": 241.72997046454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Total",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 306.71473122,
+                "t": 233.78319131,
+                "r": 311.56768122,
+                "b": 241.72997046454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 397.12518972,
+                "t": 233.78319131,
+                "r": 418.96346472000005,
+                "b": 241.72997046454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "4,746",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.00907122000007,
+                "t": 233.78319131,
+                "r": 541.25780472,
+                "b": 241.72997046454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 4,918",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 7,
+          "num_cols": 4,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 390.7607,
+                  "t": 148.13636269999995,
+                  "r": 457.5549788099999,
+                  "b": 154.49376964848477,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 4,
+                "text": "Year ended June 30,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 390.7607,
+                  "t": 148.13636269999995,
+                  "r": 457.5549788099999,
+                  "b": 154.49376964848477,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 4,
+                "text": "Year ended June 30,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 390.7607,
+                  "t": 148.13636269999995,
+                  "r": 457.5549788099999,
+                  "b": 154.49376964848477,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 4,
+                "text": "Year ended June 30,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.472722499999975,
+                  "t": 162.6951752,
+                  "r": 98.56416842,
+                  "b": 169.05258214848482,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "(In thousands)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 355.2371975,
+                  "t": 162.6951752,
+                  "r": 370.7665974999999,
+                  "b": 169.05258214848482,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 355.2371975,
+                  "t": 162.6951752,
+                  "r": 370.7665974999999,
+                  "b": 169.05258214848482,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 477.5312224999999,
+                  "t": 162.6951752,
+                  "r": 493.0606224999998,
+                  "b": 169.05258214848482,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.4708,
+                  "t": 173.38990080000008,
+                  "r": 99.56716080000001,
+                  "b": 183.4948910545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Audit fees (1)",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 306.7066,
+                  "t": 175.54811189999998,
+                  "r": 311.55955,
+                  "b": 183.4948910545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 397.1170585,
+                  "t": 175.54811189999998,
+                  "r": 418.95533350000005,
+                  "b": 183.4948910545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "4,598",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.00094000000007,
+                  "t": 175.54811189999998,
+                  "r": 541.2496735,
+                  "b": 183.4948910545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 4,701",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.47084000000001,
+                  "t": 187.94880080000007,
+                  "r": 130.0482608,
+                  "b": 198.0537410545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Audit-related fees (2)",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 409.2498,
+                  "t": 190.10721190000004,
+                  "r": 418.9557,
+                  "b": 198.05399105454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 531.54414,
+                  "t": 190.10721190000004,
+                  "r": 541.25004,
+                  "b": 198.05399105454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.471206499999994,
+                  "t": 202.50790080000002,
+                  "r": 92.71946080000001,
+                  "b": 212.61284105454547,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Tax fees (3)",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 404.3968,
+                  "t": 204.6662119,
+                  "r": 418.95565000000005,
+                  "b": 212.61299105454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "108",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 526.69114,
+                  "t": 204.6662119,
+                  "r": 541.2499899999999,
+                  "b": 212.61299105454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "116",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.47115649999995,
+                  "t": 217.06690079999998,
+                  "r": 113.07326080000001,
+                  "b": 227.17184105454544,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "All other fees (4)",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 409.2498,
+                  "t": 219.22531189999995,
+                  "r": 418.95570000000004,
+                  "b": 227.17209105454538,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "40",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 526.69119,
+                  "t": 219.22531189999995,
+                  "r": 541.2500399999999,
+                  "b": 227.17209105454538,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "101",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.471206499999994,
+                  "t": 233.78319131,
+                  "r": 70.28483075999999,
+                  "b": 241.72997046454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Total",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 306.71473122,
+                  "t": 233.78319131,
+                  "r": 311.56768122,
+                  "b": 241.72997046454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 397.12518972,
+                  "t": 233.78319131,
+                  "r": 418.96346472000005,
+                  "b": 241.72997046454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "4,746",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.00907122000007,
+                  "t": 233.78319131,
+                  "r": 541.25780472,
+                  "b": 241.72997046454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 4,918",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 594.0,
+          "height": 774.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

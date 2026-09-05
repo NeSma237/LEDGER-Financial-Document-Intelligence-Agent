@@ -1,0 +1,2132 @@
+{
+  "document_id": "6c3a32b1cb66d347772a9ac08ecf37db",
+  "markdown_content": "## Key OperatingMetrics and Non-GAAP Financial Measures\n\nWe collect and analyze operating and financial data to evaluate the health of our business, allocate our resources, and assess our performance. In addition to revenue, net loss, and other results under generally accepted accounting principles (GAAP), the following table sets forth key operating metrics and non-GAAP financial measures we use to evaluate our business. We believe these metrics and measures are useful to facilitate period-to-period comparisons of our business, and to facilitate comparisons of our performance to that of other payment processors. Each of these metrics and measures excludes the effect of our processing agreement with Starbucks which transitioned to another payments solutions provider in the fourth quarter of 2016. As we do not expect transactions with Starbucks to recur, we believe it is useful to exclude Starbucks activity to clearly show the impact Starbucks has had on our financial results historically. Our agreements with other sellers generally provide both those sellers and us the unilateral right to terminate such agreements at any time, without fine or penalty.\n\n|                                          | Year Ended December 31,                           | Year Ended December 31,                           | Year Ended December 31,                           | Year Ended December 31,                           | Year Ended December 31,                           |\n|------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|\n|                                          | 2018                                              | 2017                                              | 2016                                              | 2015                                              | 2014                                              |\n|                                          | (in thousands, except for GPV and per share data) | (in thousands, except for GPV and per share data) | (in thousands, except for GPV and per share data) | (in thousands, except for GPV and per share data) | (in thousands, except for GPV and per share data) |\n| Gross Payment Volume (GPV) (in millions) | $ 84,654                                          | $ 65,343                                          | $ 49,683                                          | $ 35,643                                          | $ 23,780                                          |\n| Adjusted Revenue                         | $1,587,641                                        | $983,963                                          | $686,618                                          | $452,168                                          | $276,310                                          |\n| Adjusted EBITDA                          | $ 256,523                                         | $139,009                                          | $ 44,887                                          | $(41,115)                                         | $(67,741)                                         |\n| Adjusted Net Income (Loss) Per Share:    |                                                   |                                                   |                                                   |                                                   |                                                   |\n| Basic                                    | $ 0.55                                            | $ 0.30                                            | $ 0.04                                            | $ (0.39)                                          | $ (0.62)                                          |\n| Diluted                                  | $ 0.47                                            | $ 0.27                                            | $ 0.04                                            | $ (0.39)                                          | $ (0.62)                                          |\n\n## Gross Payment Volume (GPV)\n\nWe define GPV as the total dollar amount of all card payments processed by sellers using Square, net of refunds. Additionally, GPV includes Cash App activity related to peer-to-peer payments sent from a credit card and Cash for Business. As described above, GPV excludes card payments processed for Starbucks.\n\n## Adjusted Revenue\n\nAdjusted Revenue is a non-GAAP financial measure that we define as our total net revenue less transactionbased costs and bitcoin costs, and we add back the impact of the acquired deferred revenue adjustment, which was written down to fair value in purchase. This measure is also adjusted to eliminate the effect of activity with Starbucks, which ceased using our payments solutions altogether in the fourth quarter of 2016, and we believe that providing Adjusted Revenue metrics that exclude the impact of our agreement with Starbucks is useful to investors.\n\nWe believe it is useful to subtract transaction-based costs and bitcoin costs from total net revenue to derive Adjusted Revenue as this is a primary metric used by management to measure our business performance, and it affords greater comparability to other payments solution providers. Substantially all of the transaction-based costs are interchange and assessment fees, processing fees and bank settlement fees paid to third-party payment processors and financial institutions. While some payments solution providers present their revenue in a similar fashion to us, others present their revenue net of transaction-based costs because, unlike us, they pass through these costs directly to their sellers and are not deemed the principal in these arrangements. Under our standard pricing model, we do not pass through these costs directly to our sellers. We also deduct bitcoin costs because we consider our role in the bitcoin transactions to be facilitating customer access to bitcoin. Since we only apply a small margin to the market cost of bitcoin when we sell bitcoin to customers, and we have no control over the cost of bitcoin in the market which tends to be volatile, we believe deducting bitcoin costs is a better reflection of the economic benefits as well as the Company's performance from the bitcoin transactions. We recognize acquired deferred revenue that was written down for purchase accounting since we believe that it is correlated",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmp3y22wlnt",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 11069824056227163525,
+      "filename": "tmp3y22wlnt.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 67.2890625,
+              "t": 707.2893117268881,
+              "r": 326.390625,
+              "b": 696.3659261067709,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              52
+            ]
+          }
+        ],
+        "orig": "Key OperatingMetrics and Non-GAAP Financial Measures",
+        "text": "Key OperatingMetrics and Non-GAAP Financial Measures",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 66.90234375,
+              "t": 688.5635070800781,
+              "r": 526.7109375,
+              "b": 556.3125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1112
+            ]
+          }
+        ],
+        "orig": "We collect and analyze operating and financial data to evaluate the health of our business, allocate our resources, and assess our performance. In addition to revenue, net loss, and other results under generally accepted accounting principles (GAAP), the following table sets forth key operating metrics and non-GAAP financial measures we use to evaluate our business. We believe these metrics and measures are useful to facilitate period-to-period comparisons of our business, and to facilitate comparisons of our performance to that of other payment processors. Each of these metrics and measures excludes the effect of our processing agreement with Starbucks which transitioned to another payments solutions provider in the fourth quarter of 2016. As we do not expect transactions with Starbucks to recur, we believe it is useful to exclude Starbucks activity to clearly show the impact Starbucks has had on our financial results historically. Our agreements with other sellers generally provide both those sellers and us the unilateral right to terminate such agreements at any time, without fine or penalty.",
+        "text": "We collect and analyze operating and financial data to evaluate the health of our business, allocate our resources, and assess our performance. In addition to revenue, net loss, and other results under generally accepted accounting principles (GAAP), the following table sets forth key operating metrics and non-GAAP financial measures we use to evaluate our business. We believe these metrics and measures are useful to facilitate period-to-period comparisons of our business, and to facilitate comparisons of our performance to that of other payment processors. Each of these metrics and measures excludes the effect of our processing agreement with Starbucks which transitioned to another payments solutions provider in the fourth quarter of 2016. As we do not expect transactions with Starbucks to recur, we believe it is useful to exclude Starbucks activity to clearly show the impact Starbucks has had on our financial results historically. Our agreements with other sellers generally provide both those sellers and us the unilateral right to terminate such agreements at any time, without fine or penalty."
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 68.8359375,
+              "t": 418.2096761067708,
+              "r": 200.70703125,
+              "b": 408.0665283203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              26
+            ]
+          }
+        ],
+        "orig": "Gross Payment Volume (GPV)",
+        "text": "Gross Payment Volume (GPV)",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 67.67578125,
+              "t": 399.8739827473958,
+              "r": 526.7109375,
+              "b": 364.7631022135417,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              309
+            ]
+          }
+        ],
+        "orig": "We define GPV as the total dollar amount of all card payments processed by sellers using Square, net of refunds. Additionally, GPV includes Cash App activity related to peer-to-peer payments sent from a credit card and Cash for Business. As described above, GPV excludes card payments processed for Starbucks.",
+        "text": "We define GPV as the total dollar amount of all card payments processed by sellers using Square, net of refunds. Additionally, GPV includes Cash App activity related to peer-to-peer payments sent from a credit card and Cash for Business. As described above, GPV excludes card payments processed for Starbucks."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 68.44921875,
+              "t": 343.3064371744792,
+              "r": 148.11328125,
+              "b": 332.7731526692708,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              16
+            ]
+          }
+        ],
+        "orig": "Adjusted Revenue",
+        "text": "Adjusted Revenue",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 67.2890625,
+              "t": 324.9707438151042,
+              "r": 526.32421875,
+              "b": 253.96870930989587,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              558
+            ]
+          }
+        ],
+        "orig": "Adjusted Revenue is a non-GAAP financial measure that we define as our total net revenue less transactionbased costs and bitcoin costs, and we add back the impact of the acquired deferred revenue adjustment, which was written down to fair value in purchase. This measure is also adjusted to eliminate the effect of activity with Starbucks, which ceased using our payments solutions altogether in the fourth quarter of 2016, and we believe that providing Adjusted Revenue metrics that exclude the impact of our agreement with Starbucks is useful to investors.",
+        "text": "Adjusted Revenue is a non-GAAP financial measure that we define as our total net revenue less transactionbased costs and bitcoin costs, and we add back the impact of the acquired deferred revenue adjustment, which was written down to fair value in purchase. This measure is also adjusted to eliminate the effect of activity with Starbucks, which ceased using our payments solutions altogether in the fourth quarter of 2016, and we believe that providing Adjusted Revenue metrics that exclude the impact of our agreement with Starbucks is useful to investors."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 66.90234375,
+              "t": 239.14412434895837,
+              "r": 526.7109375,
+              "b": 83.8759765625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1453
+            ]
+          }
+        ],
+        "orig": "We believe it is useful to subtract transaction-based costs and bitcoin costs from total net revenue to derive Adjusted Revenue as this is a primary metric used by management to measure our business performance, and it affords greater comparability to other payments solution providers. Substantially all of the transaction-based costs are interchange and assessment fees, processing fees and bank settlement fees paid to third-party payment processors and financial institutions. While some payments solution providers present their revenue in a similar fashion to us, others present their revenue net of transaction-based costs because, unlike us, they pass through these costs directly to their sellers and are not deemed the principal in these arrangements. Under our standard pricing model, we do not pass through these costs directly to our sellers. We also deduct bitcoin costs because we consider our role in the bitcoin transactions to be facilitating customer access to bitcoin. Since we only apply a small margin to the market cost of bitcoin when we sell bitcoin to customers, and we have no control over the cost of bitcoin in the market which tends to be volatile, we believe deducting bitcoin costs is a better reflection of the economic benefits as well as the Company's performance from the bitcoin transactions. We recognize acquired deferred revenue that was written down for purchase accounting since we believe that it is correlated",
+        "text": "We believe it is useful to subtract transaction-based costs and bitcoin costs from total net revenue to derive Adjusted Revenue as this is a primary metric used by management to measure our business performance, and it affords greater comparability to other payments solution providers. Substantially all of the transaction-based costs are interchange and assessment fees, processing fees and bank settlement fees paid to third-party payment processors and financial institutions. While some payments solution providers present their revenue in a similar fashion to us, others present their revenue net of transaction-based costs because, unlike us, they pass through these costs directly to their sellers and are not deemed the principal in these arrangements. Under our standard pricing model, we do not pass through these costs directly to our sellers. We also deduct bitcoin costs because we consider our role in the bitcoin transactions to be facilitating customer access to bitcoin. Since we only apply a small margin to the market cost of bitcoin when we sell bitcoin to customers, and we have no control over the cost of bitcoin in the market which tends to be volatile, we believe deducting bitcoin costs is a better reflection of the economic benefits as well as the Company's performance from the bitcoin transactions. We recognize acquired deferred revenue that was written down for purchase accounting since we believe that it is correlated"
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 289.65234375,
+              "t": 71.7822265625,
+              "r": 303.57421875,
+              "b": 60.07861328125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "51",
+        "text": "51"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 68.10569763183594,
+              "t": 545.4550933837891,
+              "r": 529.1077270507812,
+              "b": 439.42266845703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 362.6,
+                "t": 229.84199999999998,
+                "r": 452.4008000000001,
+                "b": 236.83603719599432,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 5,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 6,
+              "text": "Year Ended December 31,",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 304.5,
+                "t": 241.84199999999998,
+                "r": 320.5,
+                "b": 248.83603719599432,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 355.75,
+                "t": 241.84199999999998,
+                "r": 371.75,
+                "b": 248.83603719599432,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2017",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 403.25,
+                "t": 241.84199999999998,
+                "r": 419.25,
+                "b": 248.83603719599432,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "2016",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 450.75,
+                "t": 241.84199999999998,
+                "r": 466.75,
+                "b": 248.83603719599432,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "2015",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 498.25,
+                "t": 241.84199999999998,
+                "r": 514.25,
+                "b": 248.83603719599432,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "2014",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 321.65,
+                "t": 253.84199999999998,
+                "r": 493.32759999999985,
+                "b": 260.8360371959943,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 5,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 6,
+              "text": "(in thousands, except for GPV and per share data)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 69.0,
+                "t": 264.63,
+                "r": 246.07000000000005,
+                "b": 273.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Gross Payment Volume (GPV) (in millions)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.00100000000003,
+                "t": 264.63,
+                "r": 335.00100000000003,
+                "b": 273.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 84,654",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 345.00100000000003,
+                "t": 264.63,
+                "r": 382.50100000000003,
+                "b": 273.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 65,343",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 392.50100000000003,
+                "t": 264.63,
+                "r": 430.00100000000003,
+                "b": 273.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 49,683",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 440.00100000000003,
+                "t": 264.63,
+                "r": 477.50100000000003,
+                "b": 273.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "$ 35,643",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 487.50100000000003,
+                "t": 264.63,
+                "r": 525.001,
+                "b": 273.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "$ 23,780",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 69.0,
+                "t": 276.63,
+                "r": 142.64000000000001,
+                "b": 285.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Adjusted Revenue",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.0,
+                "t": 276.63,
+                "r": 335.0,
+                "b": 285.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$1,587,641",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 345.001,
+                "t": 276.63,
+                "r": 382.501,
+                "b": 285.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$983,963",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 392.501,
+                "t": 276.63,
+                "r": 430.001,
+                "b": 285.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$686,618",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 440.001,
+                "t": 276.63,
+                "r": 477.501,
+                "b": 285.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "$452,168",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 487.501,
+                "t": 276.63,
+                "r": 525.001,
+                "b": 285.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "$276,310",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 69.0,
+                "t": 288.63,
+                "r": 144.31,
+                "b": 297.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Adjusted EBITDA",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.0,
+                "t": 288.63,
+                "r": 335.0,
+                "b": 297.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 256,523",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 345.0,
+                "t": 288.63,
+                "r": 382.5,
+                "b": 297.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$139,009",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 392.5,
+                "t": 288.63,
+                "r": 430.0,
+                "b": 297.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 44,887",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 440.0,
+                "t": 288.63,
+                "r": 480.80999999999995,
+                "b": 297.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "$(41,115)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 487.49999999999994,
+                "t": 288.63,
+                "r": 528.31,
+                "b": 297.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "$(67,741)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 69.0,
+                "t": 300.63,
+                "r": 226.65000000000006,
+                "b": 309.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Adjusted Net Income (Loss) Per Share:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 69.0,
+                "t": 312.63,
+                "r": 91.22,
+                "b": 321.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Basic",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.0,
+                "t": 312.63,
+                "r": 335.0,
+                "b": 321.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 0.55",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 345.0,
+                "t": 312.63,
+                "r": 382.5,
+                "b": 321.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 0.30",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 392.5,
+                "t": 312.63,
+                "r": 430.0,
+                "b": 321.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 0.04",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 440.0,
+                "t": 312.63,
+                "r": 480.80999999999995,
+                "b": 321.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "$ (0.39)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 487.49999999999994,
+                "t": 312.63,
+                "r": 528.31,
+                "b": 321.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "$ (0.62)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 69.0,
+                "t": 324.63,
+                "r": 99.0,
+                "b": 333.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Diluted",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.0,
+                "t": 324.63,
+                "r": 335.0,
+                "b": 333.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 0.47",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 345.0,
+                "t": 324.63,
+                "r": 382.5,
+                "b": 333.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 0.27",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 392.5,
+                "t": 324.63,
+                "r": 430.0,
+                "b": 333.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 0.04",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 440.0,
+                "t": 324.63,
+                "r": 480.80999999999995,
+                "b": 333.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "$ (0.39)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 487.49999999999994,
+                "t": 324.63,
+                "r": 528.31,
+                "b": 333.3051359084406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "$ (0.62)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 9,
+          "num_cols": 6,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.6,
+                  "t": 229.84199999999998,
+                  "r": 452.4008000000001,
+                  "b": 236.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "Year Ended December 31,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.6,
+                  "t": 229.84199999999998,
+                  "r": 452.4008000000001,
+                  "b": 236.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "Year Ended December 31,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.6,
+                  "t": 229.84199999999998,
+                  "r": 452.4008000000001,
+                  "b": 236.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "Year Ended December 31,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.6,
+                  "t": 229.84199999999998,
+                  "r": 452.4008000000001,
+                  "b": 236.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "Year Ended December 31,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 362.6,
+                  "t": 229.84199999999998,
+                  "r": 452.4008000000001,
+                  "b": 236.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "Year Ended December 31,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 304.5,
+                  "t": 241.84199999999998,
+                  "r": 320.5,
+                  "b": 248.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 355.75,
+                  "t": 241.84199999999998,
+                  "r": 371.75,
+                  "b": 248.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2017",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 403.25,
+                  "t": 241.84199999999998,
+                  "r": 419.25,
+                  "b": 248.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "2016",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 450.75,
+                  "t": 241.84199999999998,
+                  "r": 466.75,
+                  "b": 248.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "2015",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 498.25,
+                  "t": 241.84199999999998,
+                  "r": 514.25,
+                  "b": 248.83603719599432,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "2014",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 321.65,
+                  "t": 253.84199999999998,
+                  "r": 493.32759999999985,
+                  "b": 260.8360371959943,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "(in thousands, except for GPV and per share data)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 321.65,
+                  "t": 253.84199999999998,
+                  "r": 493.32759999999985,
+                  "b": 260.8360371959943,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "(in thousands, except for GPV and per share data)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 321.65,
+                  "t": 253.84199999999998,
+                  "r": 493.32759999999985,
+                  "b": 260.8360371959943,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "(in thousands, except for GPV and per share data)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 321.65,
+                  "t": 253.84199999999998,
+                  "r": 493.32759999999985,
+                  "b": 260.8360371959943,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "(in thousands, except for GPV and per share data)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 321.65,
+                  "t": 253.84199999999998,
+                  "r": 493.32759999999985,
+                  "b": 260.8360371959943,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 5,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 6,
+                "text": "(in thousands, except for GPV and per share data)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 69.0,
+                  "t": 264.63,
+                  "r": 246.07000000000005,
+                  "b": 273.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Gross Payment Volume (GPV) (in millions)",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 290.00100000000003,
+                  "t": 264.63,
+                  "r": 335.00100000000003,
+                  "b": 273.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 84,654",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 345.00100000000003,
+                  "t": 264.63,
+                  "r": 382.50100000000003,
+                  "b": 273.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 65,343",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 392.50100000000003,
+                  "t": 264.63,
+                  "r": 430.00100000000003,
+                  "b": 273.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 49,683",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 440.00100000000003,
+                  "t": 264.63,
+                  "r": 477.50100000000003,
+                  "b": 273.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "$ 35,643",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 487.50100000000003,
+                  "t": 264.63,
+                  "r": 525.001,
+                  "b": 273.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "$ 23,780",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 69.0,
+                  "t": 276.63,
+                  "r": 142.64000000000001,
+                  "b": 285.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Adjusted Revenue",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 290.0,
+                  "t": 276.63,
+                  "r": 335.0,
+                  "b": 285.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$1,587,641",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 345.001,
+                  "t": 276.63,
+                  "r": 382.501,
+                  "b": 285.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$983,963",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 392.501,
+                  "t": 276.63,
+                  "r": 430.001,
+                  "b": 285.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$686,618",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 440.001,
+                  "t": 276.63,
+                  "r": 477.501,
+                  "b": 285.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "$452,168",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 487.501,
+                  "t": 276.63,
+                  "r": 525.001,
+                  "b": 285.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "$276,310",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 69.0,
+                  "t": 288.63,
+                  "r": 144.31,
+                  "b": 297.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Adjusted EBITDA",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 290.0,
+                  "t": 288.63,
+                  "r": 335.0,
+                  "b": 297.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 256,523",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 345.0,
+                  "t": 288.63,
+                  "r": 382.5,
+                  "b": 297.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$139,009",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 392.5,
+                  "t": 288.63,
+                  "r": 430.0,
+                  "b": 297.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 44,887",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 440.0,
+                  "t": 288.63,
+                  "r": 480.80999999999995,
+                  "b": 297.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "$(41,115)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 487.49999999999994,
+                  "t": 288.63,
+                  "r": 528.31,
+                  "b": 297.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "$(67,741)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 69.0,
+                  "t": 300.63,
+                  "r": 226.65000000000006,
+                  "b": 309.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Adjusted Net Income (Loss) Per Share:",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 69.0,
+                  "t": 312.63,
+                  "r": 91.22,
+                  "b": 321.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Basic",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 290.0,
+                  "t": 312.63,
+                  "r": 335.0,
+                  "b": 321.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 0.55",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 345.0,
+                  "t": 312.63,
+                  "r": 382.5,
+                  "b": 321.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 0.30",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 392.5,
+                  "t": 312.63,
+                  "r": 430.0,
+                  "b": 321.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 0.04",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 440.0,
+                  "t": 312.63,
+                  "r": 480.80999999999995,
+                  "b": 321.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "$ (0.39)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 487.49999999999994,
+                  "t": 312.63,
+                  "r": 528.31,
+                  "b": 321.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "$ (0.62)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 69.0,
+                  "t": 324.63,
+                  "r": 99.0,
+                  "b": 333.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Diluted",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 290.0,
+                  "t": 324.63,
+                  "r": 335.0,
+                  "b": 333.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 0.47",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 345.0,
+                  "t": 324.63,
+                  "r": 382.5,
+                  "b": 333.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 0.27",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 392.5,
+                  "t": 324.63,
+                  "r": 430.0,
+                  "b": 333.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 0.04",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 440.0,
+                  "t": 324.63,
+                  "r": 480.80999999999995,
+                  "b": 333.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "$ (0.39)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 487.49999999999994,
+                  "t": 324.63,
+                  "r": 528.31,
+                  "b": 333.3051359084406,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "$ (0.62)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 594.0,
+          "height": 774.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}
