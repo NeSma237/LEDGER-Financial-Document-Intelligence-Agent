@@ -4,7 +4,9 @@ A gradio frontend UI for accessing the corpus
 
 # App structure
 💬 Chat — ask questions, see the answer and its evidence panel + raw JSON trace.
+
 📁 Documents — upload a PDF to ingest into the corpus, view the indexed document list, and see the last answer's evidence.
+
 📈 Dashboard — corpus-level stats (documents/chunks indexed) and a log of recent queries (type, validated, latency).
 
 # How to run
