@@ -1,0 +1,3062 @@
+{
+  "document_id": "7b58464fbba6821a01db65b0d5580795",
+  "markdown_content": "A reconciliation of the combined Canadian federal and provincial income tax rate with our effective income tax rate is as follows:\n\n|                                                    | Year Ended June 30,   | Year Ended June 30,   | Year Ended June 30,   |\n|----------------------------------------------------|-----------------------|-----------------------|-----------------------|\n|                                                    | 2019                  | 2018                  | 2017                  |\n| Expected statutory rate                            | 26.5%                 | 26.5%                 | 26.5%                 |\n| Expected provision for income taxes                | $ 116,752             | $ 102,323             | $ 66,131              |\n| Effect of foreign tax rate differences             | (1,344)               | 2,352                 | 8,647                 |\n| Change in valuation allowance                      | (5,045)               | 1,779                 | 520                   |\n| Amortization of deferred charges                   | -                     | 4,242                 | 6,298                 |\n| Effect of permanent differences                    | (577)                 | 4,332                 | 3,673                 |\n| Effect of changes in unrecognized tax benefits     | 31,992                | 5,543                 | 14,427                |\n| Effect of withholding taxes                        | 2,097                 | 7,927                 | 3,845                 |\n| Difference in tax filings from provision           | (250)                 | 1,321                 | (7,836)               |\n| Effect of U.S. tax reform                          | -                     | 19,037                | -                     |\n| Effect of tax credits for research and development | (13,550)              | (3,875)               | (2,643)               |\n| Effect of accrual for undistributed earnings       | (13,112)              | (1,154)               | 5,613                 |\n| Effect of Base Erosion and Anti-Abuse Tax (BEAT)   | 16,030                | -                     | -                     |\n| Other Items                                        | 5,473                 | (1)                   | 1,075                 |\n| Impact of internal reorganization of subsidiaries  | 16,471                | -                     | (876,114)             |\n|                                                    | $ 154,937             | $ 143,826             | $ (776,364)           |\n\nIn Fiscal 2019, 2018 and 2017, respectively, substantially all the tax rate differential for international jurisdictions was driven by earnings in the United States.\n\nThe effective tax rate decreased to a provision of 35.2% for the year ended June 30, 2019, compared to 37.2% for the year ended June 30, 2018. The increase in tax expense of $11.1 million was primarily due to the increase in net income taxed at foreign rates of $10.7 million, an increase of $26.4 million in reserves for unrecognized tax benefits, an increase of $16.1 million arising on the introduction of BEAT in Fiscal 2019, and an increase of $16.3 million relating to the tax impact of internal reorganizations of subsidiaries, partially offset by a the reversal of accruals for undistributed United States earnings of $14.8 million, the Fiscal 2018 impact of United States tax reform of $19.0 million which did not recur in Fiscal 2019, an increase in tax credits for research and development of $9.7 million, an increase of $6.8 million in the release of valuation allowance, a decrease of $5.8 million in the impact of withholding taxes in Fiscal 2019. The remainder of the difference was due to normal course movements and non-material items.\n\nIn July 2016, we implemented a reorganization of our subsidiaries worldwide with the view to continuing to enhance operational and administrative efficiencies through further consolidated ownership, management, and development of our intellectual property (IP) in Canada, continuing to reduce the number of entities in our group and working towards our objective of having a single operating legal entity in each jurisdiction. A significant tax benefit of $876.1 million, associated primarily with the recognition of a net deferred tax asset arising from the entry of the IP into Canada, was recognized in the first quarter of Fiscal 2017. For more information relating to this, please refer to our Annual Report on Form 10-K for the year ended June 30,2017.\n\nAs of June 30, 2019, we have approximately $242.3 million of domestic non-capital loss carryforwards. In addition, we have $387.6 million of foreign non-capital loss carryforwards of which $53.8 million have no expiry date. The remainder of the domestic and foreign losses expires between 2020 and 2039. In addition, investment tax credits of $58.6 million will expire between 2020 and 2039.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmpyo15ui53",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 12342770996958417137,
+      "filename": "tmpyo15ui53.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 45.6328125,
+              "t": 731.866933186849,
+              "r": 519.36328125,
+              "b": 708.4596761067709,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              130
+            ]
+          }
+        ],
+        "orig": "A reconciliation of the combined Canadian federal and provincial income tax rate with our effective income tax rate is as follows:",
+        "text": "A reconciliation of the combined Canadian federal and provincial income tax rate with our effective income tax rate is as follows:"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 47.1796875,
+              "t": 437.32558186848956,
+              "r": 532.51171875,
+              "b": 413.9183349609375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              165
+            ]
+          }
+        ],
+        "orig": "In Fiscal 2019, 2018 and 2017, respectively, substantially all the tax rate differential for international jurisdictions was driven by earnings in the United States.",
+        "text": "In Fiscal 2019, 2018 and 2017, respectively, substantially all the tax rate differential for international jurisdictions was driven by earnings in the United States."
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 46.01953125,
+              "t": 408.8467610677083,
+              "r": 545.66015625,
+              "b": 304.6844482421875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1053
+            ]
+          }
+        ],
+        "orig": "The effective tax rate decreased to a provision of 35.2% for the year ended June 30, 2019, compared to 37.2% for the year ended June 30, 2018. The increase in tax expense of $11.1 million was primarily due to the increase in net income taxed at foreign rates of $10.7 million, an increase of $26.4 million in reserves for unrecognized tax benefits, an increase of $16.1 million arising on the introduction of BEAT in Fiscal 2019, and an increase of $16.3 million relating to the tax impact of internal reorganizations of subsidiaries, partially offset by a the reversal of accruals for undistributed United States earnings of $14.8 million, the Fiscal 2018 impact of United States tax reform of $19.0 million which did not recur in Fiscal 2019, an increase in tax credits for research and development of $9.7 million, an increase of $6.8 million in the release of valuation allowance, a decrease of $5.8 million in the impact of withholding taxes in Fiscal 2019. The remainder of the difference was due to normal course movements and non-material items.",
+        "text": "The effective tax rate decreased to a provision of 35.2% for the year ended June 30, 2019, compared to 37.2% for the year ended June 30, 2018. The increase in tax expense of $11.1 million was primarily due to the increase in net income taxed at foreign rates of $10.7 million, an increase of $26.4 million in reserves for unrecognized tax benefits, an increase of $16.1 million arising on the introduction of BEAT in Fiscal 2019, and an increase of $16.3 million relating to the tax impact of internal reorganizations of subsidiaries, partially offset by a the reversal of accruals for undistributed United States earnings of $14.8 million, the Fiscal 2018 impact of United States tax reform of $19.0 million which did not recur in Fiscal 2019, an increase in tax credits for research and development of $9.7 million, an increase of $6.8 million in the release of valuation allowance, a decrease of $5.8 million in the impact of withholding taxes in Fiscal 2019. The remainder of the difference was due to normal course movements and non-material items."
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 46.01953125,
+              "t": 298.8326416015625,
+              "r": 546.43359375,
+              "b": 217.29736328125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              758
+            ]
+          }
+        ],
+        "orig": "In July 2016, we implemented a reorganization of our subsidiaries worldwide with the view to continuing to enhance operational and administrative efficiencies through further consolidated ownership, management, and development of our intellectual property (IP) in Canada, continuing to reduce the number of entities in our group and working towards our objective of having a single operating legal entity in each jurisdiction. A significant tax benefit of $876.1 million, associated primarily with the recognition of a net deferred tax asset arising from the entry of the IP into Canada, was recognized in the first quarter of Fiscal 2017. For more information relating to this, please refer to our Annual Report on Form 10-K for the year ended June 30,2017.",
+        "text": "In July 2016, we implemented a reorganization of our subsidiaries worldwide with the view to continuing to enhance operational and administrative efficiencies through further consolidated ownership, management, and development of our intellectual property (IP) in Canada, continuing to reduce the number of entities in our group and working towards our objective of having a single operating legal entity in each jurisdiction. A significant tax benefit of $876.1 million, associated primarily with the recognition of a net deferred tax asset arising from the entry of the IP into Canada, was recognized in the first quarter of Fiscal 2017. For more information relating to this, please refer to our Annual Report on Form 10-K for the year ended June 30,2017."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 46.01953125,
+              "t": 212.22578938802087,
+              "r": 544.88671875,
+              "b": 166.58162434895837,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              391
+            ]
+          }
+        ],
+        "orig": "As of June 30, 2019, we have approximately $242.3 million of domestic non-capital loss carryforwards. In addition, we have $387.6 million of foreign non-capital loss carryforwards of which $53.8 million have no expiry date. The remainder of the domestic and foreign losses expires between 2020 and 2039. In addition, investment tax credits of $58.6 million will expire between 2020 and 2039.",
+        "text": "As of June 30, 2019, we have approximately $242.3 million of domestic non-capital loss carryforwards. In addition, we have $387.6 million of foreign non-capital loss carryforwards of which $53.8 million have no expiry date. The remainder of the domestic and foreign losses expires between 2020 and 2039. In addition, investment tax credits of $58.6 million will expire between 2020 and 2039."
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 290.42578125,
+              "t": 43.30338541666663,
+              "r": 310.53515625,
+              "b": 29.649169921875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "150",
+        "text": "150"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 47.94194793701172,
+              "t": 697.1305465698242,
+              "r": 548.2020263671875,
+              "b": 445.14593505859375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 384.0637,
+                "t": 79.22496269999999,
+                "r": 452.5219540199999,
+                "b": 85.58236964848481,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 4,
+              "text": "Year Ended June 30,",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 324.1776,
+                "t": 91.40576269999997,
+                "r": 339.7069999999999,
+                "b": 97.76316964848479,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 410.5591110299999,
+                "t": 91.40576269999997,
+                "r": 426.0885110299998,
+                "b": 97.76316964848479,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 496.9421749999998,
+                "t": 91.40576269999997,
+                "r": 512.4715749999997,
+                "b": 97.76316964848479,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "2017",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.9561,
+                "t": 103.8220119,
+                "r": 140.4833216,
+                "b": 111.76879105454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Expected statutory rate",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 348.14493445999994,
+                "t": 103.8220119,
+                "r": 373.22303888000005,
+                "b": 111.76879105454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "26.5%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 434.53520918000004,
+                "t": 103.8220119,
+                "r": 459.61331360000014,
+                "b": 111.76879105454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "26.5%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 520.9254839000001,
+                "t": 103.8220119,
+                "r": 546.0035883200001,
+                "b": 111.76879105454543,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "26.5%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.9561,
+                "t": 117.4102719,
+                "r": 193.31253530000004,
+                "b": 125.35705105454542,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Expected provision for income taxes",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 293.63077652000004,
+                "t": 117.4102719,
+                "r": 365.12055356000025,
+                "b": 125.35705105454542,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 116,752",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 380.01911006000023,
+                "t": 117.4102719,
+                "r": 451.50888710000044,
+                "b": 125.35705105454542,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 102,323",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 466.4074436000004,
+                "t": 117.4102719,
+                "r": 537.89625005,
+                "b": 125.35705105454542,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ 66,131",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.9561,
+                "t": 130.9985319,
+                "r": 192.21382741999992,
+                "b": 138.9453110545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Effect of foreign tax rate differences",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 339.997802,
+                "t": 130.94903180999995,
+                "r": 368.3196182,
+                "b": 138.9453110545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(1,344)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.63178849999997,
+                "t": 130.9985319,
+                "r": 451.47006350000004,
+                "b": 138.9453110545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2,352",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 516.0142985,
+                "t": 130.9985319,
+                "r": 537.8525734999998,
+                "b": 138.9453110545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "8,647",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.956099999999935,
+                "t": 144.58679189999998,
+                "r": 170.9598475999999,
+                "b": 152.5335710545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Change in valuation allowance",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 339.9978019999999,
+                "t": 144.5382624,
+                "r": 368.3196181999999,
+                "b": 152.5335710545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(5,045)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.6317884999999,
+                "t": 144.58679189999998,
+                "r": 451.4700635,
+                "b": 152.5335710545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "1,779",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 523.2937234999999,
+                "t": 144.58679189999998,
+                "r": 537.8525734999998,
+                "b": 152.5335710545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "520",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95609999999988,
+                "t": 158.17505189999997,
+                "r": 179.99992285999983,
+                "b": 166.1218310545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Amortization of deferred charges",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 355.4311535899998,
+                "t": 158.17505189999997,
+                "r": 365.13705358999977,
+                "b": 166.1218310545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.6812885899998,
+                "t": 158.17505189999997,
+                "r": 451.5273283099999,
+                "b": 166.1218310545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "4,242",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 516.0715633099999,
+                "t": 158.17505189999997,
+                "r": 537.9176030299998,
+                "b": 166.1218310545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "6,298",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95609999999988,
+                "t": 171.76331189999996,
+                "r": 173.87938231999982,
+                "b": 179.7100910545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Effect of permanent differences",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 347.27722699999987,
+                "t": 171.7147824,
+                "r": 368.31961819999987,
+                "b": 179.7100910545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(577)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.63178849999986,
+                "t": 171.76331189999996,
+                "r": 451.4700634999999,
+                "b": 179.7100910545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "4,332",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 516.0142984999999,
+                "t": 171.76331189999996,
+                "r": 537.8525734999997,
+                "b": 179.7100910545454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "3,673",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95609999999982,
+                "t": 185.35157189999995,
+                "r": 230.9869567399996,
+                "b": 193.29835105454538,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Effect of changes in unrecognized tax benefits",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 338.4681521599996,
+                "t": 185.35157189999995,
+                "r": 365.16908305999976,
+                "b": 193.29835105454538,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "31,992",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.7133180599998,
+                "t": 185.35157189999995,
+                "r": 451.5593577799999,
+                "b": 193.29835105454538,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "5,543",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 511.2506427799999,
+                "t": 185.35157189999995,
+                "r": 537.9515736799998,
+                "b": 193.29835105454538,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "14,427",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95609999999982,
+                "t": 199.8133628999999,
+                "r": 156.85135135999982,
+                "b": 207.76014205454533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Effect of withholding taxes",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 343.2890726899998,
+                "t": 199.8133628999999,
+                "r": 365.1351124099999,
+                "b": 207.76014205454533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2,097",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.67934740999993,
+                "t": 199.8133628999999,
+                "r": 451.52538713000007,
+                "b": 207.76014205454533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "7,927",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 516.0696221300001,
+                "t": 199.8133628999999,
+                "r": 537.91566185,
+                "b": 207.76014205454533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "3,845",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95609999999982,
+                "t": 214.3722128999999,
+                "r": 204.28214347999977,
+                "b": 222.31899205454533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Difference in tax filings from provision",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 347.2772269999998,
+                "t": 214.32271280999987,
+                "r": 368.3196181999998,
+                "b": 222.31899205454533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(250)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 429.6317884999998,
+                "t": 214.3722128999999,
+                "r": 451.47006349999987,
+                "b": 222.31899205454533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "1,321",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 512.7628219999998,
+                "t": 214.32271280999987,
+                "r": 541.0846381999999,
+                "b": 222.31899205454533,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "(7,836)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95609999999988,
+                "t": 228.93009230999996,
+                "r": 147.89862919999982,
+                "b": 236.8768714645454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Effect of U.S. tax reform",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 355.38553585999983,
+                "t": 228.93009230999996,
+                "r": 365.0914358599998,
+                "b": 236.8768714645454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 424.7827208599998,
+                "t": 228.93009230999996,
+                "r": 451.4739458599999,
+                "b": 236.8768714645454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "19,037",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 528.1505558599999,
+                "t": 228.93009230999996,
+                "r": 537.85645586,
+                "b": 236.8768714645454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 11,
+              "end_row_offset_idx": 12,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95609999999988,
+                "t": 243.48894230999997,
+                "r": 245.2701591799997,
+                "b": 251.4357214645454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Effect of tax credits for research and development",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 335.1448519999999,
+                "t": 243.44041281,
+                "r": 368.3196181999999,
+                "b": 251.4357214645454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(13,550)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 426.3793414099999,
+                "t": 243.44041281,
+                "r": 454.7011576099999,
+                "b": 251.4357214645454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(3,875)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 512.7618514099998,
+                "t": 243.44041281,
+                "r": 541.0836676099999,
+                "b": 251.4357214645454,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 12,
+              "end_row_offset_idx": 13,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "(2,643)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95512940999993,
+                "t": 258.04779231,
+                "r": 218.31784546999964,
+                "b": 265.99457146454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Effect of accrual for undistributed earnings",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 335.14388140999995,
+                "t": 257.99926281,
+                "r": 368.31864760999997,
+                "b": 265.99457146454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(13,112)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 426.37837081999993,
+                "t": 257.99926281,
+                "r": 454.70018701999993,
+                "b": 265.99457146454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(1,154)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 516.01235732,
+                "t": 258.04779231,
+                "r": 537.8506323199998,
+                "b": 265.99457146454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 13,
+              "end_row_offset_idx": 14,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "5,613",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95415881999992,
+                "t": 272.60664231,
+                "r": 252.89317303999988,
+                "b": 280.55342146454547,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Effect of Base Erosion and Anti-Abuse Tax (BEAT)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 338.40215203999986,
+                "t": 272.60664231,
+                "r": 365.09337703999995,
+                "b": 280.55342146454547,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "16,030",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 441.76998703999993,
+                "t": 272.60664231,
+                "r": 451.4758870399999,
+                "b": 280.55342146454547,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 528.15249704,
+                "t": 272.60664231,
+                "r": 537.85839704,
+                "b": 280.55342146454547,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 14,
+              "end_row_offset_idx": 15,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.95415881999992,
+                "t": 287.16549231,
+                "r": 97.06494853999993,
+                "b": 295.1122714645455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Other Items",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 343.2628667599999,
+                "t": 287.16549231,
+                "r": 365.10890648000003,
+                "b": 295.1122714645455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "5,473",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 443.3636958199999,
+                "t": 287.11599222,
+                "r": 454.70018701999993,
+                "b": 295.1122714645455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(1)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 516.01235732,
+                "t": 287.16549231,
+                "r": 537.8506323199998,
+                "b": 295.1122714645455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 15,
+              "end_row_offset_idx": 16,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "1,075",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 50.9561,
+                "t": 301.7254119,
+                "r": 237.64326295999967,
+                "b": 309.67219105454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Impact of internal reorganization of subsidiaries",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 338.47397569999964,
+                "t": 301.7254119,
+                "r": 365.1749065999998,
+                "b": 309.67219105454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "16,471",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 441.85151659999985,
+                "t": 301.7254119,
+                "r": 451.55741659999984,
+                "b": 309.67219105454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 503.056922,
+                "t": 301.6768824,
+                "r": 541.0846382,
+                "b": 309.67219105454546,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 16,
+              "end_row_offset_idx": 17,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "(876,114)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 293.6046,
+                "t": 316.2844119,
+                "r": 365.08855350000016,
+                "b": 324.2311910545455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 17,
+              "end_row_offset_idx": 18,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 154,937",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 379.98711000000014,
+                "t": 316.2844119,
+                "r": 451.4710635000003,
+                "b": 324.2311910545455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 17,
+              "end_row_offset_idx": 18,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 143,826",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 466.3696200000003,
+                "t": 316.23588240000004,
+                "r": 541.08466761,
+                "b": 324.2311910545455,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 17,
+              "end_row_offset_idx": 18,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ (776,364)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 18,
+          "num_cols": 4,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 384.0637,
+                  "t": 79.22496269999999,
+                  "r": 452.5219540199999,
+                  "b": 85.58236964848481,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 4,
+                "text": "Year Ended June 30,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 384.0637,
+                  "t": 79.22496269999999,
+                  "r": 452.5219540199999,
+                  "b": 85.58236964848481,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 4,
+                "text": "Year Ended June 30,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 384.0637,
+                  "t": 79.22496269999999,
+                  "r": 452.5219540199999,
+                  "b": 85.58236964848481,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 4,
+                "text": "Year Ended June 30,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 324.1776,
+                  "t": 91.40576269999997,
+                  "r": 339.7069999999999,
+                  "b": 97.76316964848479,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 410.5591110299999,
+                  "t": 91.40576269999997,
+                  "r": 426.0885110299998,
+                  "b": 97.76316964848479,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 496.9421749999998,
+                  "t": 91.40576269999997,
+                  "r": 512.4715749999997,
+                  "b": 97.76316964848479,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "2017",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.9561,
+                  "t": 103.8220119,
+                  "r": 140.4833216,
+                  "b": 111.76879105454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Expected statutory rate",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 348.14493445999994,
+                  "t": 103.8220119,
+                  "r": 373.22303888000005,
+                  "b": 111.76879105454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "26.5%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 434.53520918000004,
+                  "t": 103.8220119,
+                  "r": 459.61331360000014,
+                  "b": 111.76879105454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "26.5%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 520.9254839000001,
+                  "t": 103.8220119,
+                  "r": 546.0035883200001,
+                  "b": 111.76879105454543,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "26.5%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.9561,
+                  "t": 117.4102719,
+                  "r": 193.31253530000004,
+                  "b": 125.35705105454542,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Expected provision for income taxes",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 293.63077652000004,
+                  "t": 117.4102719,
+                  "r": 365.12055356000025,
+                  "b": 125.35705105454542,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 116,752",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 380.01911006000023,
+                  "t": 117.4102719,
+                  "r": 451.50888710000044,
+                  "b": 125.35705105454542,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 102,323",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 466.4074436000004,
+                  "t": 117.4102719,
+                  "r": 537.89625005,
+                  "b": 125.35705105454542,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ 66,131",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.9561,
+                  "t": 130.9985319,
+                  "r": 192.21382741999992,
+                  "b": 138.9453110545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Effect of foreign tax rate differences",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 339.997802,
+                  "t": 130.94903180999995,
+                  "r": 368.3196182,
+                  "b": 138.9453110545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(1,344)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.63178849999997,
+                  "t": 130.9985319,
+                  "r": 451.47006350000004,
+                  "b": 138.9453110545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2,352",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 516.0142985,
+                  "t": 130.9985319,
+                  "r": 537.8525734999998,
+                  "b": 138.9453110545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "8,647",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.956099999999935,
+                  "t": 144.58679189999998,
+                  "r": 170.9598475999999,
+                  "b": 152.5335710545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Change in valuation allowance",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 339.9978019999999,
+                  "t": 144.5382624,
+                  "r": 368.3196181999999,
+                  "b": 152.5335710545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(5,045)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.6317884999999,
+                  "t": 144.58679189999998,
+                  "r": 451.4700635,
+                  "b": 152.5335710545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "1,779",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 523.2937234999999,
+                  "t": 144.58679189999998,
+                  "r": 537.8525734999998,
+                  "b": 152.5335710545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "520",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95609999999988,
+                  "t": 158.17505189999997,
+                  "r": 179.99992285999983,
+                  "b": 166.1218310545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Amortization of deferred charges",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 355.4311535899998,
+                  "t": 158.17505189999997,
+                  "r": 365.13705358999977,
+                  "b": 166.1218310545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.6812885899998,
+                  "t": 158.17505189999997,
+                  "r": 451.5273283099999,
+                  "b": 166.1218310545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "4,242",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 516.0715633099999,
+                  "t": 158.17505189999997,
+                  "r": 537.9176030299998,
+                  "b": 166.1218310545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "6,298",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95609999999988,
+                  "t": 171.76331189999996,
+                  "r": 173.87938231999982,
+                  "b": 179.7100910545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Effect of permanent differences",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 347.27722699999987,
+                  "t": 171.7147824,
+                  "r": 368.31961819999987,
+                  "b": 179.7100910545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(577)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.63178849999986,
+                  "t": 171.76331189999996,
+                  "r": 451.4700634999999,
+                  "b": 179.7100910545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "4,332",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 516.0142984999999,
+                  "t": 171.76331189999996,
+                  "r": 537.8525734999997,
+                  "b": 179.7100910545454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 7,
+                "end_row_offset_idx": 8,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "3,673",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95609999999982,
+                  "t": 185.35157189999995,
+                  "r": 230.9869567399996,
+                  "b": 193.29835105454538,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Effect of changes in unrecognized tax benefits",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 338.4681521599996,
+                  "t": 185.35157189999995,
+                  "r": 365.16908305999976,
+                  "b": 193.29835105454538,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "31,992",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.7133180599998,
+                  "t": 185.35157189999995,
+                  "r": 451.5593577799999,
+                  "b": 193.29835105454538,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "5,543",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 511.2506427799999,
+                  "t": 185.35157189999995,
+                  "r": 537.9515736799998,
+                  "b": 193.29835105454538,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 8,
+                "end_row_offset_idx": 9,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "14,427",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95609999999982,
+                  "t": 199.8133628999999,
+                  "r": 156.85135135999982,
+                  "b": 207.76014205454533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Effect of withholding taxes",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 343.2890726899998,
+                  "t": 199.8133628999999,
+                  "r": 365.1351124099999,
+                  "b": 207.76014205454533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2,097",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.67934740999993,
+                  "t": 199.8133628999999,
+                  "r": 451.52538713000007,
+                  "b": 207.76014205454533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "7,927",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 516.0696221300001,
+                  "t": 199.8133628999999,
+                  "r": 537.91566185,
+                  "b": 207.76014205454533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 9,
+                "end_row_offset_idx": 10,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "3,845",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95609999999982,
+                  "t": 214.3722128999999,
+                  "r": 204.28214347999977,
+                  "b": 222.31899205454533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Difference in tax filings from provision",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 347.2772269999998,
+                  "t": 214.32271280999987,
+                  "r": 368.3196181999998,
+                  "b": 222.31899205454533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(250)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 429.6317884999998,
+                  "t": 214.3722128999999,
+                  "r": 451.47006349999987,
+                  "b": 222.31899205454533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "1,321",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 512.7628219999998,
+                  "t": 214.32271280999987,
+                  "r": 541.0846381999999,
+                  "b": 222.31899205454533,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 10,
+                "end_row_offset_idx": 11,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "(7,836)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95609999999988,
+                  "t": 228.93009230999996,
+                  "r": 147.89862919999982,
+                  "b": 236.8768714645454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Effect of U.S. tax reform",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 355.38553585999983,
+                  "t": 228.93009230999996,
+                  "r": 365.0914358599998,
+                  "b": 236.8768714645454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 424.7827208599998,
+                  "t": 228.93009230999996,
+                  "r": 451.4739458599999,
+                  "b": 236.8768714645454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "19,037",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 528.1505558599999,
+                  "t": 228.93009230999996,
+                  "r": 537.85645586,
+                  "b": 236.8768714645454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 11,
+                "end_row_offset_idx": 12,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95609999999988,
+                  "t": 243.48894230999997,
+                  "r": 245.2701591799997,
+                  "b": 251.4357214645454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Effect of tax credits for research and development",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 335.1448519999999,
+                  "t": 243.44041281,
+                  "r": 368.3196181999999,
+                  "b": 251.4357214645454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(13,550)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 426.3793414099999,
+                  "t": 243.44041281,
+                  "r": 454.7011576099999,
+                  "b": 251.4357214645454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(3,875)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 512.7618514099998,
+                  "t": 243.44041281,
+                  "r": 541.0836676099999,
+                  "b": 251.4357214645454,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 12,
+                "end_row_offset_idx": 13,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "(2,643)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95512940999993,
+                  "t": 258.04779231,
+                  "r": 218.31784546999964,
+                  "b": 265.99457146454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Effect of accrual for undistributed earnings",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 335.14388140999995,
+                  "t": 257.99926281,
+                  "r": 368.31864760999997,
+                  "b": 265.99457146454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "(13,112)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 426.37837081999993,
+                  "t": 257.99926281,
+                  "r": 454.70018701999993,
+                  "b": 265.99457146454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(1,154)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 516.01235732,
+                  "t": 258.04779231,
+                  "r": 537.8506323199998,
+                  "b": 265.99457146454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 13,
+                "end_row_offset_idx": 14,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "5,613",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95415881999992,
+                  "t": 272.60664231,
+                  "r": 252.89317303999988,
+                  "b": 280.55342146454547,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Effect of Base Erosion and Anti-Abuse Tax (BEAT)",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 338.40215203999986,
+                  "t": 272.60664231,
+                  "r": 365.09337703999995,
+                  "b": 280.55342146454547,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "16,030",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 441.76998703999993,
+                  "t": 272.60664231,
+                  "r": 451.4758870399999,
+                  "b": 280.55342146454547,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 528.15249704,
+                  "t": 272.60664231,
+                  "r": 537.85839704,
+                  "b": 280.55342146454547,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 14,
+                "end_row_offset_idx": 15,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.95415881999992,
+                  "t": 287.16549231,
+                  "r": 97.06494853999993,
+                  "b": 295.1122714645455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Other Items",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 343.2628667599999,
+                  "t": 287.16549231,
+                  "r": 365.10890648000003,
+                  "b": 295.1122714645455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "5,473",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 443.3636958199999,
+                  "t": 287.11599222,
+                  "r": 454.70018701999993,
+                  "b": 295.1122714645455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(1)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 516.01235732,
+                  "t": 287.16549231,
+                  "r": 537.8506323199998,
+                  "b": 295.1122714645455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 15,
+                "end_row_offset_idx": 16,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "1,075",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 50.9561,
+                  "t": 301.7254119,
+                  "r": 237.64326295999967,
+                  "b": 309.67219105454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 16,
+                "end_row_offset_idx": 17,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Impact of internal reorganization of subsidiaries",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 338.47397569999964,
+                  "t": 301.7254119,
+                  "r": 365.1749065999998,
+                  "b": 309.67219105454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 16,
+                "end_row_offset_idx": 17,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "16,471",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 441.85151659999985,
+                  "t": 301.7254119,
+                  "r": 451.55741659999984,
+                  "b": 309.67219105454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 16,
+                "end_row_offset_idx": 17,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 503.056922,
+                  "t": 301.6768824,
+                  "r": 541.0846382,
+                  "b": 309.67219105454546,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 16,
+                "end_row_offset_idx": 17,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "(876,114)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 17,
+                "end_row_offset_idx": 18,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 293.6046,
+                  "t": 316.2844119,
+                  "r": 365.08855350000016,
+                  "b": 324.2311910545455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 17,
+                "end_row_offset_idx": 18,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 154,937",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 379.98711000000014,
+                  "t": 316.2844119,
+                  "r": 451.4710635000003,
+                  "b": 324.2311910545455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 17,
+                "end_row_offset_idx": 18,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 143,826",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 466.3696200000003,
+                  "t": 316.23588240000004,
+                  "r": 541.08466761,
+                  "b": 324.2311910545455,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 17,
+                "end_row_offset_idx": 18,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ (776,364)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 594.0,
+          "height": 774.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

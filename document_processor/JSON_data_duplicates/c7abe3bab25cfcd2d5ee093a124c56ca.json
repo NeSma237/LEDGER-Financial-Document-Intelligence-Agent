@@ -1,0 +1,351 @@
+{
+  "document_id": "c7abe3bab25cfcd2d5ee093a124c56ca",
+  "markdown_content": "## RESULTS OF OPERATIONS\n\nThe revenue and spend balances included in the tables below during the fiscal year ended January 31, 2019, are calculated under ASC Topic 606. For comparison of subscription revenue, maintenance revenue, other revenue and total spend during the isa t          ir  d        act of New Revenue Accounting Standard.\"\n\n## Net Revenue by Income Statement Presentation\n\nSubscription revenue consists of our term-based product subscriptions, cloud service offerings, and flexible enterprise business arrangements. Revenue from these arrangements is recognized ratably over the contract term commencing with the date our service is made available to customers and when all other revenue recognition criteria have been satisfied.\n\nMaintenance revenue consists of renewal fees for existing maintenance plan agreements that were initially purchased with a perpetual software license. Under our maintenance plan, customers are eligible to receive unspecified upgrades, when and if available, and technical support. We recognize maintenance revenue ratably over the term of the agreements, which is generally one year.\n\nOther revenue consists of revenue from consulting, training and other services, and is recognized over time as the services are performed. Other revenue also includes software license revenue from the sale of products which do not incorporate substantial cloud services and is recognized up front.\n\n<!-- image -->",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmp_056v2nw",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 390572062906423128,
+      "filename": "tmp_056v2nw.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/pictures/0"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 10.44140625,
+              "t": 463.85382080078125,
+              "r": 39.4453125,
+              "b": 340.1854654947917,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              18
+            ]
+          }
+        ],
+        "orig": "2019 Annual Report",
+        "text": "2019 Annual Report"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 55.30078125,
+              "t": 741.2298380533854,
+              "r": 177.50390625,
+              "b": 732.2570546468099,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          }
+        ],
+        "orig": "RESULTS OF OPERATIONS",
+        "text": "RESULTS OF OPERATIONS",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 54.140625,
+              "t": 718.9929402669271,
+              "r": 537.5390625,
+              "b": 675.6895141601562,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              313
+            ]
+          }
+        ],
+        "orig": "The revenue and spend balances included in the tables below during the fiscal year ended January 31, 2019, are calculated under ASC Topic 606. For comparison of subscription revenue, maintenance revenue, other revenue and total spend during the isa t          ir  d        act of New Revenue Accounting Standard.\"",
+        "text": "The revenue and spend balances included in the tables below during the fiscal year ended January 31, 2019, are calculated under ASC Topic 606. For comparison of subscription revenue, maintenance revenue, other revenue and total spend during the isa t          ir  d        act of New Revenue Accounting Standard.\""
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 54.9140625,
+              "t": 662.8155212402344,
+              "r": 235.125,
+              "b": 652.2822570800781,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              44
+            ]
+          }
+        ],
+        "orig": "Net Revenue by Income Statement Presentation",
+        "text": "Net Revenue by Income Statement Presentation",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 54.52734375,
+              "t": 640.578623453776,
+              "r": 524.00390625,
+              "b": 607.4183451334635,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              356
+            ]
+          }
+        ],
+        "orig": "Subscription revenue consists of our term-based product subscriptions, cloud service offerings, and flexible enterprise business arrangements. Revenue from these arrangements is recognized ratably over the contract term commencing with the date our service is made available to customers and when all other revenue recognition criteria have been satisfied.",
+        "text": "Subscription revenue consists of our term-based product subscriptions, cloud service offerings, and flexible enterprise business arrangements. Revenue from these arrangements is recognized ratably over the contract term commencing with the date our service is made available to customers and when all other revenue recognition criteria have been satisfied."
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 53.75390625,
+              "t": 595.3245849609375,
+              "r": 539.0859375,
+              "b": 549.6804402669271,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              383
+            ]
+          }
+        ],
+        "orig": "Maintenance revenue consists of renewal fees for existing maintenance plan agreements that were initially purchased with a perpetual software license. Under our maintenance plan, customers are eligible to receive unspecified upgrades, when and if available, and technical support. We recognize maintenance revenue ratably over the term of the agreements, which is generally one year.",
+        "text": "Maintenance revenue consists of renewal fees for existing maintenance plan agreements that were initially purchased with a perpetual software license. Under our maintenance plan, customers are eligible to receive unspecified upgrades, when and if available, and technical support. We recognize maintenance revenue ratably over the term of the agreements, which is generally one year."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 54.140625,
+              "t": 539.5372924804688,
+              "r": 537.92578125,
+              "b": 504.8165283203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              297
+            ]
+          }
+        ],
+        "orig": "Other revenue consists of revenue from consulting, training and other services, and is recognized over time as the services are performed. Other revenue also includes software license revenue from the sale of products which do not incorporate substantial cloud services and is recognized up front.",
+        "text": "Other revenue consists of revenue from consulting, training and other services, and is recognized over time as the services are performed. Other revenue also includes software license revenue from the sale of products which do not incorporate substantial cloud services and is recognized up front."
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/pictures/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 54.140625,
+              "t": 44.86385091145837,
+              "r": 119.8828125,
+              "b": 32.38004557291663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              8
+            ]
+          }
+        ],
+        "orig": "AUTODESK",
+        "text": "AUTODESK"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/pictures/0"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 40.21875,
+              "t": 27.30843098958337,
+              "r": 124.13671875,
+              "b": 17.165283203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "2019 Form 10-K 44",
+        "text": "2019 Form 10-K 44"
+      }
+    ],
+    "pictures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/7"
+          },
+          {
+            "$ref": "#/texts/8"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 40.28209686279297,
+              "t": 45.22149658203125,
+              "r": 123.60033416748047,
+              "b": 17.5927734375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "annotations": []
+      }
+    ],
+    "tables": [],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 594.0,
+          "height": 774.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

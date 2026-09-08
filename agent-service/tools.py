@@ -1,6 +1,6 @@
 import httpx, ast, operator, os
 
-RETRIEVAL_URL = os.getenv("RETRIEVAL_URL", "http://localhost:8001")
+RETRIEVAL_URL = os.getenv("RETRIEVAL_URL", "http://localhost:8002")
 
 def search_documents(query: str, top_k: int = 10) -> list:
     try:

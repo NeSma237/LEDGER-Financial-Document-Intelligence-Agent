@@ -9,7 +9,7 @@ load_dotenv()
 app = FastAPI(title="Agent Service")
 agent = build_graph()
 
-VALIDATOR_URL = os.getenv("VALIDATOR_URL", "http://localhost:8003")
+VALIDATOR_URL = os.getenv("VALIDATOR_URL", "http://localhost:8005")
 
 
 class QuestionRequest(BaseModel):

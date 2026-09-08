@@ -1,0 +1,1161 @@
+{
+  "document_id": "f375f09cc23da3ffd0ba97322adc5d65",
+  "markdown_content": "## ACCOUNTING FOR WARRANTS\n\nThe Company classifies as equity any contracts that (i) require physical settlement or net-share settlement or (ii) gives the Company a choice of net-cash settlement or settlement in its own shares (physical settlement or net-share settlement). The Company classifies as assets or liabilities any contracts that (i) require net-cash settlement (including a requirement to net-cash settle the contract if an event occurs and if that event is outside the control of the Company) or (ii) gives the counterparty a choice of netcash settlement or settlement in shares (physical settlement or net-share settlement).\n\n## DERIVATIVE LIABILITIES\n\nIn connection with the issuance of Series A-1 Preferred Stock in June 2017, the Company issued a warrant with variable consideration through September 2018. The Company determined that this instrument is an embedded derivative pursuant to ASC 815, \"Derivatives and Hedging.\" The accounting treatment of derivative financial instruments requires that the Company record the warrant, at its fair value as of the inception date of the agreement and at fair value as of each subsequent balance sheet date through the expiration of the variable consideration. Any change in fair value is recorded as a change in the fair value of derivative liabilities for each reporting period at each balance sheet date. The Company reassesses the classification at each balance sheet date. If the classification changes as a result of events during the period, the contract is reclassified as of the date of the event that caused the reclassification. On September 19, 2018, upon expiration of the variable consideration, the warrant liability of $4.5 million was reclassified to equity.\n\nThe Monte Carlo Valuation model is used to estimate the fair value of the warrant. The model was developed for use in estimating the fair value of traded options or warrants. The expected volatility is estimated based on the most recent historical period of time equal to the weighted average life of the instrument granted.\n\nThe risk-free interest rate used is the United States Treasury rate for the day of the grant having a term equal to the life of the equity instrument. The volatility is a measure of the amount by which the Company's share price has fluctuated or is expected to fluctuate. The dividend yield is zero as the Company has not made any dividend payment and has no plans to pay dividends in the foreseeable future. The Company determines the expected term of its warrant awards by using the contractual term.\n\nThe principal assumptions used in applying the model were as follows:\n\n|                         | Upon 2018 Expiration   | December 31, 2017   |\n|-------------------------|------------------------|---------------------|\n| Assumptions:            |                        |                     |\n| Risk-free interest rate | 2.3% - 2.5%            | 1.5% - 2.0%         |\n| Expected life           | 1.8 - 2.2 Years        | 2.5 - 3 Years       |\n| Expected volatility     | 65% - 70%              | 50% - 60%           |\n| Dividends               | 0%                     | 0%                  |\n\n## FAIR VALUE OF FINANCIAL INSTRUMENTS\n\nThe reported amounts of the Company's financial instruments, including cash and cash equivalents, short term investments, accounts receivable, accounts payable and accrued liabilities, approximate their fair value due to their short maturities.\n\nFair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. These fair value measurements apply to all financial instruments that are measured and reported on a fair value basis.\n\nWhere available, fair value is based on observable market prices or is derived from such prices. The Company uses the market approach valuation technique to value its investments. The market approach uses prices and other pertinent information generated from market transactions involving identical or comparable assets or liabilities. The types of factors that the Company may take into account in fair value pricing the investments include available current market data, including relevant and applicable market quotes.\n\nBased on the observability of the inputs used in the valuation techniques, financial instruments are categorized according to the fair value hierarchy, which ranks the quality and reliability of the information used to determine fair values.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmpl9ey64at",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 13101719158677476700,
+      "filename": "tmpl9ey64at.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.109375,
+              "t": 772.439515431722,
+              "r": 72.9140625,
+              "b": 764.4556452433268,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "Table of Contents",
+        "text": "Table of Contents"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.5078125,
+              "t": 736.1128997802734,
+              "r": 139.0546875,
+              "b": 728.1290283203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              23
+            ]
+          }
+        ],
+        "orig": "ACCOUNTING FOR WARRANTS",
+        "text": "ACCOUNTING FOR WARRANTS",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.109375,
+              "t": 715.7540283203125,
+              "r": 577.3359375,
+              "b": 680.2257995605469,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              609
+            ]
+          }
+        ],
+        "orig": "The Company classifies as equity any contracts that (i) require physical settlement or net-share settlement or (ii) gives the Company a choice of net-cash settlement or settlement in its own shares (physical settlement or net-share settlement). The Company classifies as assets or liabilities any contracts that (i) require net-cash settlement (including a requirement to net-cash settle the contract if an event occurs and if that event is outside the control of the Company) or (ii) gives the counterparty a choice of netcash settlement or settlement in shares (physical settlement or net-share settlement).",
+        "text": "The Company classifies as equity any contracts that (i) require physical settlement or net-share settlement or (ii) gives the Company a choice of net-cash settlement or settlement in its own shares (physical settlement or net-share settlement). The Company classifies as assets or liabilities any contracts that (i) require net-cash settlement (including a requirement to net-cash settle the contract if an event occurs and if that event is outside the control of the Company) or (ii) gives the counterparty a choice of netcash settlement or settlement in shares (physical settlement or net-share settlement)."
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.90625,
+              "t": 667.4516092936198,
+              "r": 120.7265625,
+              "b": 660.6653137207031,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              22
+            ]
+          }
+        ],
+        "orig": "DERIVATIVE LIABILITIES",
+        "text": "DERIVATIVE LIABILITIES",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 21.9140625,
+              "t": 650.2862854003906,
+              "r": 577.3359375,
+              "b": 586.01611328125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1069
+            ]
+          }
+        ],
+        "orig": "In connection with the issuance of Series A-1 Preferred Stock in June 2017, the Company issued a warrant with variable consideration through September 2018. The Company determined that this instrument is an embedded derivative pursuant to ASC 815, \"Derivatives and Hedging.\" The accounting treatment of derivative financial instruments requires that the Company record the warrant, at its fair value as of the inception date of the agreement and at fair value as of each subsequent balance sheet date through the expiration of the variable consideration. Any change in fair value is recorded as a change in the fair value of derivative liabilities for each reporting period at each balance sheet date. The Company reassesses the classification at each balance sheet date. If the classification changes as a result of events during the period, the contract is reclassified as of the date of the event that caused the reclassification. On September 19, 2018, upon expiration of the variable consideration, the warrant liability of $4.5 million was reclassified to equity.",
+        "text": "In connection with the issuance of Series A-1 Preferred Stock in June 2017, the Company issued a warrant with variable consideration through September 2018. The Company determined that this instrument is an embedded derivative pursuant to ASC 815, \"Derivatives and Hedging.\" The accounting treatment of derivative financial instruments requires that the Company record the warrant, at its fair value as of the inception date of the agreement and at fair value as of each subsequent balance sheet date through the expiration of the variable consideration. Any change in fair value is recorded as a change in the fair value of derivative liabilities for each reporting period at each balance sheet date. The Company reassesses the classification at each balance sheet date. If the classification changes as a result of events during the period, the contract is reclassified as of the date of the event that caused the reclassification. On September 19, 2018, upon expiration of the variable consideration, the warrant liability of $4.5 million was reclassified to equity."
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 22.7109375,
+              "t": 576.4354654947916,
+              "r": 575.7421875,
+              "b": 558.4717610677084,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              324
+            ]
+          }
+        ],
+        "orig": "The Monte Carlo Valuation model is used to estimate the fair value of the warrant. The model was developed for use in estimating the fair value of traded options or warrants. The expected volatility is estimated based on the most recent historical period of time equal to the weighted average life of the instrument granted.",
+        "text": "The Monte Carlo Valuation model is used to estimate the fair value of the warrant. The model was developed for use in estimating the fair value of traded options or warrants. The expected volatility is estimated based on the most recent historical period of time equal to the weighted average life of the instrument granted."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.109375,
+              "t": 546.4959513346354,
+              "r": 577.3359375,
+              "b": 519.3507893880208,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              502
+            ]
+          }
+        ],
+        "orig": "The risk-free interest rate used is the United States Treasury rate for the day of the grant having a term equal to the life of the equity instrument. The volatility is a measure of the amount by which the Company's share price has fluctuated or is expected to fluctuate. The dividend yield is zero as the Company has not made any dividend payment and has no plans to pay dividends in the foreseeable future. The Company determines the expected term of its warrant awards by using the contractual term.",
+        "text": "The risk-free interest rate used is the United States Treasury rate for the day of the grant having a term equal to the life of the equity instrument. The volatility is a measure of the amount by which the Company's share price has fluctuated or is expected to fluctuate. The dividend yield is zero as the Company has not made any dividend payment and has no plans to pay dividends in the foreseeable future. The Company determines the expected term of its warrant awards by using the contractual term."
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.5078125,
+              "t": 508.1733805338542,
+              "r": 247.03125,
+              "b": 498.99192301432294,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              69
+            ]
+          }
+        ],
+        "orig": "The principal assumptions used in applying the model were as follows:",
+        "text": "The principal assumptions used in applying the model were as follows:"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.90625,
+              "t": 413.1653238932292,
+              "r": 186.46875,
+              "b": 405.1814371744792,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              35
+            ]
+          }
+        ],
+        "orig": "FAIR VALUE OF FINANCIAL INSTRUMENTS",
+        "text": "FAIR VALUE OF FINANCIAL INSTRUMENTS",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.109375,
+              "t": 392.4072265625,
+              "r": 576.140625,
+              "b": 375.2419026692708,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              244
+            ]
+          }
+        ],
+        "orig": "The reported amounts of the Company's financial instruments, including cash and cash equivalents, short term investments, accounts receivable, accounts payable and accrued liabilities, approximate their fair value due to their short maturities.",
+        "text": "The reported amounts of the Company's financial instruments, including cash and cash equivalents, short term investments, accounts receivable, accounts payable and accrued liabilities, approximate their fair value due to their short maturities."
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 22.7109375,
+              "t": 363.6653238932292,
+              "r": 576.9375,
+              "b": 346.5,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              293
+            ]
+          }
+        ],
+        "orig": "Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. These fair value measurements apply to all financial instruments that are measured and reported on a fair value basis.",
+        "text": "Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. These fair value measurements apply to all financial instruments that are measured and reported on a fair value basis."
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 21.9140625,
+              "t": 334.125,
+              "r": 577.734375,
+              "b": 296.2015787760417,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              521
+            ]
+          }
+        ],
+        "orig": "Where available, fair value is based on observable market prices or is derived from such prices. The Company uses the market approach valuation technique to value its investments. The market approach uses prices and other pertinent information generated from market transactions involving identical or comparable assets or liabilities. The types of factors that the Company may take into account in fair value pricing the investments include available current market data, including relevant and applicable market quotes.",
+        "text": "Where available, fair value is based on observable market prices or is derived from such prices. The Company uses the market approach valuation technique to value its investments. The market approach uses prices and other pertinent information generated from market transactions involving identical or comparable assets or liabilities. The types of factors that the Company may take into account in fair value pricing the investments include available current market data, including relevant and applicable market quotes."
+      },
+      {
+        "self_ref": "#/texts/12",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 22.3125,
+              "t": 286.6209309895833,
+              "r": 575.7421875,
+              "b": 268.6572265625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              241
+            ]
+          }
+        ],
+        "orig": "Based on the observability of the inputs used in the valuation techniques, financial instruments are categorized according to the fair value hierarchy, which ranks the quality and reliability of the information used to determine fair values.",
+        "text": "Based on the observability of the inputs used in the valuation techniques, financial instruments are categorized according to the fair value hierarchy, which ranks the quality and reliability of the information used to determine fair values."
+      },
+      {
+        "self_ref": "#/texts/13",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 283.2890625,
+              "t": 231.93143717447913,
+              "r": 303.609375,
+              "b": 220.35481770833337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              4
+            ]
+          }
+        ],
+        "orig": "F-11",
+        "text": "F-11"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.056575775146484,
+              "t": 496.7251281738281,
+              "r": 575.90185546875,
+              "b": 428.4052429199219,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 367.500004785,
+                "t": 295.14928910967865,
+                "r": 441.10560579707703,
+                "b": 303.7871798144479,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Upon 2018 Expiration",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 488.7000064515,
+                "t": 295.14928910967865,
+                "r": 551.668807317321,
+                "b": 303.7871798144479,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "December 31, 2017",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 25.5000000825,
+                "t": 306.54928926642606,
+                "r": 68.35905067181193,
+                "b": 315.1871799711953,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Assumptions:",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 25.5000000825,
+                "t": 317.94928942318074,
+                "r": 92.9913760105064,
+                "b": 326.58718012795,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Risk-free interest rate",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 384.300005016,
+                "t": 318.5492894314302,
+                "r": 422.5428055418385,
+                "b": 327.18718013619946,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2.3% - 2.5%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 500.10000660825,
+                "t": 318.5492894314302,
+                "r": 538.3428071340885,
+                "b": 327.18718013619946,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "1.5% - 2.0%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 25.5000000825,
+                "t": 329.34928957992815,
+                "r": 66.81637565060015,
+                "b": 337.9871802846974,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Expected life",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 381.000004970625,
+                "t": 329.94928958817763,
+                "r": 426.3014305935196,
+                "b": 338.58718029294687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "1.8 - 2.2 Years",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 499.5000066,
+                "t": 329.94928958817763,
+                "r": 539.4014321486446,
+                "b": 338.58718029294687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2.5 - 3 Years",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 25.5000000825,
+                "t": 340.74928973667556,
+                "r": 84.57817589482491,
+                "b": 349.3871804414448,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Expected volatility",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 386.10000504075,
+                "t": 341.34928974492504,
+                "r": 420.7428055170885,
+                "b": 349.9871804496943,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "65% - 70%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 501.900006633,
+                "t": 341.34928974492504,
+                "r": 536.5428071093386,
+                "b": 349.9871804496943,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "50% - 60%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 25.5000000825,
+                "t": 352.14928989343025,
+                "r": 57.52642552286334,
+                "b": 360.7871805981995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Dividends",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 394.200005152125,
+                "t": 352.14928989343025,
+                "r": 404.84280529846353,
+                "b": 360.7871805981995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "0%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 510.3000067485,
+                "t": 352.14928989343025,
+                "r": 520.9428068948386,
+                "b": 360.7871805981995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "0%",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 6,
+          "num_cols": 3,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 367.500004785,
+                  "t": 295.14928910967865,
+                  "r": 441.10560579707703,
+                  "b": 303.7871798144479,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Upon 2018 Expiration",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 488.7000064515,
+                  "t": 295.14928910967865,
+                  "r": 551.668807317321,
+                  "b": 303.7871798144479,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "December 31, 2017",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 25.5000000825,
+                  "t": 306.54928926642606,
+                  "r": 68.35905067181193,
+                  "b": 315.1871799711953,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Assumptions:",
+                "column_header": false,
+                "row_header": false,
+                "row_section": true,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 25.5000000825,
+                  "t": 317.94928942318074,
+                  "r": 92.9913760105064,
+                  "b": 326.58718012795,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Risk-free interest rate",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 384.300005016,
+                  "t": 318.5492894314302,
+                  "r": 422.5428055418385,
+                  "b": 327.18718013619946,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2.3% - 2.5%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 500.10000660825,
+                  "t": 318.5492894314302,
+                  "r": 538.3428071340885,
+                  "b": 327.18718013619946,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "1.5% - 2.0%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 25.5000000825,
+                  "t": 329.34928957992815,
+                  "r": 66.81637565060015,
+                  "b": 337.9871802846974,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Expected life",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 381.000004970625,
+                  "t": 329.94928958817763,
+                  "r": 426.3014305935196,
+                  "b": 338.58718029294687,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "1.8 - 2.2 Years",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 499.5000066,
+                  "t": 329.94928958817763,
+                  "r": 539.4014321486446,
+                  "b": 338.58718029294687,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2.5 - 3 Years",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 25.5000000825,
+                  "t": 340.74928973667556,
+                  "r": 84.57817589482491,
+                  "b": 349.3871804414448,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Expected volatility",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 386.10000504075,
+                  "t": 341.34928974492504,
+                  "r": 420.7428055170885,
+                  "b": 349.9871804496943,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "65% - 70%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 501.900006633,
+                  "t": 341.34928974492504,
+                  "r": 536.5428071093386,
+                  "b": 349.9871804496943,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "50% - 60%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 25.5000000825,
+                  "t": 352.14928989343025,
+                  "r": 57.52642552286334,
+                  "b": 360.7871805981995,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Dividends",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 394.200005152125,
+                  "t": 352.14928989343025,
+                  "r": 404.84280529846353,
+                  "b": 360.7871805981995,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "0%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 510.3000067485,
+                  "t": 352.14928989343025,
+                  "r": 520.9428068948386,
+                  "b": 360.7871805981995,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "0%",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 612.0,
+          "height": 792.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

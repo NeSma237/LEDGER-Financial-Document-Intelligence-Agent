@@ -1,0 +1,987 @@
+{
+  "document_id": "f53b81c6e59cf5c92669803f77479d21",
+  "markdown_content": "## 10. Other Non-Current Assets\n\nOther non-current assets consist of the following:\n\n|                                                             | As of December 31,                          |   As of December 31, |\n|-------------------------------------------------------------|---------------------------------------------|----------------------|\n|                                                             | 2018                                        |                 2019 |\n| Various guarantees . . . . . . . . . . . . . . . . .        | . . . . . . . . . . . . . . . . . . . 451   |                  388 |\n| Other long-term assets . . . . . . . . . . . . . . .        | . . . . . . . . . . . . . . . . . . . 2,092 |                1,613 |\n| Cash collaterals on swaps . . . . . . . . . . . . .         | . . . . . . . . . . . . . . . . . . . -     |               22,220 |\n| Total . . . . . . . . . . . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . 2,543 |               24,221 |\n\nCash collaterals on swaps represent cash deposited for the Group's interest rate swaps being the difference between their fair value and an agreed threshold.\n\n## 11. Share Capital\n\nGasLog's authorized share capital consists of 500,000,000 shares with a par value $0.01 per share.\n\nAs of December 31, 2019, the share capital consisted of 80,871,670 issued and outstanding common shares, par value $0.01 per share, 121,456 treasury shares issued and held by GasLog and 4,600,000 Preference Shares issued and outstanding (December 31, 2018: 80,861,246 issued and outstanding common shares, par value $0.01 per share, 131,880 treasury shares issued and held by GasLog and 4,600,000 Preference Shares issued and outstanding). The movements in the number of",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmpasnorgqi",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 15481784653756680706,
+      "filename": "tmpasnorgqi.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 67.2890625,
+              "t": 712.7510070800781,
+              "r": 452.07421875,
+              "b": 665.15625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              230
+            ]
+          }
+        ],
+        "orig": "GasLog Ltd. and its Subsidiaries Notes to the consolidated financial statements (Continued) For the years ended December 31, 2017, 2018 and 2019 (All amounts expressed in thousands of U.S. Dollars, except share and per share data)",
+        "text": "GasLog Ltd. and its Subsidiaries Notes to the consolidated financial statements (Continued) For the years ended December 31, 2017, 2018 and 2019 (All amounts expressed in thousands of U.S. Dollars, except share and per share data)"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 67.67578125,
+              "t": 640.968739827474,
+              "r": 201.48046875,
+              "b": 630.0453592936198,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              28
+            ]
+          }
+        ],
+        "orig": "10. Other Non-Current Assets",
+        "text": "10. Other Non-Current Assets",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 87.3984375,
+              "t": 623.4132995605469,
+              "r": 305.5078125,
+              "b": 611.3195495605469,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              50
+            ]
+          }
+        ],
+        "orig": "Other non-current assets consist of the following:",
+        "text": "Other non-current assets consist of the following:"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 67.67578125,
+              "t": 504.4263916015625,
+              "r": 512.7890625,
+              "b": 479.84877522786456,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              157
+            ]
+          }
+        ],
+        "orig": "Cash collaterals on swaps represent cash deposited for the Group's interest rate swaps being the difference between their fair value and an agreed threshold.",
+        "text": "Cash collaterals on swaps represent cash deposited for the Group's interest rate swaps being the difference between their fair value and an agreed threshold."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 67.67578125,
+              "t": 467.3649088541667,
+              "r": 147.7265625,
+              "b": 455.66127522786456,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "11. Share Capital",
+        "text": "11. Share Capital",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 88.171875,
+              "t": 449.4193522135417,
+              "r": 516.26953125,
+              "b": 437.71571858723956,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              98
+            ]
+          }
+        ],
+        "orig": "GasLog's authorized share capital consists of 500,000,000 shares with a par value $0.01 per share.",
+        "text": "GasLog's authorized share capital consists of 500,000,000 shares with a par value $0.01 per share."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 67.67578125,
+              "t": 431.8638916015625,
+              "r": 509.30859375,
+              "b": 371.7852783203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              470
+            ]
+          }
+        ],
+        "orig": "As of December 31, 2019, the share capital consisted of 80,871,670 issued and outstanding common shares, par value $0.01 per share, 121,456 treasury shares issued and held by GasLog and 4,600,000 Preference Shares issued and outstanding (December 31, 2018: 80,861,246 issued and outstanding common shares, par value $0.01 per share, 131,880 treasury shares issued and held by GasLog and 4,600,000 Preference Shares issued and outstanding). The movements in the number of",
+        "text": "As of December 31, 2019, the share capital consisted of 80,871,670 issued and outstanding common shares, par value $0.01 per share, 121,456 treasury shares issued and held by GasLog and 4,600,000 Preference Shares issued and outstanding (December 31, 2018: 80,861,246 issued and outstanding common shares, par value $0.01 per share, 131,880 treasury shares issued and held by GasLog and 4,600,000 Preference Shares issued and outstanding). The movements in the number of"
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 284.23828125,
+              "t": 72.95255533854163,
+              "r": 308.98828125,
+              "b": 60.46875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              4
+            ]
+          }
+        ],
+        "orig": "F-40",
+        "text": "F-40"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 107.7444839477539,
+              "t": 601.0172576904297,
+              "r": 485.8684387207031,
+              "b": 511.7593688964844,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 430.36,
+                "t": 174.24389999999994,
+                "r": 477.632,
+                "b": 189.79589999999996,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "As of December 31,",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 426.24,
+                "t": 194.24389999999994,
+                "r": 442.24,
+                "b": 201.79589999999996,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2018",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 463.24,
+                "t": 194.24389999999994,
+                "r": 479.24,
+                "b": 201.79589999999996,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "2019",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 109.0,
+                "t": 208.82000000000005,
+                "r": 297.0,
+                "b": 218.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Various guarantees . . . . . . . . . . . . . . . . .",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 300.5,
+                "t": 208.82000000000005,
+                "r": 445.5,
+                "b": 218.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": ". . . . . . . . . . . . . . . . . . . 451",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 470.001,
+                "t": 208.82000000000005,
+                "r": 485.001,
+                "b": 218.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "388",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 109.0,
+                "t": 220.82000000000005,
+                "r": 297.0,
+                "b": 230.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Other long-term assets . . . . . . . . . . . . . . .",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 300.5,
+                "t": 220.82000000000005,
+                "r": 445.5,
+                "b": 230.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": ". . . . . . . . . . . . . . . . . . . 2,092",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 462.501,
+                "t": 220.82000000000005,
+                "r": 485.001,
+                "b": 230.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "1,613",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 109.0,
+                "t": 232.82000000000005,
+                "r": 297.0,
+                "b": 242.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Cash collaterals on swaps . . . . . . . . . . . . .",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 300.5,
+                "t": 232.82000000000005,
+                "r": 445.5,
+                "b": 242.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": ". . . . . . . . . . . . . . . . . . . -",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 457.5,
+                "t": 232.82000000000005,
+                "r": 485.0,
+                "b": 242.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "22,220",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 109.0,
+                "t": 248.82000000000005,
+                "r": 297.0,
+                "b": 258.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Total . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 300.5,
+                "t": 248.82000000000005,
+                "r": 445.5,
+                "b": 258.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": ". . . . . . . . . . . . . . . . . . . 2,543",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 457.501,
+                "t": 248.82000000000005,
+                "r": 485.001,
+                "b": 258.2600000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "24,221",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 6,
+          "num_cols": 3,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 430.36,
+                  "t": 174.24389999999994,
+                  "r": 477.632,
+                  "b": 189.79589999999996,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "As of December 31,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 430.36,
+                  "t": 174.24389999999994,
+                  "r": 477.632,
+                  "b": 189.79589999999996,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 2,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 3,
+                "text": "As of December 31,",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 426.24,
+                  "t": 194.24389999999994,
+                  "r": 442.24,
+                  "b": 201.79589999999996,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "2018",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 463.24,
+                  "t": 194.24389999999994,
+                  "r": 479.24,
+                  "b": 201.79589999999996,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "2019",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 109.0,
+                  "t": 208.82000000000005,
+                  "r": 297.0,
+                  "b": 218.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Various guarantees . . . . . . . . . . . . . . . . .",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 300.5,
+                  "t": 208.82000000000005,
+                  "r": 445.5,
+                  "b": 218.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": ". . . . . . . . . . . . . . . . . . . 451",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 470.001,
+                  "t": 208.82000000000005,
+                  "r": 485.001,
+                  "b": 218.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "388",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 109.0,
+                  "t": 220.82000000000005,
+                  "r": 297.0,
+                  "b": 230.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Other long-term assets . . . . . . . . . . . . . . .",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 300.5,
+                  "t": 220.82000000000005,
+                  "r": 445.5,
+                  "b": 230.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": ". . . . . . . . . . . . . . . . . . . 2,092",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 462.501,
+                  "t": 220.82000000000005,
+                  "r": 485.001,
+                  "b": 230.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "1,613",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 109.0,
+                  "t": 232.82000000000005,
+                  "r": 297.0,
+                  "b": 242.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Cash collaterals on swaps . . . . . . . . . . . . .",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 300.5,
+                  "t": 232.82000000000005,
+                  "r": 445.5,
+                  "b": 242.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": ". . . . . . . . . . . . . . . . . . . -",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 457.5,
+                  "t": 232.82000000000005,
+                  "r": 485.0,
+                  "b": 242.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "22,220",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 109.0,
+                  "t": 248.82000000000005,
+                  "r": 297.0,
+                  "b": 258.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Total . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 300.5,
+                  "t": 248.82000000000005,
+                  "r": 445.5,
+                  "b": 258.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": ". . . . . . . . . . . . . . . . . . . 2,543",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 457.501,
+                  "t": 248.82000000000005,
+                  "r": 485.001,
+                  "b": 258.2600000000001,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "24,221",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 594.0,
+          "height": 774.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

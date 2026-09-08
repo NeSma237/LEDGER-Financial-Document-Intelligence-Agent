@@ -33,7 +33,8 @@ def classify_question(state: AgentState) -> AgentState:
 
 def retrieve_text(state: AgentState) -> AgentState:
     results = search_documents(state["question"])
-    return {**state, "retrieved_chunks": results}
+    return {**state, "retrieved_chunks": results, "retry_count": state["retry_count"] + 1}
+
 
 def retrieve_tables(state: AgentState) -> AgentState:
     text = search_documents(state["question"])
@@ -61,7 +62,11 @@ Evidence:
 CRITICAL RULES:
 1. NEVER compute arithmetic yourself. Write the formula in "formula_to_calculate" and set "needs_calculation": true
 2. For abs() differences use: "abs(x-y)" format
-3. Return ONLY this JSON structure:
+3. MULTI-SOURCE CHECK (very important): The evidence above may come from MULTIPLE DIFFERENT document_id values, meaning it may belong to DIFFERENT companies or reports. Before answering:
+   - If the question does NOT specify a company/document, and the evidence contains conflicting figures for the same metric coming from DIFFERENT document_id values, you MUST NOT arbitrarily pick one.
+   - In that case, return "answer_type": "insufficient_evidence" with a "reason" that explicitly states the question is ambiguous because multiple sources/companies report different values, and ask the user to specify which document or company they mean.
+   - Only answer directly if either (a) all relevant evidence comes from the same document_id, or (b) the question itself already specifies which company/document is meant.
+4. Return ONLY this JSON structure:
 
 {{
   "answer_type": "direct" or "calculated" or "multi_span" or "insufficient_evidence",
@@ -92,6 +97,12 @@ def execute_calculation(state: AgentState) -> AgentState:
             answer["answer_type"] = "insufficient_evidence"
             answer["params"] = {"reason": f"Calculation error: {calc['error']}"}
 
+    return {**state, "final_answer": answer}
+
+def finalize_answer(state: AgentState) -> AgentState:
+    """Strips internal-only fields before the answer leaves the agent,
+    regardless of which path (calculated or not) produced it."""
+    answer = dict(state["final_answer"])
     answer.pop("needs_calculation", None)
     answer.pop("formula_to_calculate", None)
     return {**state, "final_answer": answer}
@@ -128,6 +139,7 @@ def build_graph():
     g.add_node("check_evidence", check_evidence)
     g.add_node("generate", generate_answer)
     g.add_node("calculate", execute_calculation)
+    g.add_node("finalize", finalize_answer)
     g.add_node("insufficient", insufficient_node)
 
     g.set_entry_point("classify")
@@ -144,8 +156,9 @@ def build_graph():
     })
     g.add_conditional_edges("generate", route_after_generation, {
         "calculate": "calculate",
-        "done": END
+        "done": "finalize"
     })
-    g.add_edge("calculate", END)
+    g.add_edge("calculate", "finalize")
+    g.add_edge("finalize", END)
     g.add_edge("insufficient", END)
     return g.compile()

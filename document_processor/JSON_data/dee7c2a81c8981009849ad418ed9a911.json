@@ -1,0 +1,1166 @@
+{
+  "document_id": "dee7c2a81c8981009849ad418ed9a911",
+  "markdown_content": "The valuation allowance activity for the years ended September 30, 2019, 2018, and 2017 is as follows:\n\n| Year Ended         | Balance at Beginning of Year   | Income Tax Expense (Benefit)   | Reversal for State NOL Expiration and Utilization   | Balance at End of Year   |\n|--------------------|--------------------------------|--------------------------------|-----------------------------------------------------|--------------------------|\n| September 30, 2019 | $ 104,858                      | $ 10,448                       | $ (68,292)                                          | $ 47,014                 |\n| September 30, 2018 | 159,154                        | 79,377                         | (133,673)                                           | 104,858                  |\n| September 30, 2017 | 322,404                        | (32,154)                       | (131,096)                                           | 159,154                  |\n\nThe Company completed an Internal Revenue Code Section 382 analysis of the loss carry forwards in 2009 and determined then that all of the Company's loss carry forwards are utilizable and not restricted under Section 382. The Company has not updated its Section 382 analysis subsequent to 2009 and does not believe there have been any events subsequent to 2009 that would impact the analysis.\n\nThe Company is required to recognize the financial statement benefit of a tax position only after determining that the relevant tax authority would more likely than not sustain the position following an audit. For tax positions meeting the more likely than not threshold, the amount recognized in the financial statements is the largest benefit that has a greater than 50 percent likelihood of being realized upon ultimate settlement with the relevant tax authority. The Company applies the interpretation to all tax positions for which the statute of limitations remained open. The Company had no liability for unrecognized tax benefits and did not recognize any interest or penalties during the years ended September 30, 2019, 2018, or 2017.\n\nThe Company is subject to income taxes in the U.S. federal jurisdiction, and various state jurisdictions. Tax regulations within each jurisdiction are subject to the interpretation of the related tax laws and regulations and require significant judgment to apply. With few exceptions, the Company is no longer subject to U.S. federal, state and local, income tax examinations by tax authorities for fiscal years ending prior to 2004. We are generally subject to U.S. federal and state tax examinations for all tax years since 2003 due to our net operating loss carryforwards and the utilization of the carryforwards in years still open under statute. During the year ended September 30, 2018, the Company was examined by the U.S. Internal Revenue Service for fiscal year 2016. This examination resulted in no adjustments. The Company changed its fiscal year end in 2007 from March 31 to September 30.\n\n## NOTE E- CONCENTRATIONS\n\nSuppliers: The Company purchases critical components for our products, including injection molded parts and connectors from third parties, some of whom are single- or limited-source suppliers. If any of our suppliers are unable to ship critical components, we may be unable to manufacture and ship products to our distributors or customers. If the price of these components increases for any reason, or if these suppliers are unable or unwilling to deliver, we may have to find another source, which could result in interruptions, increased costs, delays, loss of sales and quality control problems.\n\nCustomers: For the fiscal years ended September 30, 2019, 2018, and 2017, the Company had two customers that comprised 29%, 33%, and 35% of net sales, respectively. Both of these customers are distributors. These major customers, like our other customers, purchase our products from time to time through purchase orders, and we do not have any agreements that obligate these major customers to purchase products in the future from us.\n\nAs of September 30, 2019, two customers accounted for 28% of accounts receivable. Both of these customers were distributors. As of September 30, 2018, two customers accounted for 45% of accounts receivable. One of these customers was a distributor and one was a private label original equipment manufacturer.",
+  "raw_docling_dict": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "tmpovl_cbwo",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 14051902197194951674,
+      "filename": "tmpovl_cbwo.pdf"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.5078125,
+              "t": 762.8588689168295,
+              "r": 347.8359375,
+              "b": 754.8749974568685,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              102
+            ]
+          }
+        ],
+        "orig": "The valuation allowance activity for the years ended September 30, 2019, 2018, and 2017 is as follows:",
+        "text": "The valuation allowance activity for the years ended September 30, 2019, 2018, and 2017 is as follows:"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.5078125,
+              "t": 663.8588663736979,
+              "r": 570.5625,
+              "b": 636.3145141601562,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              392
+            ]
+          }
+        ],
+        "orig": "The Company completed an Internal Revenue Code Section 382 analysis of the loss carry forwards in 2009 and determined then that all of the Company's loss carry forwards are utilizable and not restricted under Section 382. The Company has not updated its Section 382 analysis subsequent to 2009 and does not believe there have been any events subsequent to 2009 that would impact the analysis.",
+        "text": "The Company completed an Internal Revenue Code Section 382 analysis of the loss carry forwards in 2009 and determined then that all of the Company's loss carry forwards are utilizable and not restricted under Section 382. The Company has not updated its Section 382 analysis subsequent to 2009 and does not believe there have been any events subsequent to 2009 that would impact the analysis."
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 22.7109375,
+              "t": 627.133056640625,
+              "r": 570.5625,
+              "b": 582.8225708007812,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              743
+            ]
+          }
+        ],
+        "orig": "The Company is required to recognize the financial statement benefit of a tax position only after determining that the relevant tax authority would more likely than not sustain the position following an audit. For tax positions meeting the more likely than not threshold, the amount recognized in the financial statements is the largest benefit that has a greater than 50 percent likelihood of being realized upon ultimate settlement with the relevant tax authority. The Company applies the interpretation to all tax positions for which the statute of limitations remained open. The Company had no liability for unrecognized tax benefits and did not recognize any interest or penalties during the years ended September 30, 2019, 2018, or 2017.",
+        "text": "The Company is required to recognize the financial statement benefit of a tax position only after determining that the relevant tax authority would more likely than not sustain the position following an audit. For tax positions meeting the more likely than not threshold, the amount recognized in the financial statements is the largest benefit that has a greater than 50 percent likelihood of being realized upon ultimate settlement with the relevant tax authority. The Company applies the interpretation to all tax positions for which the statute of limitations remained open. The Company had no liability for unrecognized tax benefits and did not recognize any interest or penalties during the years ended September 30, 2019, 2018, or 2017."
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.109375,
+              "t": 573.64111328125,
+              "r": 572.15625,
+              "b": 519.749979654948,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              900
+            ]
+          }
+        ],
+        "orig": "The Company is subject to income taxes in the U.S. federal jurisdiction, and various state jurisdictions. Tax regulations within each jurisdiction are subject to the interpretation of the related tax laws and regulations and require significant judgment to apply. With few exceptions, the Company is no longer subject to U.S. federal, state and local, income tax examinations by tax authorities for fiscal years ending prior to 2004. We are generally subject to U.S. federal and state tax examinations for all tax years since 2003 due to our net operating loss carryforwards and the utilization of the carryforwards in years still open under statute. During the year ended September 30, 2018, the Company was examined by the U.S. Internal Revenue Service for fiscal year 2016. This examination resulted in no adjustments. The Company changed its fiscal year end in 2007 from March 31 to September 30.",
+        "text": "The Company is subject to income taxes in the U.S. federal jurisdiction, and various state jurisdictions. Tax regulations within each jurisdiction are subject to the interpretation of the related tax laws and regulations and require significant judgment to apply. With few exceptions, the Company is no longer subject to U.S. federal, state and local, income tax examinations by tax authorities for fiscal years ending prior to 2004. We are generally subject to U.S. federal and state tax examinations for all tax years since 2003 due to our net operating loss carryforwards and the utilization of the carryforwards in years still open under statute. During the year ended September 30, 2018, the Company was examined by the U.S. Internal Revenue Service for fiscal year 2016. This examination resulted in no adjustments. The Company changed its fiscal year end in 2007 from March 31 to September 30."
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.5078125,
+              "t": 509.7701416015625,
+              "r": 136.265625,
+              "b": 502.98386637369794,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              22
+            ]
+          }
+        ],
+        "orig": "NOTE E- CONCENTRATIONS",
+        "text": "NOTE E- CONCENTRATIONS",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.109375,
+              "t": 493.0040283203125,
+              "r": 572.15625,
+              "b": 456.27821858723956,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              599
+            ]
+          }
+        ],
+        "orig": "Suppliers: The Company purchases critical components for our products, including injection molded parts and connectors from third parties, some of whom are single- or limited-source suppliers. If any of our suppliers are unable to ship critical components, we may be unable to manufacture and ship products to our distributors or customers. If the price of these components increases for any reason, or if these suppliers are unable or unwilling to deliver, we may have to find another source, which could result in interruptions, increased costs, delays, loss of sales and quality control problems.",
+        "text": "Suppliers: The Company purchases critical components for our products, including injection molded parts and connectors from third parties, some of whom are single- or limited-source suppliers. If any of our suppliers are unable to ship critical components, we may be unable to manufacture and ship products to our distributors or customers. If the price of these components increases for any reason, or if these suppliers are unable or unwilling to deliver, we may have to find another source, which could result in interruptions, increased costs, delays, loss of sales and quality control problems."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 22.7109375,
+              "t": 447.4959716796875,
+              "r": 570.9609375,
+              "b": 420.3507893880208,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              434
+            ]
+          }
+        ],
+        "orig": "Customers: For the fiscal years ended September 30, 2019, 2018, and 2017, the Company had two customers that comprised 29%, 33%, and 35% of net sales, respectively. Both of these customers are distributors. These major customers, like our other customers, purchase our products from time to time through purchase orders, and we do not have any agreements that obligate these major customers to purchase products in the future from us.",
+        "text": "Customers: For the fiscal years ended September 30, 2019, 2018, and 2017, the Company had two customers that comprised 29%, 33%, and 35% of net sales, respectively. Both of these customers are distributors. These major customers, like our other customers, purchase our products from time to time through purchase orders, and we do not have any agreements that obligate these major customers to purchase products in the future from us."
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.109375,
+              "t": 411.5685221354167,
+              "r": 570.1640625,
+              "b": 393.2056477864583,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              308
+            ]
+          }
+        ],
+        "orig": "As of September 30, 2019, two customers accounted for 28% of accounts receivable. Both of these customers were distributors. As of September 30, 2018, two customers accounted for 45% of accounts receivable. One of these customers was a distributor and one was a private label original equipment manufacturer.",
+        "text": "As of September 30, 2019, two customers accounted for 28% of accounts receivable. Both of these customers were distributors. As of September 30, 2018, two customers accounted for 45% of accounts receivable. One of these customers was a distributor and one was a private label original equipment manufacturer."
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "furniture",
+        "label": "page_footer",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 290.859375,
+              "t": 380.4314371744792,
+              "r": 302.8125,
+              "b": 370.4515787760417,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              2
+            ]
+          }
+        ],
+        "orig": "43",
+        "text": "43"
+      }
+    ],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.249425888061523,
+              "t": 745.5622825622559,
+              "r": 570.9832763671875,
+              "b": 671.7777481079102,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 137.100001617,
+                "t": 82.74934137192758,
+                "r": 174.08130212549287,
+                "b": 91.38723207669682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Year Ended",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 309.600003988875,
+                "t": 64.74934112442861,
+                "r": 342.2590544379369,
+                "b": 91.38723207669682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Balance at Beginning of Year",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 378.3000049335,
+                "t": 64.74934112442861,
+                "r": 415.72193044805147,
+                "b": 91.38723207669682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Income Tax Expense (Benefit)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 448.200005894625,
+                "t": 46.74934087692964,
+                "r": 486.48338142102136,
+                "b": 91.38723207669682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Reversal for State NOL Expiration and Utilization",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 521.100006897,
+                "t": 64.74934112442861,
+                "r": 553.7590573460619,
+                "b": 91.38723207669682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "Balance at End of Year",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 92.34934150392655,
+                "r": 86.85630092614913,
+                "b": 100.98723220870306,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "September 30, 2019",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 292.50000375375,
+                "t": 92.34934150392655,
+                "r": 353.2188045886335,
+                "b": 100.98723220870306,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "$ 104,858",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 364.50000474374997,
+                "t": 92.34934150392655,
+                "r": 423.7188055580085,
+                "b": 100.98723220870306,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "$ 10,448",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 434.700005709,
+                "t": 92.34934150392655,
+                "r": 496.67400656114245,
+                "b": 100.98723220870306,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "$ (68,292)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 504.90000667425,
+                "t": 92.34934150392655,
+                "r": 564.1188074885085,
+                "b": 100.98723220870306,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "$ 47,014",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 101.34934162767604,
+                "r": 86.85630092614913,
+                "b": 109.98723233245255,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "September 30, 2018",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 327.9000042405,
+                "t": 101.34934162767604,
+                "r": 353.2188045886335,
+                "b": 109.98723233245255,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "159,154",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 402.3000052635,
+                "t": 101.34934162767604,
+                "r": 423.7188055580085,
+                "b": 109.98723233245255,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "79,377",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 465.900006138,
+                "t": 101.34934162767604,
+                "r": 496.67400656114245,
+                "b": 109.98723233245255,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "(133,673)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 539.1000071445,
+                "t": 101.34934162767604,
+                "r": 564.4188074926335,
+                "b": 109.98723233245255,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "104,858",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 24.300000066,
+                "t": 110.34934175142553,
+                "r": 86.85630092614913,
+                "b": 118.98723245620204,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "September 30, 2017",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 327.9000042405,
+                "t": 110.34934175142553,
+                "r": 353.2188045886335,
+                "b": 118.98723245620204,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "322,404",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 399.90000523049997,
+                "t": 110.34934175142553,
+                "r": 426.4740055958925,
+                "b": 118.98723245620204,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "(32,154)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 465.900006138,
+                "t": 110.34934175142553,
+                "r": 496.67400656114245,
+                "b": 118.98723245620204,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "(131,096)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 539.1000071445,
+                "t": 110.34934175142553,
+                "r": 564.4188074926335,
+                "b": 118.98723245620204,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "159,154",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 5,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 137.100001617,
+                  "t": 82.74934137192758,
+                  "r": 174.08130212549287,
+                  "b": 91.38723207669682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Year Ended",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 309.600003988875,
+                  "t": 64.74934112442861,
+                  "r": 342.2590544379369,
+                  "b": 91.38723207669682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Balance at Beginning of Year",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 378.3000049335,
+                  "t": 64.74934112442861,
+                  "r": 415.72193044805147,
+                  "b": 91.38723207669682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Income Tax Expense (Benefit)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 448.200005894625,
+                  "t": 46.74934087692964,
+                  "r": 486.48338142102136,
+                  "b": 91.38723207669682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "Reversal for State NOL Expiration and Utilization",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 521.100006897,
+                  "t": 64.74934112442861,
+                  "r": 553.7590573460619,
+                  "b": 91.38723207669682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "Balance at End of Year",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 92.34934150392655,
+                  "r": 86.85630092614913,
+                  "b": 100.98723220870306,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "September 30, 2019",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 292.50000375375,
+                  "t": 92.34934150392655,
+                  "r": 353.2188045886335,
+                  "b": 100.98723220870306,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "$ 104,858",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 364.50000474374997,
+                  "t": 92.34934150392655,
+                  "r": 423.7188055580085,
+                  "b": 100.98723220870306,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "$ 10,448",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 434.700005709,
+                  "t": 92.34934150392655,
+                  "r": 496.67400656114245,
+                  "b": 100.98723220870306,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "$ (68,292)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 504.90000667425,
+                  "t": 92.34934150392655,
+                  "r": 564.1188074885085,
+                  "b": 100.98723220870306,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "$ 47,014",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 101.34934162767604,
+                  "r": 86.85630092614913,
+                  "b": 109.98723233245255,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "September 30, 2018",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 327.9000042405,
+                  "t": 101.34934162767604,
+                  "r": 353.2188045886335,
+                  "b": 109.98723233245255,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "159,154",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 402.3000052635,
+                  "t": 101.34934162767604,
+                  "r": 423.7188055580085,
+                  "b": 109.98723233245255,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "79,377",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 465.900006138,
+                  "t": 101.34934162767604,
+                  "r": 496.67400656114245,
+                  "b": 109.98723233245255,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "(133,673)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 539.1000071445,
+                  "t": 101.34934162767604,
+                  "r": 564.4188074926335,
+                  "b": 109.98723233245255,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "104,858",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 24.300000066,
+                  "t": 110.34934175142553,
+                  "r": 86.85630092614913,
+                  "b": 118.98723245620204,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "September 30, 2017",
+                "column_header": false,
+                "row_header": true,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 327.9000042405,
+                  "t": 110.34934175142553,
+                  "r": 353.2188045886335,
+                  "b": 118.98723245620204,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "322,404",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 399.90000523049997,
+                  "t": 110.34934175142553,
+                  "r": 426.4740055958925,
+                  "b": 118.98723245620204,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "(32,154)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 465.900006138,
+                  "t": 110.34934175142553,
+                  "r": 496.67400656114245,
+                  "b": 118.98723245620204,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "(131,096)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 539.1000071445,
+                  "t": 110.34934175142553,
+                  "r": 564.4188074926335,
+                  "b": 118.98723245620204,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "159,154",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 612.0,
+          "height": 792.0
+        },
+        "page_no": 1
+      }
+    }
+  }
+}

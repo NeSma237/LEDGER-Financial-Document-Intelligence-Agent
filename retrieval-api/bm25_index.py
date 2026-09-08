@@ -5,13 +5,6 @@ from typing import List, Dict, Any, Optional
 
 from rank_bm25 import BM25Okapi
 
-# =========================================================
-# Persistence
-# =========================================================
-# نفس فكرة chroma_data بتاعة vector_store.py: بنحفظ الـ index على الديسك
-# عشان لو الـ service اتعمله restart (سواء في الإنتاج، أو وقت bulk indexing
-# طويل اتقطع في النص) الداتا متضيعش. من غير كده كان كل حاجة بتتصفر لإنها
-# كانت متخزنة في متغيرات بايثون عادية (RAM) بس.
 
 BM25_DATA_DIR = Path("./bm25_data")
 BM25_STORE_FILE = BM25_DATA_DIR / "bm25_store.pkl"
@@ -33,9 +26,6 @@ def _rebuild_bm25_index() -> None:
 
 def _save_to_disk() -> None:
     BM25_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    # ملف مؤقت الأول، وبعدين استبدال الملف الأصلي دفعة واحدة (atomic rename)
-    # عشان لو البروسيس اتقفل أثناء الكتابة، الملف القديم يفضل سليم بدل ما
-    # يتلخبط نص كتابة.
     tmp_file = BM25_STORE_FILE.with_suffix(".pkl.tmp")
     with open(tmp_file, "wb") as f:
         pickle.dump(
@@ -63,8 +53,6 @@ def _load_from_disk() -> None:
         _chunk_ids_order = data.get("chunk_ids_order", [])
         _rebuild_bm25_index()
     except (pickle.UnpicklingError, EOFError, KeyError) as e:
-        # ملف تالف (زي لو البروسيس اتقفل أثناء الكتابة قبل ما نستخدم
-        # الـ atomic rename) — بنبدأ بـ index فاضي بدل ما نكرش السيرفر كله
         print(f"⚠️  bm25_index: couldn't load {BM25_STORE_FILE} ({e}), starting empty")
         _chunk_store, _tokenized_corpus, _chunk_ids_order = {}, [], []
 
@@ -78,15 +66,9 @@ def reset_index() -> None:
         BM25_STORE_FILE.unlink()
 
 
-# أول ما الموديول ده يتحمّل (يعني أول ما main.py يعمل import bm25_index)
-# بنحاول نرجّع أي داتا كانت متخزنة من قبل على الديسك.
 _load_from_disk()
 
 
-# =========================================================
-# Public API (نفس الأسماء والتوقيعات القديمة تمامًا — main.py مش محتاج
-# يتغير فيه حرف واحد)
-# =========================================================
 
 def add_chunks(chunks: List[Dict[str, Any]]) -> int:
     for c in chunks:
