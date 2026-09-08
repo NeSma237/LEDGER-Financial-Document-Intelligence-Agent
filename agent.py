@@ -232,9 +232,12 @@ class AgentState(TypedDict):
     
 # top_k = 10
 ####
-import json_processor
+# import json_processor
 def search_documents(query):
-    return json_processor.processed_documents
+    file_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\test_json_single_file"
+    with open(file_path, "r") as f:
+        data = json.load(f)
+    return data
 
 def retrieve_text(state: AgentState) -> AgentState:
     results = search_documents(state["question"])
@@ -422,7 +425,7 @@ def health():
     return {"status": "ok"}
 
 class my_question():
-    question = "What was the low sale price per share for each quarters in 2018 in chronological order?"
+    question = "What are the respective proportion of cost of revenue as a percentage of revenue in 2017 and 2018?"
     conversation_id = "default"
 
 answer_question(my_question)

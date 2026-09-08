@@ -60,6 +60,7 @@ with open("test_json.json", "w") as f:
 
 # use this when you want a single file for single test
 def signle_file_json_maker(path):
+    list = [] # the other code works on a list
     file_path = Path(path)
     with open(file_path, 'r') as f:
         data = json.load(f)
@@ -77,8 +78,14 @@ def signle_file_json_maker(path):
         "page": 0,
         "section": "Default",
         "content": "\n".join(blocks_text),  # Joining by newline keeps text blocks separated
+        "score": 1
     }
+    list.append(dict_data)
 
     # Convert dictionary to a formatted JSON string
-    test_json = json.dumps(dict_data, indent=2)
-    print(test_json)
+    test_json_single_file = json.dumps(list, indent=2)
+    with open("test_json_single_file.json", "w") as f:
+        f.write(test_json_single_file) 
+
+single_file_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\tatdqa_docs_dev\\dev\\4d41ea7a63b2d9b5cc3cb24ca6c7e9ac.json"
+# signle_file_json_maker(single_file_path)
