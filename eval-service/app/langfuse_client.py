@@ -58,7 +58,10 @@ def get_langfuse() -> Optional["Langfuse"]:
         _client = Langfuse(
             public_key=os.environ["LANGFUSE_PUBLIC_KEY"],
             secret_key=os.environ["LANGFUSE_SECRET_KEY"],
-            host=os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com"),
+            host=os.getenv(
+                "LANGFUSE_HOST",
+                os.getenv("LANGFUSE_BASE_URL", "https://cloud.langfuse.com"),
+            ),
         )
     return _client
 

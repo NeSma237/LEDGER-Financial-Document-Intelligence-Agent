@@ -87,7 +87,8 @@ async def ask_question(request: AskRequest):
             evidence=[],
             params={"reason": f"Validation failed: {val_reason}"},
             validated=False,
-            _trace=agent_response.get("_trace")
+            _trace=agent_response.get("_trace"),
+            usage=agent_response.get("_usage"),
         )
 
     # Step 5: Return validated answer to UI using typed AskResponse model
@@ -98,7 +99,8 @@ async def ask_question(request: AskRequest):
         evidence=agent_response.get("evidence", []),
         params=agent_response.get("params", {}),
         validated=True,
-        _trace=agent_response.get("_trace")
+        _trace=agent_response.get("_trace"),
+        usage=agent_response.get("_usage"),
     )
 
 

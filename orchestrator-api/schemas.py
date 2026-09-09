@@ -23,6 +23,7 @@ class AskResponse(BaseModel):
     params: Dict[str, Any] = {}
     validated: bool = False
     trace: Optional[Dict[str, Any]] = Field(default=None, alias="_trace")
+    usage: Optional[Dict[str, Any]] = Field(default=None, alias="_usage")
 
 
 class IngestResponse(BaseModel):

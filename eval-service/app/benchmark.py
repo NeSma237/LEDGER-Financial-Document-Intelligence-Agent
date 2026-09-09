@@ -57,13 +57,21 @@ def build_holdout_set(
     `.get(...)` keys below to match whatever copy of the dataset the
     team downloads.
     """
-    data = json.loads(Path(tatdqa_path).read_text())
+    data = json.loads(Path(tatdqa_path).read_text(encoding="utf-8"))
+    if isinstance(data, dict):
+        data = data.get("data") or data.get("documents") or data.get("items") or []
 
     pool: List[BenchmarkQuestion] = []
     for doc in data:
         doc_id = doc.get("doc", {}).get("uid") or doc.get("doc_id") or doc.get("uid")
         for q in doc.get("questions", []):
-            gt_pages = q.get("rel_paragraphs") or q.get("answer_page_index") or []
+            gt_pages = (
+                q.get("rel_paragraphs")
+                or q.get("answer_page_index")
+                or q.get("answer_pages")
+                or q.get("evidence_pages")
+                or []
+            )
             if isinstance(gt_pages, (str, int)):
                 gt_pages = [gt_pages]
             gt_pages = [int(p) for p in gt_pages if str(p).isdigit()]
@@ -71,7 +79,7 @@ def build_holdout_set(
             pool.append(
                 BenchmarkQuestion(
                     question_id=str(q.get("uid") or uuid.uuid4()),
-                    question=q["question"],
+                    question=q.get("question") or q.get("query"),
                     doc_id=str(doc_id),
                     gt_answer=q.get("answer"),
                     gt_answer_type=q.get("answer_type"),
@@ -107,15 +115,6 @@ question_id gets passed through as conversation_id — orchestrator's
 AskRequest only accepts `question`/`conversation_id` (extra="forbid"),
 so there's no way to scope a call to one document; the pipeline is
 corpus-wide by default, which is what we want to benchmark anyway."""
-
-RetrievalCall = Callable[[str, int], List[str]]
-"""Signature: call_retrieval(question, top_k) -> ranked list of "doc_id:page"
-strings, most relevant first. Confirmed against retrieval-api's real
-RetrievalResponse (document_id/page/section/content/score per result).
-This is a separate call from call_orchestrator — Recall@K/Precision@K
-measure retrieval quality on its own, independent of what the agent
-ends up doing with what it retrieved."""
-
 
 def _score_one(q: BenchmarkQuestion, raw_answer: Optional[dict], latency_ms: float) -> BenchmarkResult:
     result = BenchmarkResult(
@@ -156,10 +155,12 @@ def _score_one(q: BenchmarkQuestion, raw_answer: Optional[dict], latency_ms: flo
 
     result.predicted_answer = answer
 
-    retrieved_pages = [str(e.page) for e in answer.evidence]
+    retrieved_pages = [f"{e.document_id}:{e.page}" for e in answer.evidence]
     gt_pages = [str(p) for p in q.gt_evidence_pages]
     if gt_pages:
-        result.retrieval_hit = bool(set(retrieved_pages) & set(gt_pages))
+        result.retrieval_hit = bool(
+            {item.split(":", 1)[-1] for item in retrieved_pages} & set(gt_pages)
+        )
 
     if answer.answer_type == AnswerType.INSUFFICIENT_EVIDENCE:
         # Correct only if the ground truth genuinely has no answer.
@@ -174,6 +175,7 @@ def _score_one(q: BenchmarkQuestion, raw_answer: Optional[dict], latency_ms: flo
         result.exact_match = result.numerical_correct
         result.f1 = 1.0 if result.numerical_correct else 0.0
         return result
+
 
     if answer.answer_type == AnswerType.MULTI_SPAN:
         pred_values = answer.params.get("values", [])
@@ -192,12 +194,37 @@ def _score_one(q: BenchmarkQuestion, raw_answer: Optional[dict], latency_ms: flo
     return result
 
 
+def extract_retrieved_ids(raw_answer: Optional[dict]) -> List[str]:
+    """Read ranked retrieval candidates forwarded by the orchestrator.
+
+    The evaluator never calls retrieval-api directly. Candidate shapes are
+    intentionally tolerant because ``_trace`` is internal observability data:
+    both ``{"document_id", "page"}`` objects and ``"doc:page"`` strings are
+    accepted.
+    """
+    if not raw_answer:
+        return []
+    trace = raw_answer.get("_trace") or {}
+    candidates = trace.get("retrieved_candidates") or trace.get("retrieved") or []
+    ids: List[str] = []
+    for candidate in candidates:
+        if isinstance(candidate, str):
+            ids.append(candidate)
+            continue
+        if isinstance(candidate, dict):
+            document_id = candidate.get("document_id") or candidate.get("doc_id")
+            page = candidate.get("page")
+            if document_id is not None and page is not None:
+                ids.append(f"{document_id}:{page}")
+    return ids
+
+
 def run_benchmark(
     questions: List[BenchmarkQuestion],
     call_orchestrator: OrchestratorCall,
     k: int = 5,
     run_id: Optional[str] = None,
-    call_retrieval: Optional[RetrievalCall] = None,
+    score_retrieval: bool = True,
 ) -> BenchmarkSummary:
     """Run every held-out question through the pipeline and score it.
 
@@ -211,12 +238,9 @@ def run_benchmark(
     is supported as an optional side-channel key in the meantime, in
     case anyone wires it up ad hoc.
 
-    `call_retrieval(question, top_k)`, if given, is called separately
-    against retrieval-api directly (confirmed against its real schema)
-    to score Recall@K/Precision@K — a deliberate exception to "only
-    talk to the orchestrator", since retrieval quality is measured on
-    its own, independent of what the agent does with what it retrieved.
-    Pass None to skip this and leave those two metrics as None.
+    Retrieval metrics use ranked candidates forwarded in the orchestrator's
+    `_trace.retrieved_candidates` field. If the orchestrator does not expose
+    candidates, those metrics remain None rather than bypassing it.
     """
     run_id = run_id or f"run-{uuid.uuid4().hex[:8]}"
     results: List[BenchmarkResult] = []
@@ -236,16 +260,10 @@ def run_benchmark(
                     print(f"[EVAL] orchestrator call failed for {q.question_id}: {e}")
                     sp.end(output={"error": str(e)})
 
-            if call_retrieval and q.gt_evidence_pages:
-                with run.span("call_retrieval", input={"question": q.question, "top_k": max(k, 30)}) as sp:
-                    try:
-                        retrieved = call_retrieval(q.question, max(k, 30))
-                        sp.end(output={"retrieved": retrieved})
-                        retrieved_lists.append(retrieved)
-                        relevant_lists.append([f"{q.doc_id}:{p}" for p in q.gt_evidence_pages])
-                    except Exception as e:
-                        print(f"[EVAL] retrieval call failed for {q.question_id}: {e}")
-                        sp.end(output={"error": str(e)})
+            retrieved = extract_retrieved_ids(raw) if score_retrieval else []
+            if retrieved and q.gt_evidence_pages:
+                retrieved_lists.append(retrieved)
+                relevant_lists.append([f"{q.doc_id}:{p}" for p in q.gt_evidence_pages])
 
             latency_ms = (time.time() - start) * 1000
             result = _score_one(q, raw, latency_ms)
@@ -253,6 +271,7 @@ def run_benchmark(
 
         results.append(result)
 
+        result.retrieved_ids = extract_retrieved_ids(raw) if score_retrieval else []
         if raw:
             usage = raw.get("_usage", {})
             total_llm_calls += usage.get("llm_calls", 0)
@@ -272,5 +291,6 @@ def run_benchmark(
         avg_latency_ms=mean([r.latency_ms for r in results if r.latency_ms is not None]),
         total_llm_calls=total_llm_calls or None,
         total_tokens=total_tokens or None,
+        failed_questions=sum(1 for r in results if r.error is not None),
         results=results,
     )

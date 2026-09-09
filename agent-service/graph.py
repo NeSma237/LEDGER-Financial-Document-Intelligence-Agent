@@ -13,6 +13,7 @@ class AgentState(TypedDict):
     final_answer: Optional[dict]
     retry_count: int
     start_time: float
+    llm_usage: dict
 
 def classify_question(state: AgentState) -> AgentState:
     q = state["question"].lower()
@@ -82,7 +83,8 @@ CRITICAL RULES:
 }}"""
 
     parsed = call_llm(prompt)
-    return {**state, "final_answer": parsed}
+    usage = parsed.pop("_usage", {"llm_calls": 0, "input_tokens": 0, "output_tokens": 0, "tokens": 0})
+    return {**state, "final_answer": parsed, "llm_usage": usage}
 
 def execute_calculation(state: AgentState) -> AgentState:
     answer = dict(state["final_answer"])
