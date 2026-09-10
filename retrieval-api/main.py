@@ -157,17 +157,17 @@ def search_documents(payload: SearchQueryRequest):
 # 2. Search Tables
 # =========================================================
 
-@app.post(
-    "/search_tables",
-    response_model=RetrievalResponse
-)
-def search_tables(payload: SearchQueryRequest):
+OVER_RETRIEVE_K = 60 
 
+@app.post("/search_tables", response_model=RetrievalResponse)
+def search_tables(payload: SearchQueryRequest):
     results = hybrid_search(
         query=payload.query,
         top_k=payload.top_k,
-        content_type="table"
+        content_type=None 
     )
+    
+    results = sorted(results, key=lambda x: (x["content_type"] == "table", x.get("rerank_score", 0)), reverse=True)
 
     return RetrievalResponse(
         results=[
@@ -177,15 +177,11 @@ def search_tables(payload: SearchQueryRequest):
                 section=result.get("section"),
                 content_type=result["content_type"],
                 content=result["text"],
-                score=result.get(
-                    "rerank_score",
-                    result["score"]
-                )
+                score=result.get("rerank_score", result["score"])
             )
-            for result in results
+            for result in results[:payload.top_k]
         ]
     )
-
 
 # =========================================================
 # 3. Filter Documents

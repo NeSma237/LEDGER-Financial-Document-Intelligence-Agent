@@ -1,16 +1,16 @@
 # eval-service
 
 Evaluation & Observability service for **Project LEDGER**.
-Owns: automated benchmarking against TAT-DQA, EM/F1/numerical-accuracy
-and Recall@K/Precision@K scoring, Langfuse tracing, and failure
-analysis support.
+Owns: automated benchmarking against TAT-DQA, EM/F1/numerical-accuracy,
+Recall@K/Precision@K scoring, Langfuse tracing, experiment comparison,
+and failure analysis.
 
 ## What's here
 
 ```
 eval-service/
 ├── app/
-│   ├── main.py            FastAPI app: /benchmark/build, /benchmark/run, /benchmark/{id}
+│   ├── main.py            FastAPI app: benchmark, failure-analysis, and comparison endpoints
 │   ├── benchmark.py       Builds held-out set from raw TAT-DQA JSON, runs it, scores it
 │   ├── metrics.py         EM, F1, numerical accuracy, Recall@K, Precision@K, MRR (unit tested)
 │   ├── langfuse_client.py Tracing helper — real Langfuse v4 spans; no-ops if keys aren't set
@@ -49,10 +49,9 @@ pip install -r requirements.txt
 | Variable | Default | Notes |
 |---|---|---|
 | `LANGFUSE_PUBLIC_KEY` / `LANGFUSE_SECRET_KEY` | (blank) | Leave blank to run with tracing off. Set both to enable real Langfuse traces. |
-| `LANGFUSE_HOST` | `https://cloud.langfuse.com` | |
+| `LANGFUSE_HOST` / `LANGFUSE_BASE_URL` | `https://cloud.langfuse.com` | `LANGFUSE_HOST` takes precedence. |
 | `EVAL_DATA_DIR` | `./data` | Where the held-out set and run results get written locally. Gitignored — regenerated per machine, not committed. |
 | `ORCHESTRATOR_URL` | `http://localhost:8000` | orchestrator-api's confirmed port. |
-| `RETRIEVAL_URL` | `http://localhost:8002` | Only used for the Recall@K/Precision@K track (see below) — confirm this matches whatever port Nesma actually runs retrieval-api on. |
 
 ## Run the API
 
@@ -105,26 +104,18 @@ curl -X POST localhost:8006/benchmark/run \
 
 ## Retrieval metrics (Recall@K / Precision@K)
 
-orchestrator's `/ask` only returns the agent's **final cited
-evidence** — not retrieval-api's full ranked candidate list, which is
-what Recall@K/Precision@K actually need. So `run_benchmark` calls
-`retrieval-api`'s `POST /search_documents` **directly**, bypassing the
-orchestrator, purely for this measurement (confirmed against
-retrieval-api's real `RetrievalResponse` schema:
-`document_id`/`page`/`section`/`content`/`score` per result). This is
-a deliberate, scoped exception — retrieval quality is evaluated on
-its own, independent of what the agent does with what it retrieved;
-answering an actual benchmark question still only goes through
-orchestrator.
+The evaluator sends every question only to orchestrator `/ask`. When the
+orchestrator forwards ranked candidates in `_trace.retrieved_candidates`,
+the evaluator computes Recall@K and Precision@K from that list. If candidates
+are absent, those metrics are returned as `null`; the evaluator never calls
+retrieval-api directly.
 
-Set `score_retrieval: false` in the `/benchmark/run` request body to
-skip these extra calls (faster smoke-test runs).
+## Failure analysis and experiments
 
-**Still open:** asked Hassan to forward retrieval's raw candidates
-through `/ask` (e.g. `_trace.retrieved_candidates`) so this can go
-through the orchestrator like everything else instead of calling
-retrieval-api directly. Not blocking — current setup works — just the
-cleaner long-term path.
+- `GET /benchmark/failure-analysis/{run_id}` returns the five lowest-scoring
+  cases with their evidence and error details.
+- `POST /benchmark/compare` with `baseline_run_id` and `candidate_run_id`
+  returns metric deltas for an experiment.
 
 ## Testing benchmark.py without a live orchestrator
 
@@ -146,12 +137,9 @@ print(summary.exact_match, summary.f1)
 
 ## What's NOT built yet (next steps)
 
-- [ ] Get Thomas to add `llm_calls`/token counts to agent-service's
-      `_trace` — needed for the spec's token usage/cost metric, not
-      there yet.
-- [ ] Get Hassan to forward retrieval-api's raw candidates through
-      `/ask` (see above) so Recall@K/Precision@K don't need a direct
-      side-channel call to retrieval-api.
+- `agent-service` forwards `_usage` with `llm_calls`, `input_tokens`,
+  `output_tokens`, and `tokens`; benchmark summaries aggregate these into
+  `total_llm_calls` and `total_tokens`.
 - [ ] Orchestrator/agent-service don't create their own Langfuse spans
       internally yet — `run_benchmark` traces its own calls *to* them,
       but the steps *inside* agent-service (retrieval, reranking, tool
@@ -160,9 +148,3 @@ print(summary.exact_match, summary.f1)
       their own Langfuse calls) for step-level failure analysis.
 - [ ] Confirm the real TAT-DQA field names once the dataset is
       downloaded and adjust `build_holdout_set` if they differ.
-- [ ] Add a `/benchmark/experiment` endpoint (or a small script) that
-      runs two pipeline variants back-to-back and diffs their metrics
-      — this is what "Experiments" in the spec asks for.
-- [ ] Failure analysis: once a real end-to-end run exists, pull the 5
-      worst-scoring rows from a `BenchmarkSummary.results` list and
-      inspect their Langfuse traces to root-cause each one.

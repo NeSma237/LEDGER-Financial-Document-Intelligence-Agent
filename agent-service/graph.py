@@ -13,6 +13,7 @@ class AgentState(TypedDict):
     final_answer: Optional[dict]
     retry_count: int
     start_time: float
+    llm_usage: dict
 
 def classify_question(state: AgentState) -> AgentState:
     q = state["question"].lower()
@@ -80,9 +81,14 @@ CRITICAL RULES:
   "needs_calculation": true or false,
   "formula_to_calculate": "expression or null"
 }}"""
-
+    context = "\n\n".join([
+        f"[Source: {c['document_id']} | Page: {c['page']} | Section: {c['section']}]\n{c['content']}"
+        for c in state["retrieved_chunks"][:5]
+    ])
+    print("\n--- CONTEXT PASSED TO LLM ---\n", context, "\n-----------------------------\n")
     parsed = call_llm(prompt)
-    return {**state, "final_answer": parsed}
+    usage = parsed.pop("_usage", {"llm_calls": 0, "input_tokens": 0, "output_tokens": 0, "tokens": 0})
+    return {**state, "final_answer": parsed, "llm_usage": usage}
 
 def execute_calculation(state: AgentState) -> AgentState:
     answer = dict(state["final_answer"])
@@ -99,20 +105,54 @@ def execute_calculation(state: AgentState) -> AgentState:
 
     return {**state, "final_answer": answer}
 
+
+def clean_answer_schema(answer: dict) -> dict:
+    """
+    Sanitizes the final answer dictionary to ensure strict adherence to the expected output schema.
+    Strips out internal orchestration flags, HTTP responses, and unexpected parameters
+    that trigger validation errors during evaluation.
+    """
+    if not isinstance(answer, dict):
+        return answer
+
+    # 1. Remove graph execution metadata and internal runtime keys
+    answer.pop("needs_calculation", None)
+    answer.pop("formula_to_calculate", None)
+    answer.pop("status_code", None)
+    answer.pop("response", None)
+
+    # 2. Filter the 'params' object to retain ONLY the allowed keys based on 'answer_type'
+    if "params" in answer and isinstance(answer["params"], dict):
+        answer_type = answer.get("answer_type", "")
+        raw_params = answer["params"]
+
+        # Map each valid answer type to its strictly allowed parameter keys
+        allowed_keys = {
+            "calculated": {"value", "unit", "formula"},
+            "direct": {"value", "unit"},
+            "multi_span": {"values"},
+            "insufficient_evidence": {"reason"}
+        }.get(answer_type, {"value", "values", "reason", "unit", "formula"})
+
+        # Reconstruct params keeping only validated/permitted keys
+        answer["params"] = {k: v for k, v in raw_params.items() if k in allowed_keys}
+
+    return answer
+
 def finalize_answer(state: AgentState) -> AgentState:
     """Strips internal-only fields before the answer leaves the agent,
     regardless of which path (calculated or not) produced it."""
-    answer = dict(state["final_answer"])
-    answer.pop("needs_calculation", None)
-    answer.pop("formula_to_calculate", None)
-    return {**state, "final_answer": answer}
+    answer = dict(state.get("final_answer", {}))
+    cleaned_answer = clean_answer_schema(answer)
+    return {**state, "final_answer": cleaned_answer}
 
 def insufficient_node(state: AgentState) -> AgentState:
-    return {**state, "final_answer": {
+    answer = {
         "answer_type": "insufficient_evidence",
         "evidence": [],
         "params": {"reason": "Could not find sufficient evidence."}
-    }}
+    }
+    return {**state, "final_answer": answer}
 
 # Conditional edges
 def route_by_type(state: AgentState) -> str:

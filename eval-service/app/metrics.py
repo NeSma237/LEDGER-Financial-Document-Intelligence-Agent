@@ -131,8 +131,8 @@ def multi_span_f1(predictions: Sequence[str], ground_truths: Sequence[str]) -> f
 # --------------------------------------------------------------------------
 
 def numerical_accuracy(
-    predicted: Union[Number, str],
-    ground_truth: Union[Number, str],
+    predicted: Union[Number, str, None],
+    ground_truth: Union[Number, str, None],
     rel_tol: float = 0.01,
     abs_tol: float = 0.01,
 ) -> bool:
@@ -143,8 +143,13 @@ def numerical_accuracy(
     rounding differences in derived figures; falls back to a small
     absolute tolerance for values near zero.
     """
-    p = _try_parse_number(predicted) if isinstance(predicted, str) else float(predicted)
-    g = _try_parse_number(ground_truth) if isinstance(ground_truth, str) else float(ground_truth)
+    if predicted is None or ground_truth is None:
+        return False
+    try:
+        p = _try_parse_number(predicted) if isinstance(predicted, str) else float(predicted)
+        g = _try_parse_number(ground_truth) if isinstance(ground_truth, str) else float(ground_truth)
+    except (TypeError, ValueError):
+        return False
     if p is None or g is None:
         return False
     if abs(g) < abs_tol:

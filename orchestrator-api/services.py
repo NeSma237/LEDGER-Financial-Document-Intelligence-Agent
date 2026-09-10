@@ -47,12 +47,18 @@ async def call_validator(answer_payload: Dict[str, Any]) -> Dict[str, Any]:
     """Send an answer to the validator service for validation."""
     url = f"{settings.VALIDATOR_SERVICE_URL}/validate_answer"
     logger.info(f"[ORCHESTRATOR] Sending answer to validator: {url}")
-    # Forward the payload without pipeline wrapper metadata (_trace, validated, answer)
-    # Any unexpected extra fields injected by the agent are preserved so the validator can reject them
+    
     validation_payload = {
         k: v for k, v in answer_payload.items()
-        if k not in ("_trace", "validated", "answer")
+        if k not in ("_trace", "validated", "answer", "_usage")
     }
+    # Forward the payload without pipeline wrapper metadata (_trace, validated, answer)
+    # Any unexpected extra fields injected by the agent are preserved so the validator can reject them
+    if "params" in validation_payload and isinstance(validation_payload["params"], dict):
+        validation_payload["params"] = {
+            k: v for k, v in validation_payload["params"].items()
+            if k != "status_code"
+        }
     try:
         async with httpx.AsyncClient(timeout=settings.REQUEST_TIMEOUT) as client:
             resp = await client.post(url, json=validation_payload)

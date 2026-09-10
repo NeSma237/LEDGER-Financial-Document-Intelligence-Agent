@@ -30,7 +30,8 @@ def answer_question(req: QuestionRequest):
         "evidence_sufficient": False,
         "final_answer": None,
         "retry_count": 0,
-        "start_time": start
+        "start_time": start,
+        "llm_usage": {"llm_calls": 0, "input_tokens": 0, "output_tokens": 0, "tokens": 0}
     })
 
     answer = result["final_answer"]
@@ -96,8 +97,12 @@ def answer_question(req: QuestionRequest):
             "question_type_classified": result.get("question_type", "unknown"),
             "retrieval_attempts": result.get("retry_count", 0) + 1,
             "calculation_performed": answer.get("answer_type") == "calculated",
-            "latency_ms": latency
-        }
+            "latency_ms": latency,
+        },
+        "_usage": result.get(
+            "llm_usage",
+            {"llm_calls": 0, "input_tokens": 0, "output_tokens": 0, "tokens": 0},
+        ),
     }
 
 

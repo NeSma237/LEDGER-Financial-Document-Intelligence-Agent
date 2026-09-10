@@ -7,7 +7,7 @@ load_dotenv()
 
 
 def call_llm(prompt: str) -> dict:
-    model = os.getenv("LLM_MODEL", "openai/gpt-oss-120b")
+    model = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
     api_key = os.getenv("GROQ_API_KEY")
 
     if not api_key:
@@ -73,13 +73,23 @@ def call_llm(prompt: str) -> dict:
                     "response": data
                 },
                 "needs_calculation": False,
-                "formula_to_calculate": None
+                "formula_to_calculate": None,
+                "_usage": {"llm_calls": 1, "input_tokens": 0, "output_tokens": 0, "tokens": 0}
             }
 
         raw = data["choices"][0]["message"]["content"]
+        usage = data.get("usage") or {}
+        usage_payload = {
+            "llm_calls": 1,
+            "input_tokens": usage.get("prompt_tokens", 0),
+            "output_tokens": usage.get("completion_tokens", 0),
+            "tokens": usage.get("total_tokens", 0),
+        }
 
         try:
-            return json.loads(raw)
+            parsed = json.loads(raw)
+            parsed["_usage"] = usage_payload
+            return parsed
 
         except json.JSONDecodeError:
             return {
@@ -90,20 +100,19 @@ def call_llm(prompt: str) -> dict:
                     "raw_response": raw
                 },
                 "needs_calculation": False,
-                "formula_to_calculate": None
+                "formula_to_calculate": None,
+                "_usage": usage_payload
             }
 
     except httpx.HTTPStatusError as e:
+        print(f"Groq HTTP Error: {e.response.status_code} - {e.response.text}")
         return {
             "answer_type": "insufficient_evidence",
             "evidence": [],
-            "params": {
-                "reason": "Groq API returned an HTTP error",
-                "status_code": e.response.status_code,
-                "response": e.response.text
-            },
+            "params": {"reason": f"Groq API HTTP Error {e.response.status_code}"},
             "needs_calculation": False,
-            "formula_to_calculate": None
+            "formula_to_calculate": None,
+            "_usage": {"llm_calls": 1, "input_tokens": 0, "output_tokens": 0, "tokens": 0}
         }
 
     except Exception as e:
@@ -114,5 +123,6 @@ def call_llm(prompt: str) -> dict:
                 "reason": f"LLM request failed: {str(e)}"
             },
             "needs_calculation": False,
-            "formula_to_calculate": None
+            "formula_to_calculate": None,
+            "_usage": {"llm_calls": 1, "input_tokens": 0, "output_tokens": 0, "tokens": 0}
         }

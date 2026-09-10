@@ -14,7 +14,6 @@ Run with:
 """
 from __future__ import annotations
 
-import json
 import os
 from pathlib import Path
 from typing import Optional
@@ -24,7 +23,12 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 from app.benchmark import build_holdout_set, load_holdout_set, run_benchmark, save_holdout_set
-from app.schemas import BenchmarkSummary
+from app.schemas import (
+    BenchmarkSummary,
+    ExperimentComparison,
+    FailureAnalysis,
+    FailureCase,
+)
 
 app = FastAPI(title="LEDGER eval-service", version="0.1.0")
 
@@ -33,14 +37,6 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 HOLDOUT_PATH = DATA_DIR / "holdout_questions.json"
 
 ORCHESTRATOR_URL = os.getenv("ORCHESTRATOR_URL", "http://localhost:8000")
-
-# Only used for the retrieval-quality track (Recall@K/Precision@K), which
-# the spec treats as its own metric separate from the answer benchmark —
-# it's not part of asking a question through the pipeline, so calling
-# retrieval-api directly for this doesn't break "only talk to the
-# orchestrator" for actually answering questions.
-RETRIEVAL_URL = os.getenv("RETRIEVAL_URL", "http://localhost:8002")
-
 
 @app.get("/health")
 def health():
@@ -89,31 +85,11 @@ def _call_orchestrator(question: str, question_id: str) -> dict:
     return resp.json()
 
 
-def _call_retrieval(question: str, top_k: int) -> list[str]:
-    """Calls retrieval-api's /search_documents directly to get the ranked
-    candidate list for the retrieval-quality metric track. Returns a
-    list of "document_id:page" strings in ranked order — that's what
-    metrics.recall_at_k/precision_at_k compare against ground-truth pages.
-
-    This deliberately bypasses orchestrator. It's the one place that's
-    allowed to, since Recall@K/Precision@K measure retrieval on its own,
-    not the answer that comes out the other end of the full pipeline.
-    """
-    resp = httpx.post(
-        f"{RETRIEVAL_URL}/search_documents",
-        json={"query": question, "top_k": top_k},
-        timeout=30.0,
-    )
-    resp.raise_for_status()
-    results = resp.json().get("results", [])
-    return [f"{r['document_id']}:{r['page']}" for r in results]
-
-
 class RunBenchmarkRequest(BaseModel):
     run_id: Optional[str] = None
     k: int = 5
     limit: Optional[int] = None  # cap questions for a quick smoke-test run
-    score_retrieval: bool = True  # set False to skip the extra retrieval-api calls
+    score_retrieval: bool = True  # requires candidates in the orchestrator trace
 
 
 @app.post("/benchmark/run", response_model=BenchmarkSummary)
@@ -129,7 +105,7 @@ def benchmark_run(req: RunBenchmarkRequest):
         _call_orchestrator,
         k=req.k,
         run_id=req.run_id,
-        call_retrieval=_call_retrieval if req.score_retrieval else None,
+        score_retrieval=req.score_retrieval,
     )
 
     out_path = DATA_DIR / f"{summary.run_id}.json"
@@ -144,9 +120,76 @@ def benchmark_run(req: RunBenchmarkRequest):
     return summary
 
 
-@app.get("/benchmark/{run_id}", response_model=BenchmarkSummary)
-def get_run(run_id: str):
+def _load_run(run_id: str) -> BenchmarkSummary:
+    if not run_id or Path(run_id).name != run_id:
+        raise HTTPException(400, "Invalid run_id")
     path = DATA_DIR / f"{run_id}.json"
     if not path.exists():
         raise HTTPException(404, f"No stored run: {run_id}")
-    return json.loads(path.read_text())
+    return BenchmarkSummary.model_validate_json(path.read_text())
+
+
+@app.get("/benchmark/failure-analysis/{run_id}", response_model=FailureAnalysis)
+def failure_analysis(run_id: str):
+    """Return the five lowest-scoring cases for reproducible investigation."""
+    summary = _load_run(run_id)
+    failed = [
+        result for result in summary.results
+        if result.error
+        or result.exact_match is False
+        or (result.f1 is not None and result.f1 < 1.0)
+        or result.numerical_correct is False
+    ]
+    failed.sort(key=lambda result: (
+        result.error is None,
+        result.f1 if result.f1 is not None else 0.0,
+        result.exact_match is True,
+    ))
+    cases = [
+        FailureCase(
+            question_id=result.question_id,
+            question=result.question,
+            error=result.error,
+            answer_type=result.predicted_answer.answer_type if result.predicted_answer else None,
+            exact_match=result.exact_match,
+            f1=result.f1,
+            numerical_correct=result.numerical_correct,
+            evidence=result.predicted_answer.evidence if result.predicted_answer else [],
+            latency_ms=result.latency_ms,
+        )
+        for result in failed[:5]
+    ]
+    return FailureAnalysis(run_id=run_id, total_failures=len(failed), cases=cases)
+
+
+class CompareRunsRequest(BaseModel):
+    baseline_run_id: str
+    candidate_run_id: str
+
+
+@app.post("/benchmark/compare", response_model=ExperimentComparison)
+def compare_runs(req: CompareRunsRequest):
+    """Compare two persisted runs to make benchmark experiments measurable."""
+    baseline = _load_run(req.baseline_run_id)
+    candidate = _load_run(req.candidate_run_id)
+
+    def delta(candidate_value: Optional[float], baseline_value: Optional[float]) -> Optional[float]:
+        if candidate_value is None or baseline_value is None:
+            return None
+        return candidate_value - baseline_value
+
+    return ExperimentComparison(
+        baseline_run_id=baseline.run_id,
+        candidate_run_id=candidate.run_id,
+        exact_match_delta=candidate.exact_match - baseline.exact_match,
+        f1_delta=candidate.f1 - baseline.f1,
+        numerical_accuracy_delta=candidate.numerical_accuracy - baseline.numerical_accuracy,
+        recall_at_k_delta=delta(candidate.recall_at_k, baseline.recall_at_k),
+        precision_at_k_delta=delta(candidate.precision_at_k, baseline.precision_at_k),
+        latency_delta_ms=delta(candidate.avg_latency_ms, baseline.avg_latency_ms),
+    )
+
+
+@app.get("/benchmark/{run_id}", response_model=BenchmarkSummary)
+def get_run(run_id: str):
+    return _load_run(run_id)
