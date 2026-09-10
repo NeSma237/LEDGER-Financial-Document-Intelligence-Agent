@@ -40,17 +40,24 @@ def retrieve_text(state: AgentState) -> AgentState:
 def retrieve_tables(state: AgentState) -> AgentState:
     text = search_documents(state["question"])
     tables = search_tables(state["question"])
-    return {**state, "retrieved_chunks": text + tables}
+    return {
+        **state,
+        "retrieved_chunks": text + tables,
+        "retry_count": state["retry_count"] + 1,
+    }
 
 def check_evidence(state: AgentState) -> AgentState:
     chunks = state["retrieved_chunks"]
-    sufficient = len(chunks) >= 1 and any(c.get("score", 0) > 0.5 for c in chunks)
+    # Cross-encoder and BM25 scores are not probabilities (and can be negative),
+    # so treating 0.5 as a universal confidence threshold silently discards good
+    # evidence. Grounding is enforced after generation using source identifiers.
+    sufficient = bool(chunks)
     return {**state, "evidence_sufficient": sufficient}
 
 def generate_answer(state: AgentState) -> AgentState:
     context = "\n\n".join([
-        f"[Source: {c['document_id']} | Page: {c['page']} | Section: {c['section']}]\n{c['content']}"
-        for c in state["retrieved_chunks"][:5]
+        f"[Source: {c.get('document_id')} | Page: {c.get('page')} | Section: {c.get('section', '')}]\n{c.get('content', '')}"
+        for c in state["retrieved_chunks"][:6]
     ])
 
     prompt = f"""You must answer the financial question using ONLY the provided evidence.
@@ -61,7 +68,7 @@ Evidence:
 {context}
 
 CRITICAL RULES:
-1. NEVER compute arithmetic yourself. Write the formula in "formula_to_calculate" and set "needs_calculation": true
+1. NEVER compute arithmetic yourself. Write the formula in "formula_to_calculate" and set "needs_calculation": true.
 2. For abs() differences use: "abs(x-y)" format
 3. MULTI-SOURCE CHECK (very important): The evidence above may come from MULTIPLE DIFFERENT document_id values, meaning it may belong to DIFFERENT companies or reports. Before answering:
    - If the question does NOT specify a company/document, and the evidence contains conflicting figures for the same metric coming from DIFFERENT document_id values, you MUST NOT arbitrarily pick one.
@@ -84,7 +91,60 @@ CRITICAL RULES:
 
     parsed = call_llm(prompt)
     usage = parsed.pop("_usage", {"llm_calls": 0, "input_tokens": 0, "output_tokens": 0, "tokens": 0})
-    return {**state, "final_answer": parsed, "llm_usage": usage}
+    return {**state, "final_answer": _ground_answer(parsed, state["retrieved_chunks"]), "llm_usage": usage}
+
+
+def _insufficient(reason: str) -> dict:
+    return {
+        "answer_type": "insufficient_evidence",
+        "evidence": [],
+        "params": {"reason": reason},
+        "needs_calculation": False,
+        "formula_to_calculate": None,
+    }
+
+
+def _ground_answer(answer: dict, chunks: List[dict]) -> dict:
+    """Reject an LLM response that cites a source it was not given.
+
+    Schema validation alone establishes shape, not factual grounding. This small
+    deterministic check prevents a model from inventing document/page citations.
+    """
+    if not isinstance(answer, dict):
+        return _insufficient("The model returned an invalid answer format.")
+
+    answer_type = answer.get("answer_type")
+    allowed_types = {"direct", "calculated", "multi_span", "insufficient_evidence"}
+    if answer_type not in allowed_types:
+        return _insufficient("The model returned an unsupported answer type.")
+    if answer_type == "insufficient_evidence":
+        return answer
+
+    if not isinstance(answer.get("params"), dict):
+        return _insufficient("The answer parameters were invalid.")
+
+    citations = answer.get("evidence")
+    if not isinstance(citations, list) or not citations:
+        return _insufficient("The answer did not include a source citation.")
+
+    available_sources = {
+        (chunk.get("document_id"), chunk.get("page"))
+        for chunk in chunks
+    }
+    for citation in citations:
+        if not isinstance(citation, dict) or (
+            citation.get("document_id"), citation.get("page")
+        ) not in available_sources:
+            return _insufficient("The answer cited a source that was not retrieved.")
+
+    if answer_type == "calculated":
+        if not answer.get("formula_to_calculate"):
+            return _insufficient("A calculated answer did not provide a formula.")
+        # The calculator writes the numeric result, so a model-provided value
+        # can never be used as an unverified calculation.
+        answer["params"].pop("value", None)
+        answer["params"]["value"] = None
+    return answer
 
 def execute_calculation(state: AgentState) -> AgentState:
     answer = dict(state["final_answer"])
@@ -129,7 +189,7 @@ def route_by_evidence(state: AgentState) -> str:
 
 def route_after_generation(state: AgentState) -> str:
     answer = state.get("final_answer", {})
-    if answer.get("needs_calculation") and answer.get("formula_to_calculate"):
+    if answer.get("answer_type") == "calculated" and answer.get("formula_to_calculate"):
         return "calculate"
     return "done"
 

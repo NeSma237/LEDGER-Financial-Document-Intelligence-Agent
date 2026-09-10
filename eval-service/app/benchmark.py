@@ -47,51 +47,69 @@ def build_holdout_set(
     n: int = 100,
     seed: int = 42,
 ) -> List[BenchmarkQuestion]:
-    """Sample `n` questions from a TAT-DQA-format JSON file.
+    """Sample `n` questions from the flat LEDGER question-bank JSON.
 
-    Expects the standard TAT-DQA release shape: a list of documents,
-    each with a `doc` id and a `questions` list containing `uid`,
-    `question`, `answer`, `answer_type`, `derivation`, and
-    `rel_paragraphs`/`answer_from` fields that reference source pages.
-    Field names vary slightly across TAT-DQA releases — adjust the
-    `.get(...)` keys below to match whatever copy of the dataset the
-    team downloads.
+    Real shape (confirmed against tatdqa_source.json / questions_setA_practice.json):
+    a flat list of question objects, each with `question_text`, `question_id`,
+    `ground_truth_answer`, `answer_type`, `derivation`, and a `gold_evidence`
+    list whose items carry `source_page` (multiple items for cross-document
+    questions).
     """
-    data = json.loads(Path(tatdqa_path).read_text(encoding="utf-8"))
-    if isinstance(data, dict):
-        data = data.get("data") or data.get("documents") or data.get("items") or []
+    raw = json.loads(Path(tatdqa_path).read_text(encoding="utf-8"))
+    if not isinstance(raw, list):
+        raise ValueError(
+            f"Expected a flat JSON list of questions in {tatdqa_path}, "
+            f"got {type(raw).__name__}"
+        )
 
     pool: List[BenchmarkQuestion] = []
-    for doc in data:
-        doc_id = doc.get("doc", {}).get("uid") or doc.get("doc_id") or doc.get("uid")
-        for q in doc.get("questions", []):
-            gt_pages = (
-                q.get("rel_paragraphs")
-                or q.get("answer_page_index")
-                or q.get("answer_pages")
-                or q.get("evidence_pages")
-                or []
-            )
-            if isinstance(gt_pages, (str, int)):
-                gt_pages = [gt_pages]
-            gt_pages = [int(p) for p in gt_pages if str(p).isdigit()]
+    skipped = []
+    for row in raw:
+        question_text = row.get("question_text") or row.get("original_question_text")
+        question_id = row.get("question_id")
+        if not question_text or not question_id:
+            skipped.append(row.get("question_id", "<no id>"))
+            continue
 
-            pool.append(
-                BenchmarkQuestion(
-                    question_id=str(q.get("uid") or uuid.uuid4()),
-                    question=q.get("question") or q.get("query"),
-                    doc_id=str(doc_id),
-                    gt_answer=q.get("answer"),
-                    gt_answer_type=q.get("answer_type"),
-                    derivation=q.get("derivation"),
-                    gt_evidence_pages=gt_pages,
-                )
+        doc_id = (
+            row.get("source_doc_uid")
+            or row.get("anchor_source_document")
+            or row.get("source_document")
+            or "unknown"
+        )
+
+        pages: list[int] = []
+        for evidence in row.get("gold_evidence") or []:
+            page = evidence.get("source_page")
+            if isinstance(page, int):
+                pages.append(page)
+            elif isinstance(page, str) and page.isdigit():
+                pages.append(int(page))
+        gt_evidence_pages = sorted(set(pages))
+
+        pool.append(
+            BenchmarkQuestion(
+                question_id=str(question_id),
+                question=str(question_text),
+                doc_id=str(doc_id),
+                gt_answer=row.get("ground_truth_answer"),
+                gt_answer_type=row.get("answer_type"),
+                derivation=row.get("derivation"),
+                gt_evidence_pages=gt_evidence_pages,
             )
+        )
+
+    if not pool:
+        raise ValueError(
+            f"Loaded {len(raw)} rows from {tatdqa_path} but extracted 0 questions "
+            f"— check field names against the real file shape."
+        )
+    if skipped:
+        print(f"[build_holdout_set] skipped {len(skipped)} rows missing question_text/question_id")
 
     rng = random.Random(seed)
     rng.shuffle(pool)
     return pool[:n]
-
 
 def save_holdout_set(questions: List[BenchmarkQuestion], out_path: str) -> None:
     Path(out_path).write_text(
