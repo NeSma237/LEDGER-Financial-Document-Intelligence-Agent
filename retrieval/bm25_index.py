@@ -13,8 +13,8 @@ from rank_bm25 import BM25Okapi
 # طويل اتقطع في النص) الداتا متضيعش. من غير كده كان كل حاجة بتتصفر لإنها
 # كانت متخزنة في متغيرات بايثون عادية (RAM) بس.
 
-BM25_DATA_DIR = Path("./bm25_data_test")
-BM25_STORE_FILE = BM25_DATA_DIR / "bm25_store_test.pkl"
+BM25_DATA_DIR = Path("./bm25_data_full")
+BM25_STORE_FILE = BM25_DATA_DIR / "bm25_store_full.pkl"
 
 _chunk_store: Dict[str, Dict[str, Any]] = {}
 _tokenized_corpus: List[List[str]] = []

@@ -237,7 +237,7 @@ class AgentState(TypedDict):
 # import json_processor
 
 def search_documents(query):
-    file_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\retrieved_docs_json.json"
+    file_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\json_docling_test.json"
     with open(file_path, "r") as f:
         data = json.load(f)
     return data
@@ -276,6 +276,7 @@ Evidence:
 CRITICAL RULES:
 1. NEVER compute arithmetic yourself. Write the formula in "formula_to_calculate" and set "needs_calculation": true
 2. For abs() differences use: "abs(x-y)" format
+3. before trying to infer the value from a table or such, make sure that the exact question is not in the document followed by the answer
 4. Return ONLY this JSON structure:
 
 {{
@@ -287,13 +288,13 @@ CRITICAL RULES:
     }},
   "evidence": [{{"document_id": "...", "page": "...", "section": "..."}}],
   "params": {{
-    ONLY copy exact wording
-    the schema depends on the "answer_type" as follows
-    // if direct:              {{"value": "..."}}
-    // if calculated:          {{"value": null, "formula": "..."}}
-    // if multi_span:          {{"values": [... , ...]}}
-    // if insufficient_evidence: {{"reason": "..."}}
+    the schema depends on the "answer_type" as follows:
+    {{"value": "..."}}:                     if "direct"
+    {{"value": null, "formula": "..."}}:    if "calculated"          
+    {{"values": [... , ...]}}:              if "multi_span"          
+    {{"reason": "..."}}:                    if "insufficient_evidence" 
   }},
+    "value" or "values", should contain ONLY text extracted from the evidence, no explanation, no markdown, no reference to the question
   "needs_calculation": true or false,
   "formula_to_calculate": "expression or null"
 }}"""
@@ -430,7 +431,7 @@ def health():
     return {"status": "ok"}
 
 class my_question():
-    question = "What was the low sale price per share for each quarters in 2018 in chronological order?"
+    question = "What is the change in the gross margin between 2017 and 2018?"
     conversation_id = "default"
 
 answer_question(my_question)

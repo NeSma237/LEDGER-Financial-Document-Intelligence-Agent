@@ -120,3 +120,106 @@ def bulk_processor(path):
 
 bulk_processor_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\tatdqa_docs_dev\\dev"
 # bulk_processor(bulk_processor_path)
+
+
+
+# =============================================================================================== for docling
+
+
+def transform_docling_to_target(docling_json_path: dict, score: float = 1.0) -> list[dict]:
+    with open(docling_json_path, "r", encoding="utf-8") as f:
+        docling_data = json.load(f)
+
+    doc_id = docling_data.get("document_id", "")
+    
+    # 1. Extract main text content
+    content = docling_data.get("markdown_content")
+    
+    if not content and "raw_docling_dict" in docling_data:
+        # Fallback: aggregate text items if markdown_content is missing
+        texts = docling_data["raw_docling_dict"].get("texts", [])
+        content = " ".join(t.get("text", "") for t in texts if t.get("text"))
+    
+    # 2. Extract page number (0-indexed default)
+    page = 0
+    raw_dict = docling_data.get("raw_docling_dict", {})
+    texts = raw_dict.get("texts", [])
+    
+    if texts and "prov" in texts[0] and texts[0]["prov"]:
+        # Docling page numbers are usually 1-based; convert to 0-based
+        raw_page = texts[0]["prov"][0].get("page_no", 1)
+        page = max(0, raw_page - 1)
+
+    result = [
+            {
+                "document_id": doc_id,
+                "page": page,
+                "section": "Default",
+                "content": content or "",
+                "score": score
+            }
+        ]
+    
+    json_docling_test = json.dumps(result, indent=2)
+    with open("json_docling_test.json", "w") as f:
+        f.write(json_docling_test) 
+
+
+# uncomment to run the single docling function
+docling_json_path = r"C:\Users\Lenovo\Desktop\MIA\Ledger\document_processor\JSON_data_duplicates\cced1c9e0cece04d1cd72d197d650906.json"
+result = transform_docling_to_target(docling_json_path, score=4)
+
+
+from pathlib import Path
+import json
+
+def bulk_docling_processor(path):
+    docs_dir = Path(path)
+    
+    # Target directory for transformed JSON files
+    output_dir = docs_dir.parent.parent.parent / "doc_intel" / "docling_processed_json"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    for file_path in docs_dir.glob("*.json"):
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # Fallback to filename if document_id key is missing/empty
+        doc_id = data.get("document_id") or file_path.stem
+            
+        # 1. Extract main text content
+        content = data.get("markdown_content")
+        
+        raw_dict = data.get("raw_docling_dict", {})
+        texts = raw_dict.get("texts", [])
+
+        if not content:
+            # Fallback: aggregate text items if markdown_content is missing
+            content = " ".join(t.get("text", "") for t in texts if t.get("text"))
+        
+        # 2. Extract page number safely from the first item with valid provenance
+        page = 0
+        for item in texts:
+            prov = item.get("prov", [])
+            if prov and isinstance(prov, list) and "page_no" in prov[0]:
+                raw_page = prov[0].get("page_no", 1)
+                page = max(0, raw_page - 1)
+                break
+    
+        result = [
+            {
+                "document_id": doc_id,
+                "page": page,
+                "section": "Default",
+                "content": content or "",
+                "content_type": "text"
+            }
+        ]
+        
+        # Save each input file to its own output file inside output_dir
+        output_file_path = output_dir / f"{file_path.stem}.json"
+        with open(output_file_path, "w", encoding="utf-8") as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+
+docling_set_json_path = r"C:\Users\Lenovo\Desktop\MIA\Ledger\document_processor\JSON_data"
+# bulk_docling_processor(docling_json_path)

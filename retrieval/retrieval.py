@@ -69,7 +69,7 @@ app = FastAPI(
     version="0.1.0"
 )
 
-OVER_RETRIEVE_K = 50
+OVER_RETRIEVE_K = 600
 
 
 # =========================================================
@@ -389,71 +389,71 @@ def rerank(query: str, candidates: List[Dict[str, Any]], top_k: int) -> List[Dic
 # ===================================================================================================== 
 
 
-from tqdm import tqdm
+# from tqdm import tqdm
 
-def load_your_jsons(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+# def load_your_jsons(file_path):
+#     with open(file_path, "r", encoding="utf-8") as f:
+#         return json.load(f)
 
-def flush_batch(chunks) -> int:
-    if not chunks:
-        return 0
-    vector_store.add_chunks(chunks)
-    bm25_index.add_chunks(chunks)
-    return len(chunks)
+# def flush_batch(chunks) -> int:
+#     if not chunks:
+#         return 0
+#     vector_store.add_chunks(chunks)
+#     bm25_index.add_chunks(chunks)
+#     return len(chunks)
 
-def ingest_your_files(file_path):
-    loaded_jsons_to_lists = load_your_jsons(file_path)
-    return flush_batch(loaded_jsons_to_lists)
+# def ingest_your_files(file_path):
+#     loaded_jsons_to_lists = load_your_jsons(file_path)
+#     return flush_batch(loaded_jsons_to_lists)
 
-def ingestion_pipeline(processed_files_path, registry_path):
-    processed_jsons_path = Path(processed_files_path)  # Fixed Path initialization
-    registry_path = Path(registry_path)
+# def ingestion_pipeline(processed_files_path, registry_path):
+#     processed_jsons_path = Path(processed_files_path)  # Fixed Path initialization
+#     registry_path = Path(registry_path)
 
-    if registry_path.exists():
-        with open(registry_path, "r", encoding="utf-8") as f:
-            try:
-                ingested_ids = set(json.load(f))
-            except json.JSONDecodeError:
-                ingested_ids = set()
-    else:
-        ingested_ids = set()
+#     if registry_path.exists():
+#         with open(registry_path, "r", encoding="utf-8") as f:
+#             try:
+#                 ingested_ids = set(json.load(f))
+#             except json.JSONDecodeError:
+#                 ingested_ids = set()
+#     else:
+#         ingested_ids = set()
 
-    # Pre-filter uningested files to accurately size the tqdm progress bar
-    all_files = list(processed_jsons_path.glob("*.json"))
-    files_to_process = [f for f in all_files if f.stem not in ingested_ids]
+#     # Pre-filter uningested files to accurately size the tqdm progress bar
+#     all_files = list(processed_jsons_path.glob("*.json"))
+#     files_to_process = [f for f in all_files if f.stem not in ingested_ids]
 
-    if not files_to_process:
-        print("No new files to ingest.")
-        return
+#     if not files_to_process:
+#         print("No new files to ingest.")
+#         return
 
-    len_of_flushed = 0
-    newly_ingested_count = 0
+#     len_of_flushed = 0
+#     newly_ingested_count = 0
 
-    # Wrap the loop with tqdm for progress tracking
-    pbar = tqdm(files_to_process, desc="Ingesting Documents", unit="file")
+#     # Wrap the loop with tqdm for progress tracking
+#     pbar = tqdm(files_to_process, desc="Ingesting Documents", unit="file")
     
-    for file_path in pbar:
-        doc_id = file_path.stem
+#     for file_path in pbar:
+#         doc_id = file_path.stem
 
-        # Update progress bar description with current file ID
-        pbar.set_postfix({"file": doc_id, "total_chunks": len_of_flushed})
+#         # Update progress bar description with current file ID
+#         pbar.set_postfix({"file": doc_id, "total_chunks": len_of_flushed})
 
-        # Ingest file
-        chunks_added = ingest_your_files(file_path)
-        len_of_flushed += chunks_added
-        newly_ingested_count += 1
+#         # Ingest file
+#         chunks_added = ingest_your_files(file_path)
+#         len_of_flushed += chunks_added
+#         newly_ingested_count += 1
 
-        ingested_ids.add(doc_id)
+#         ingested_ids.add(doc_id)
 
-    # Save updated IDs back to registry file
-    with open(registry_path, "w", encoding="utf-8") as f:
-        json.dump(list(ingested_ids), f, indent=2)
+#     # Save updated IDs back to registry file
+#     with open(registry_path, "w", encoding="utf-8") as f:
+#         json.dump(list(ingested_ids), f, indent=2)
 
-    print(f"\nFinished ingesting {len_of_flushed} chunks from {newly_ingested_count} new file(s).")
+#     print(f"\nFinished ingesting {len_of_flushed} chunks from {newly_ingested_count} new file(s).")
 
-processed_files_path = r"C:\Users\Lenovo\Desktop\MIA\doc_intel\processed_json_docs_whole"
-registry_path = r"C:\Users\Lenovo\Desktop\MIA\doc_intel\ingested_ids.json"
+# processed_files_path = r"C:\Users\Lenovo\Desktop\MIA\doc_intel\docling_processed_json"
+# registry_path = r"C:\Users\Lenovo\Desktop\MIA\doc_intel\ingested_ids.json"
 # ingestion_pipeline(processed_files_path, registry_path)
 # uncomment this when you have new files
 
@@ -461,8 +461,8 @@ registry_path = r"C:\Users\Lenovo\Desktop\MIA\doc_intel\ingested_ids.json"
 
 # now run the search documents code
 class custom_search_query_request():
-    query = "What was the low sale price per share for each quarters in 2018 in chronological order?"
-    top_k = 10
+    query = "What is the average  Total equity  for fiscal years 2015 to 2019?"
+    top_k = 100
 
 response = search_documents(custom_search_query_request)
 response = response.results # list of RetrievalResults
