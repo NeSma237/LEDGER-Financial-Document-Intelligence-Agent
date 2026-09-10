@@ -1,9 +1,12 @@
 import httpx
 import os
 import json
+import logging
 from dotenv import load_dotenv
 
 load_dotenv()
+logger = logging.getLogger("agent-service.llm")
+LLM_TIMEOUT_SECONDS = float(os.getenv("LLM_TIMEOUT_SECONDS", "45"))
 
 
 def call_llm(prompt: str) -> dict:
@@ -52,13 +55,9 @@ def call_llm(prompt: str) -> dict:
             "https://api.groq.com/openai/v1/chat/completions",
             headers=headers,
             json=payload,
-            timeout=30
+            timeout=LLM_TIMEOUT_SECONDS
         )
-
-        print("=== GROQ RESPONSE ===")
-        print("Status:", r.status_code)
-        print("Body:", r.text)
-        print("=====================")
+        logger.info("Groq completion returned HTTP %s", r.status_code)
 
         r.raise_for_status()
 

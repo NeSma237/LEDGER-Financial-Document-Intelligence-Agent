@@ -13,7 +13,7 @@ import requests
 ### Config ###
 
 ORCHESTRATOR_URL = os.environ.get("ORCHESTRATOR_URL", "http://localhost:8000")
-REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", 30))
+REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", 180))
 INGEST_TIMEOUT = int(os.environ.get("INGEST_TIMEOUT", 120))
 
 
@@ -53,15 +53,14 @@ def call_ask_question(question: str, conversation_id: str) -> dict:
                 "_backend_error": True,
             }
         return data
-    except requests.exceptions.RequestException:
+    except (requests.exceptions.RequestException, ValueError) as e:
         return {
-                "answer_type": "Didn't connect to orchestrator",
-                "evidence": [],
-                "params": {
-                    "reason": data.get("detail", data.get("error", "Backend error"))
-                },
-                "_backend_error": True,
-            }
+            "answer_type": "insufficient_evidence",
+            "evidence": [],
+            "params": {"reason": f"Could not get an answer from the backend: {e}"},
+            "validated": False,
+            "_backend_error": True,
+        }
 
 
 def call_get_documents() -> dict:
@@ -148,6 +147,8 @@ def extract_answer_text(data: dict) -> str:
     if answer_type == "insufficient_evidence":
         return params.get("reason", "Insufficient evidence to answer the question.")
     
+    if data.get("_backend_error"):
+        return params.get("reason", "The backend could not return an answer.")
     return "_(agent returned no answer)_"
 
 
@@ -239,9 +240,10 @@ def chat_respond(message, history, conversation_id):
 
     evidence_body = build_evidence_body(data)
     debug_json = build_debug_json(data)
-    stats_md, recent_rows = compute_dashboard()  # to refresh it automatically
-
-    return history, "", evidence_body, evidence_body, debug_json, stats_md, recent_rows
+    # Do not make a second HTTP request here. Previously a slow /documents call
+    # blocked this callback after the agent had already responded, so Gradio had
+    # nothing to render in the chat until the dashboard request completed.
+    return history, "", evidence_body, evidence_body, debug_json, gr.skip(), gr.skip()
 
 
 def refresh_documents():
@@ -253,7 +255,7 @@ def refresh_documents():
 def refresh_connection_banner():
     if check_health():
         return f"🟢 **Connected** to orchestrator at `{ORCHESTRATOR_URL}`"
-    return f"🟡 **Demo mode**: orchestrator at `{ORCHESTRATOR_URL}` is unreachable, showing mock data."
+    return f"🔴 **Disconnected**: orchestrator at `{ORCHESTRATOR_URL}` is unreachable. Answers are not fabricated."
 
 
 def handle_ingest(file_path):
@@ -351,8 +353,18 @@ with gr.Blocks(title="Project LEDGER") as demo:
     
     chat_outputs = [chatbot, question_box, evidence_panel, doc_tab_evidence, debug_box,
                      dash_stats, dash_recent]
-    ask_btn.click(chat_respond, [question_box, chatbot, conversation_id_state], chat_outputs)
-    question_box.submit(chat_respond, [question_box, chatbot, conversation_id_state], chat_outputs)
+    ask_btn.click(
+        chat_respond,
+        [question_box, chatbot, conversation_id_state],
+        chat_outputs,
+        concurrency_limit=1,
+    )
+    question_box.submit(
+        chat_respond,
+        [question_box, chatbot, conversation_id_state],
+        chat_outputs,
+        concurrency_limit=1,
+    )
 
     doc_refresh_btn.click(refresh_documents, outputs=doc_table)
     ingest_btn.click(
@@ -368,4 +380,4 @@ with gr.Blocks(title="Project LEDGER") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(theme=gr.themes.Soft())
+    demo.queue(default_concurrency_limit=4, max_size=20).launch(theme=gr.themes.Soft())

@@ -51,7 +51,7 @@ async def call_validator(answer_payload: Dict[str, Any]) -> Dict[str, Any]:
     # Any unexpected extra fields injected by the agent are preserved so the validator can reject them
     validation_payload = {
         k: v for k, v in answer_payload.items()
-        if k not in ("_trace", "validated", "answer")
+        if k not in ("_trace", "validated", "answer", "_usage")
     }
     try:
         async with httpx.AsyncClient(timeout=settings.REQUEST_TIMEOUT) as client:

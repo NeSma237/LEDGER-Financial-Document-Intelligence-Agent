@@ -1,16 +1,13 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from graph import build_graph
-import httpx, os, time
+import time
 from dotenv import load_dotenv
 
 load_dotenv()
 
 app = FastAPI(title="Agent Service")
 agent = build_graph()
-
-VALIDATOR_URL = os.getenv("VALIDATOR_URL", "http://localhost:8005")
-
 
 class QuestionRequest(BaseModel):
     question: str
@@ -37,66 +34,27 @@ def answer_question(req: QuestionRequest):
     answer = result["final_answer"]
     latency = int((time.time() - start) * 1000)
 
-    # 2. send to Validator
-    try:
-        val_resp = httpx.post(
-            f"{VALIDATOR_URL}/validate_answer",
-            json=answer,
-            timeout=10
-        ).json()
-
-        validated = val_resp.get("valid", False)
-        val_reason = val_resp.get("reason", "")
-
-    except Exception:
-        validated = False
-        val_reason = "Validator unreachable"
-
-    # 3. if fail validation → insufficient
-    if not validated:
-        answer = {
-            "answer": "Insufficient evidence to answer the question.",
-            "answer_type": "insufficient_evidence",
-            "evidence": [],
-            "params": {
-                "reason": f"Validation failed: {val_reason}"
-            }
-        }
-
+    # The orchestrator is the single validation boundary. Validating here as
+    # well duplicates a network call, increases latency, and can turn a good
+    # answer into a false failure when the validator is briefly unavailable.
+    answer_type = answer.get("answer_type")
+    params = answer.get("params", {})
+    if answer_type == "calculated":
+        answer["answer"] = str(params.get("value", ""))
+    elif answer_type == "direct":
+        answer["answer"] = str(params.get("value", ""))
+    elif answer_type == "multi_span":
+        answer["answer"] = ", ".join(str(value) for value in params.get("values", []))
     else:
-        # 4. Addd  human-readable answer
-        answer_type = answer.get("answer_type")
-        params = answer.get("params", {})
+        answer["answer"] = "Insufficient evidence to answer the question."
 
-        if answer_type == "calculated":
-            value = params.get("value")
-            unit = params.get("unit", "thousand USD")
-
-            if value is not None:
-                if unit == "thousand USD":
-                    answer["answer"] = f"${value / 1000:.3f} million"
-                else:
-                    answer["answer"] = str(value)
-
-        elif answer_type == "direct":
-            value = params.get("value")
-            answer["answer"] = str(value) if value is not None else ""
-
-        elif answer_type == "multi_span":
-            answer["answer"] = str(params.get("values", []))
-
-        elif answer_type == "insufficient_evidence":
-            answer["answer"] = "Insufficient evidence to answer the question."
-
-    # 5. backkk to Orchestrator
     return {
         **answer,
-        "validated": validated,
         "_trace": {
             "conversation_id": req.conversation_id,
             "question_type_classified": result.get("question_type", "unknown"),
             "retrieval_attempts": result.get("retry_count", 0) + 1,
-            "calculation_performed": answer.get("answer_type") == "calculated",
+            "calculation_performed": answer_type == "calculated",
             "latency_ms": latency,
         },
         "_usage": result.get(

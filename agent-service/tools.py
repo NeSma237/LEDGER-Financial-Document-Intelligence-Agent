@@ -1,21 +1,34 @@
-import httpx, ast, operator, os
+import ast
+import operator
+import os
+
+import httpx
 
 RETRIEVAL_URL = os.getenv("RETRIEVAL_URL", "http://localhost:8002")
+RETRIEVAL_TIMEOUT_SECONDS = float(os.getenv("RETRIEVAL_TIMEOUT_SECONDS", "8"))
 
 def search_documents(query: str, top_k: int = 10) -> list:
     try:
-        r = httpx.post(f"{RETRIEVAL_URL}/search_documents",
-                       json={"query": query, "top_k": top_k}, timeout=10)
-        return r.json()["results"]
-    except:
+        r = httpx.post(
+            f"{RETRIEVAL_URL}/search_documents",
+            json={"query": query, "top_k": top_k},
+            timeout=RETRIEVAL_TIMEOUT_SECONDS,
+        )
+        r.raise_for_status()
+        return r.json().get("results", [])
+    except (httpx.HTTPError, ValueError):
         return []
 
 def search_tables(query: str, top_k: int = 10) -> list:
     try:
-        r = httpx.post(f"{RETRIEVAL_URL}/search_tables",
-                       json={"query": query, "top_k": top_k}, timeout=10)
-        return r.json()["results"]
-    except:
+        r = httpx.post(
+            f"{RETRIEVAL_URL}/search_tables",
+            json={"query": query, "top_k": top_k},
+            timeout=RETRIEVAL_TIMEOUT_SECONDS,
+        )
+        r.raise_for_status()
+        return r.json().get("results", [])
+    except (httpx.HTTPError, ValueError):
         return []
 
 def filter_documents(metadata: dict) -> list:
@@ -23,7 +36,7 @@ def filter_documents(metadata: dict) -> list:
         r = httpx.post(f"{RETRIEVAL_URL}/filter_documents",
                        json=metadata, timeout=10)
         return r.json()["results"]
-    except:
+    except (httpx.HTTPError, ValueError):
         return []
 
 def calculate(expression: str) -> dict:
