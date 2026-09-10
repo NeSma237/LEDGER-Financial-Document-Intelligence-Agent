@@ -3,8 +3,10 @@ import os
 import json
 # from dotenv import load_dotenv
 
+score_threshold = 3
+
 # load_dotenv()
-GROQ_API_KEY=""
+GROQ_API_KEY="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"
 LLM_PROVIDER="groq"
 LLM_MODEL="openai/gpt-oss-120b"
 
@@ -233,8 +235,9 @@ class AgentState(TypedDict):
 # top_k = 10
 ####
 # import json_processor
+
 def search_documents(query):
-    file_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\test_json_single_file"
+    file_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\retrieved_docs_json.json"
     with open(file_path, "r") as f:
         data = json.load(f)
     return data
@@ -253,13 +256,15 @@ def retrieve_text(state: AgentState) -> AgentState:
 def check_evidence(state: AgentState) -> AgentState:
     chunks = state["retrieved_chunks"]
     sufficient = len(chunks) >= 1 and any(c.get("score", 0) > 0.5 for c in chunks)
-    return {**state, "evidence_sufficient": sufficient}
+    good_files = [p for p in chunks if p["score"] > score_threshold]
+    return {**state, "retrieved_chunks": good_files, "evidence_sufficient": sufficient}
 
 def generate_answer(state: AgentState) -> AgentState:
     context = "\n\n".join([
         f"[Source: {c['document_id']} | Page: {c['page']} | Section: {c['section']}]\n{c['content']}"
         for c in state["retrieved_chunks"][:5]
     ])
+    # print(state["retrieved_chunks"])
 
     prompt = f"""You must answer the financial question using ONLY the provided evidence.
 
@@ -425,7 +430,7 @@ def health():
     return {"status": "ok"}
 
 class my_question():
-    question = "What are the respective proportion of cost of revenue as a percentage of revenue in 2017 and 2018?"
+    question = "What was the low sale price per share for each quarters in 2018 in chronological order?"
     conversation_id = "default"
 
 answer_question(my_question)

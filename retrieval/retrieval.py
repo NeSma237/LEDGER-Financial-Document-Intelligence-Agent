@@ -67,7 +67,7 @@ app = FastAPI(
     version="0.1.0"
 )
 
-OVER_RETRIEVE_K = 30
+OVER_RETRIEVE_K = 500
 
 
 # =========================================================
@@ -148,6 +148,12 @@ def hybrid_search(query: str, top_k: int, content_type: str | None = None) -> Li
             merged[chunk_id] = result
 
     candidates = list(merged.values())
+
+    #this code is for debugging, uncomment this to see candidates before rerank
+    # for index, candidate in enumerate(candidates):
+    #     print(f"id, {candidate["document_id"]}, score: {candidate["score"]}")
+    #     if index == 50:
+    #         break
 
     if not candidates:
         return []
@@ -267,7 +273,7 @@ RERANKER_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
 _reranker = CrossEncoder(RERANKER_MODEL_NAME)
 
-def rerank(query: str, candidates: List[Dict[str, Any]], top_k: int = 5) -> List[Dict[str, Any]]:
+def rerank(query: str, candidates: List[Dict[str, Any]], top_k: int) -> List[Dict[str, Any]]:
     if not candidates:
         return []
 
@@ -405,10 +411,10 @@ my_custom_json_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\test_json.jso
 # print("finished ingesting")
 
 # now run the search documents code
-
+# What was the low sale price per share for each quarters in 2018 in chronological order?
 class custom_search_query_request():
     query = "What are the respective proportion of cost of revenue as a percentage of revenue in 2017 and 2018?"
-    top_k = 10
+    top_k = 20
 
 response = search_documents(custom_search_query_request)
 response = response.results # list of RetrievalResults
@@ -430,5 +436,16 @@ for result in response:
     }
     answer_as_list.append(answer_as_dict)
 
+with open("retrieved_docs_json.json", "w") as f:
+    json.dump(answer_as_list, f, indent=2)
+
+# print(answer_as_list)
+# the output is now a list of dicts, structured as the following
+# document_id
+# page
+# section
+# content_type
+# content
+# score
 for iteration in answer_as_list:
     print(f"doc id: {iteration["document_id"]}, score: {iteration["score"]}")
