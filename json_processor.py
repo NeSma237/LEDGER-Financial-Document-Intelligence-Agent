@@ -83,22 +83,19 @@ def signle_file_json_maker(path):
 single_file_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\tatdqa_docs_dev\\dev\\4d41ea7a63b2d9b5cc3cb24ca6c7e9ac.json"
 # signle_file_json_maker(single_file_path)
 
-# run this for bulk processing with you path
+# run this for bulk processing with your path
 def bulk_processor(path):
     docs_dir = Path(path)
 
-    # Output directory for individual processed JSON files
     output_dir = docs_dir.parent.parent / "processed_json_docs_whole"
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Loop over every .json file in the input directory
     for file_path in docs_dir.glob("*.json"):
-        with open(file_path, "r") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         file_pages = []
 
-        # Extract page index and block text per page
         for page_idx, page in enumerate(data.get("pages") or []):
             blocks_text = [
                 block.get("text", "")
@@ -106,20 +103,20 @@ def bulk_processor(path):
                 if block.get("text")
             ]
 
+            # Suffix document_id with page index so it is unique per chunk
+            chunk_id = f"{file_path.stem}_p{page_idx}"
+
             file_pages.append({
-                "document_id": file_path.stem,
+                "document_id": chunk_id,  # Now identical to id
                 "page": page_idx,
                 "section": "Default",
                 "content": "\n".join(blocks_text),
                 "content_type": "text"
             })
 
-        # Save an individual JSON file named <original_stem>_processed.json
         out_file_path = output_dir / f"{file_path.stem}.json"
         with open(out_file_path, "w", encoding="utf-8") as f:
             json.dump(file_pages, f, indent=2)
-
-    print(f"Successfully processed files individually into: {output_dir}")
 
 bulk_processor_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\tatdqa_docs_dev\\dev"
 # bulk_processor(bulk_processor_path)

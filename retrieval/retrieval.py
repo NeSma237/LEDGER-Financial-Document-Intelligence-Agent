@@ -1,5 +1,7 @@
 from typing import Optional, List, Literal
 from pydantic import BaseModel
+import json
+from pathlib import Path
 
 class TableContent(BaseModel):
     rows: List[List[str]]
@@ -67,7 +69,7 @@ app = FastAPI(
     version="0.1.0"
 )
 
-OVER_RETRIEVE_K = 500
+OVER_RETRIEVE_K = 50
 
 
 # =========================================================
@@ -385,14 +387,13 @@ def rerank(query: str, candidates: List[Dict[str, Any]], top_k: int) -> List[Dic
 #                     })
 
 # ===================================================================================================== 
-from pathlib import Path
-import json
+
+
+from tqdm import tqdm
 
 def load_your_jsons(file_path):
-    path = Path(file_path)
-    with open(path, "r") as f:
-        loaded_json = json.load(f)
-    return loaded_json
+    with open(file_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def flush_batch(chunks) -> int:
     if not chunks:
@@ -403,18 +404,65 @@ def flush_batch(chunks) -> int:
 
 def ingest_your_files(file_path):
     loaded_jsons_to_lists = load_your_jsons(file_path)
-    len_of_flushed_chunks = flush_batch(loaded_jsons_to_lists)
-    return len_of_flushed_chunks
+    return flush_batch(loaded_jsons_to_lists)
 
-my_custom_json_path = "C:\\Users\\Lenovo\\Desktop\\MIA\\doc_intel\\test_json.json"
-# len_of_flushed = ingest_your_files(my_custom_json_path)
-# print("finished ingesting")
+def ingestion_pipeline(processed_files_path, registry_path):
+    processed_jsons_path = Path(processed_files_path)  # Fixed Path initialization
+    registry_path = Path(registry_path)
+
+    if registry_path.exists():
+        with open(registry_path, "r", encoding="utf-8") as f:
+            try:
+                ingested_ids = set(json.load(f))
+            except json.JSONDecodeError:
+                ingested_ids = set()
+    else:
+        ingested_ids = set()
+
+    # Pre-filter uningested files to accurately size the tqdm progress bar
+    all_files = list(processed_jsons_path.glob("*.json"))
+    files_to_process = [f for f in all_files if f.stem not in ingested_ids]
+
+    if not files_to_process:
+        print("No new files to ingest.")
+        return
+
+    len_of_flushed = 0
+    newly_ingested_count = 0
+
+    # Wrap the loop with tqdm for progress tracking
+    pbar = tqdm(files_to_process, desc="Ingesting Documents", unit="file")
+    
+    for file_path in pbar:
+        doc_id = file_path.stem
+
+        # Update progress bar description with current file ID
+        pbar.set_postfix({"file": doc_id, "total_chunks": len_of_flushed})
+
+        # Ingest file
+        chunks_added = ingest_your_files(file_path)
+        len_of_flushed += chunks_added
+        newly_ingested_count += 1
+
+        ingested_ids.add(doc_id)
+
+    # Save updated IDs back to registry file
+    with open(registry_path, "w", encoding="utf-8") as f:
+        json.dump(list(ingested_ids), f, indent=2)
+
+    print(f"\nFinished ingesting {len_of_flushed} chunks from {newly_ingested_count} new file(s).")
+
+processed_files_path = r"C:\Users\Lenovo\Desktop\MIA\doc_intel\processed_json_docs_whole"
+registry_path = r"C:\Users\Lenovo\Desktop\MIA\doc_intel\ingested_ids.json"
+# ingestion_pipeline(processed_files_path, registry_path)
+# uncomment this when you have new files
+
+
 
 # now run the search documents code
-# What was the low sale price per share for each quarters in 2018 in chronological order?
 class custom_search_query_request():
-    query = "What are the respective proportion of cost of revenue as a percentage of revenue in 2017 and 2018?"
-    top_k = 20
+    query = "What was the low sale price per share for each quarters in 2018 in chronological order?"
+    top_k = 10
 
 response = search_documents(custom_search_query_request)
 response = response.results # list of RetrievalResults
