@@ -69,7 +69,7 @@ ledger-repo/
 
 A walkthrough of the running system (all seven microservices, chat, ingestion, and evaluation) is available here:
 
-[Watch the demo]([RAABEK_HENA](https://github.com/NeSma237/LEDGER-Financial-Document-Intelligence-Agent/blob/main/202609110538.mp4))
+[Watch the demo](202609110538.mp4)
 
 ## Definition of Done
 See [`docs/definition-of-done.md`](docs/definition-of-done.md)
