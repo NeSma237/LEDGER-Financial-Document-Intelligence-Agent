@@ -7,7 +7,7 @@ load_dotenv()
 
 
 def call_llm(prompt: str) -> dict:
-    model = os.getenv("LLM_MODEL", "openai/gpt-oss-120b")
+    model = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
     api_key = os.getenv("GROQ_API_KEY")
 
     if not api_key:
@@ -105,14 +105,11 @@ def call_llm(prompt: str) -> dict:
             }
 
     except httpx.HTTPStatusError as e:
+        print(f"Groq HTTP Error: {e.response.status_code} - {e.response.text}")
         return {
             "answer_type": "insufficient_evidence",
             "evidence": [],
-            "params": {
-                "reason": "Groq API returned an HTTP error",
-                "status_code": e.response.status_code,
-                "response": e.response.text
-            },
+            "params": {"reason": f"Groq API HTTP Error {e.response.status_code}"},
             "needs_calculation": False,
             "formula_to_calculate": None,
             "_usage": {"llm_calls": 1, "input_tokens": 0, "output_tokens": 0, "tokens": 0}

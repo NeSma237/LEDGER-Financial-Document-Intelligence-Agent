@@ -9,20 +9,30 @@ MAX_CHARS_PER_TEXT_CHUNK = 800  # approx. 1-2 paragraphs, or ~150 words, or ~800
 
 
 def table_to_text(table_rows: List[List[str]]) -> str:
+    if not table_rows or len(table_rows) < 2:
+        return " | ".join([" ".join(r) for r in table_rows if r])
 
+    headers = [h.strip() for h in table_rows[0]]
     lines = []
-    for row in table_rows:
-        if not row:
+
+    for row in table_rows[1:]:
+        if not row or not any(row):
             continue
-        if len(row) == 1:
-            lines.append(row[0])
-        else:
-            # first column is treated as the row label, remaining columns
-            # (e.g. one per year/period) are all preserved instead of only the second
-            label = row[0]
-            values = " | ".join(row[1:])
-            lines.append(f"{label}: {values}")
-    return " | ".join(lines)
+        row_label = row[0].strip()
+        row_str_parts = []
+        
+        for col_idx in range(1, len(row)):
+            val = row[col_idx].strip()
+            if not val:
+                continue
+            col_header = headers[col_idx] if col_idx < len(headers) else f"Col{col_idx}"
+            
+            row_str_parts.append(f"[{col_header}: {val}]")
+        
+        if row_str_parts:
+            lines.append(f"{row_label} -> " + " | ".join(row_str_parts))
+
+    return " \n ".join(lines)
 
 
 def with_section_context(section_title: str, piece: str) -> str:
