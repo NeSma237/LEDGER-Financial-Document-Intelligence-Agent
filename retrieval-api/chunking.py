@@ -124,14 +124,28 @@ def split_long_text(text: str, max_chars: int = MAX_CHARS_PER_TEXT_CHUNK) -> Lis
 
 
 def chunk_document(document_id: str, pages: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-
     chunks: List[Dict[str, Any]] = []
 
     for page in pages:
         page_number = page["page_number"]
+
+        # Keep useful page-level context such as the company name.
+        page_context = ""
+
         for section_idx, section in enumerate(page.get("sections", [])):
             section_title = section.get("section_title") or f"section_{section_idx}"
             content_type = section["content_type"]
+
+            # Capture short text sections that can identify the document/company.
+            if content_type == "text" and section.get("text"):
+                section_text = section["text"].strip()
+
+                if (
+                    section_idx == 0
+                    and section_text
+                    and len(section_text) <= 200
+                ):
+                    page_context = section_text
 
             if content_type == "table" and section.get("table"):
                 rows = [
@@ -139,37 +153,38 @@ def chunk_document(document_id: str, pages: List[Dict[str, Any]]) -> List[Dict[s
                     for row in section["table"]["rows"]
                     if row and any(str(cell).strip() for cell in row)
                 ]
+
                 if not rows:
                     continue
 
-                header_count = _table_header_rows(rows)
-                header_rows = rows[:header_count]
-                width = max(len(row) for row in rows)
-                headers = _column_headers(header_rows, width)
-                header_context = "Table columns: " + "; ".join(
-                    f"{idx + 1}={header}" for idx, header in enumerate(headers)
-                )
+                table_text = table_to_text(rows)
 
-                data_rows = rows[header_count:] or rows
-                for row_idx, row in enumerate(data_rows):
-                    raw_text = _table_row_to_text(row, headers, header_context)
-                    text = with_section_context(section_title, raw_text)
-                    chunk_id = f"{document_id}_p{page_number}_s{section_idx}_table_r{row_idx}"
-                    chunks.append({
-                        "chunk_id": chunk_id,
-                        "document_id": document_id,
-                        "page": page_number,
-                        "section": section_title,
-                        "content_type": "table",
-                        "text": text,
-                    })
+                # Add the page/company context to the table chunk.
+                if page_context and not section_title.startswith(page_context):
+                    text = f"{page_context} — {with_section_context(section_title, table_text)}"
+                else:
+                    text = with_section_context(section_title, table_text)
+                chunk_id = f"{document_id}_p{page_number}_s{section_idx}_table"
+
+                chunks.append({
+                    "chunk_id": chunk_id,
+                    "document_id": document_id,
+                    "page": page_number,
+                    "section": section_title,
+                    "content_type": "table",
+                    "text": text,
+                })
 
             elif content_type == "text" and section.get("text"):
-                # the text can be split if it's long, but each part will inherit the same section metadata
+                # The text can be split if it's long,
+                # but each part will inherit the same section metadata.
                 pieces = split_long_text(section["text"])
+
                 for piece_idx, piece in enumerate(pieces):
                     text = with_section_context(section_title, piece)
+
                     chunk_id = f"{document_id}_p{page_number}_s{section_idx}_t{piece_idx}"
+
                     chunks.append({
                         "chunk_id": chunk_id,
                         "document_id": document_id,

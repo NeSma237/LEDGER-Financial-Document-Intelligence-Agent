@@ -6,7 +6,7 @@ from typing import List, Dict, Any, Optional
 from rank_bm25 import BM25Okapi
 
 
-BM25_DATA_DIR = Path("./bm25_data")
+BM25_DATA_DIR = Path(__file__).resolve().parent / "bm25_data"
 BM25_STORE_FILE = BM25_DATA_DIR / "bm25_store.pkl"
 
 _chunk_store: Dict[str, Dict[str, Any]] = {}
@@ -26,7 +26,9 @@ def _rebuild_bm25_index() -> None:
 
 def _save_to_disk() -> None:
     BM25_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
     tmp_file = BM25_STORE_FILE.with_suffix(".pkl.tmp")
+
     with open(tmp_file, "wb") as f:
         pickle.dump(
             {
@@ -36,6 +38,10 @@ def _save_to_disk() -> None:
             },
             f,
         )
+
+    if BM25_STORE_FILE.exists():
+        BM25_STORE_FILE.unlink()
+
     tmp_file.replace(BM25_STORE_FILE)
 
 

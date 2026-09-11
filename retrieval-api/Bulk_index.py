@@ -70,7 +70,7 @@ def main():
 
     # بنستبعد ملفات الـ checkpoint (زي *-checkpoint.json اللي بتيجي من Jupyter)
     all_files = sorted(
-        p for p in input_dir.glob("*.json") if "-checkpoint" not in p.stem
+       p for p in input_dir.glob("*.json") if "-checkpoint" not in p.stem
     )
 
     done_ids = load_progress()

@@ -17,9 +17,10 @@ class AgentState(TypedDict):
 
 def classify_question(state: AgentState) -> AgentState:
     q = state["question"].lower()
-    numerical_kw = ["increase", "decrease", "change", "difference",
-                    "how much", "percent", "ratio", "total", "sum",
-                    "apart", "compare", "more than", "less than"]
+    numerical_kw = ["increase","decrease","change",
+    "difference","how much","percent","percentage","ratio","total","sum",
+    "apart","compare", "more than","less than", "average", "average of","mean",]    
+
     table_kw = ["table", "breakdown", "list", "which companies",
                 "inventory", "balance", "finished goods"]
 
@@ -38,11 +39,12 @@ def retrieve_text(state: AgentState) -> AgentState:
 
 
 def retrieve_tables(state: AgentState) -> AgentState:
-    text = search_documents(state["question"])
     tables = search_tables(state["question"])
+    text = search_documents(state["question"])
+
     return {
         **state,
-        "retrieved_chunks": text + tables,
+        "retrieved_chunks": tables + text,
         "retry_count": state["retry_count"] + 1,
     }
 
@@ -68,26 +70,84 @@ Evidence:
 {context}
 
 CRITICAL RULES:
-1. NEVER compute arithmetic yourself. Write the formula in "formula_to_calculate" and set "needs_calculation": true.
-2. For abs() differences use: "abs(x-y)" format
-3. MULTI-SOURCE CHECK (very important): The evidence above may come from MULTIPLE DIFFERENT document_id values, meaning it may belong to DIFFERENT companies or reports. Before answering:
-   - If the question does NOT specify a company/document, and the evidence contains conflicting figures for the same metric coming from DIFFERENT document_id values, you MUST NOT arbitrarily pick one.
-   - In that case, return "answer_type": "insufficient_evidence" with a "reason" that explicitly states the question is ambiguous because multiple sources/companies report different values, and ask the user to specify which document or company they mean.
-   - Only answer directly if either (a) all relevant evidence comes from the same document_id, or (b) the question itself already specifies which company/document is meant.
-4. Return ONLY this JSON structure:
+
+1. Use ONLY the provided evidence. Do not use outside knowledge.
+
+2. NEVER compute arithmetic yourself.
+   For numerical questions, write the formula in "formula_to_calculate"
+   and set "needs_calculation": true.
+
+3. For abs() differences use:
+   "abs(x-y)"
+
+4. SOURCE SELECTION AND DOCUMENT IDENTITY:
+
+   - Retrieved evidence may contain chunks from multiple documents.
+   - Multiple document_id values do NOT automatically mean conflicting evidence.
+   - Select the document/chunk that actually answers the question.
+   - Never combine facts from unrelated companies or documents unless the
+     question explicitly asks for a cross-company comparison.
+
+5. IDENTIFY THE COMPANY FROM THE DISCLOSURE:
+
+   - Financial reports frequently use first-person language such as
+     "we acquired", "we reported", "our revenues", "our property and equipment".
+   - When a chunk says "we" but does not repeat the company name in the sentence,
+     treat "we" as the company represented by that document.
+   - Use the document evidence consistently to identify the reporting company.
+   - Do NOT mark the evidence as insufficient merely because the sentence uses
+     "we" instead of explicitly repeating the company name.
+   - For example, if the retrieved evidence says:
+     "On October 25, 2018, we acquired GitHub"
+     and that chunk belongs to Microsoft's financial report, the answer is
+     "Microsoft Corporation".
+   - Prefer a direct disclosure sentence over a generic or indirect reference.
+
+6. ANSWERING "WHICH COMPANY" QUESTIONS:
+
+   - If the question asks "Which company..." identify the company that made
+     the disclosure described in the retrieved evidence.
+   - If one retrieved chunk explicitly describes an action using "we" and another
+     chunk is only an indirect reference to the same event, use the direct
+     disclosure as the primary evidence.
+   - Do NOT return "insufficient_evidence" just because the company name is not
+     repeated inside the exact sentence containing the event.
+
+7. EVIDENCE SUFFICIENCY:
+
+   - Only return "insufficient_evidence" when the retrieved evidence genuinely
+     lacks the information needed to answer the question.
+   - Do NOT confuse "the exact name is not repeated in this sentence" with
+     "the answer cannot be determined".
+   - If the document identity and its first-person disclosure together identify
+     the reporting company, the evidence is sufficient.
+
+8. NUMERICAL QUESTIONS:
+
+   - Use the relevant numerical values from the evidence even when unrelated
+     retrieved chunks are present.
+   - Never combine values from different companies unless explicitly requested.
+
+9. Return ONLY this JSON structure:
 
 {{
   "answer_type": "direct" or "calculated" or "multi_span" or "insufficient_evidence",
-  "evidence": [{{"document_id": "...", "page": 0, "section": "..."}}],
-  "params": {{
-    // if direct:              {{"value": "..."}}
-    // if calculated:          {{"value": null, "formula": "..."}}
-    // if multi_span:          {{"values": [...]}}
-    // if insufficient_evidence: {{"reason": "..."}}
-  }},
+  "evidence": [
+        {{
+      "document_id": "...",
+      "page": 0,
+      "section": "..."
+        }}
+  ],
+    "params": {{
+    // if direct: {"value": "..."}
+    // if calculated: {"value": null, "formula": "..."}
+    // if multi_span: {"values": [...]}
+    // if insufficient_evidence: {"reason": "..."}
+    }},
   "needs_calculation": true or false,
   "formula_to_calculate": "expression or null"
-}}"""
+}}  """
 
     parsed = call_llm(prompt)
     usage = parsed.pop("_usage", {"llm_calls": 0, "input_tokens": 0, "output_tokens": 0, "tokens": 0})
