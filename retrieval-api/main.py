@@ -72,13 +72,16 @@ def index_document(payload: IndexRequest):
 def hybrid_search(
     query: str,
     top_k: int,
-    content_type: str | None = None
+    content_type: str | None = None,
+    document_id: str | None = None,
 ) -> List[dict]:
 
     filters = {}
 
     if content_type:
         filters["content_type"] = content_type
+    if document_id:
+        filters["document_id"] = document_id
 
     # 1. Chroma / Vector Search
     vector_results = vector_store.vector_search(
@@ -132,7 +135,8 @@ def search_documents(payload: SearchQueryRequest):
     results = hybrid_search(
         query=payload.query,
         top_k=payload.top_k,
-        content_type="text"
+        content_type="text",
+        document_id=payload.document_id,
     )
 
     return RetrievalResponse(
@@ -164,7 +168,8 @@ def search_tables(payload: SearchQueryRequest):
     results = hybrid_search(
         query=payload.query,
         top_k=payload.top_k,
-        content_type=None 
+        content_type=None,
+        document_id=payload.document_id,
     )
     
     results = sorted(results, key=lambda x: (x["content_type"] == "table", x.get("rerank_score", 0)), reverse=True)

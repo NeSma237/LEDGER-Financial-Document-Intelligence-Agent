@@ -62,7 +62,7 @@ def benchmark_build(req: BuildHoldoutRequest):
     return {"n_questions": len(questions), "saved_to": str(HOLDOUT_PATH)}
 
 
-def _call_orchestrator(question: str, question_id: str) -> dict:
+def _call_orchestrator(question: str, question_id: str, document_id: str) -> dict:
     """Calls orchestrator-api's POST /ask — the only door we're allowed
     to knock on for actually answering a question. Everything else
     (agent-service, retrieval-api, answer-validator-api) is orchestrator's
@@ -81,7 +81,11 @@ def _call_orchestrator(question: str, question_id: str) -> dict:
     """
     resp = httpx.post(
         f"{ORCHESTRATOR_URL}/ask",
-        json={"question": question, "conversation_id": question_id},
+        json={
+            "question": question,
+            "conversation_id": question_id,
+            "document_id": document_id,
+        },
         timeout=60.0,
     )
     resp.raise_for_status()

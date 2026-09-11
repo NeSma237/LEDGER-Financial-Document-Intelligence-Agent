@@ -40,7 +40,11 @@ async def ask_question(request: AskRequest):
     ) as trace:
         try:
             with observation("agent-service", {"question": request.question}) as span:
-                agent_response = await call_agent(request.question, request.conversation_id)
+                agent_response = await call_agent(
+                    request.question,
+                    request.conversation_id,
+                    request.document_id,
+                )
                 if span is not None:
                     span.update(output=agent_response)
         except ServiceError as e:

@@ -8,6 +8,7 @@ import time
 class AgentState(TypedDict):
     question: str
     conversation_id: str
+    document_id: Optional[str]
     question_type: str
     retrieved_chunks: List[dict]
     evidence_sufficient: bool
@@ -39,7 +40,7 @@ def classify_question(state: AgentState) -> AgentState:
 
 def retrieve_text(state: AgentState) -> AgentState:
     with observation("retrieve-text", {"query": state["question"]}) as span:
-        results = search_documents(state["question"])
+        results = search_documents(state["question"], document_id=state.get("document_id"))
         if span is not None:
             span.update(output={"result_count": len(results)})
         return {**state, "retrieved_chunks": results, "retry_count": state["retry_count"] + 1}
@@ -47,8 +48,8 @@ def retrieve_text(state: AgentState) -> AgentState:
 
 def retrieve_tables(state: AgentState) -> AgentState:
     with observation("retrieve-tables", {"query": state["question"]}) as span:
-        text = search_documents(state["question"])
-        tables = search_tables(state["question"])
+        text = search_documents(state["question"], document_id=state.get("document_id"))
+        tables = search_tables(state["question"], document_id=state.get("document_id"))
         if span is not None:
             span.update(output={"text_results": len(text), "table_results": len(tables)})
         return {
@@ -116,11 +117,12 @@ Evidence:
 CRITICAL RULES:
 1. NEVER compute arithmetic yourself. Write the formula in "formula_to_calculate" and set "needs_calculation": true.
 2. For abs() differences use: "abs(x-y)" format
-3. MULTI-SOURCE CHECK (very important): The evidence above may come from MULTIPLE DIFFERENT document_id values, meaning it may belong to DIFFERENT companies or reports. Before answering:
+3. For questions asking for an amount from a table, use a retrieved chunk marked "content_type": "table" and read the value at the requested row and year column. Do not substitute a nearby prose statement, reserve, total, or rounded value for the table row.
+4. MULTI-SOURCE CHECK (very important): The evidence above may come from MULTIPLE DIFFERENT document_id values, meaning it may belong to DIFFERENT companies or reports. Before answering:
    - If the question does NOT specify a company/document, and the evidence contains conflicting figures for the same metric coming from DIFFERENT document_id values, you MUST NOT arbitrarily pick one.
    - In that case, return "answer_type": "insufficient_evidence" with a "reason" that explicitly states the question is ambiguous because multiple sources/companies report different values, and ask the user to specify which document or company they mean.
    - Only answer directly if either (a) all relevant evidence comes from the same document_id, or (b) the question itself already specifies which company/document is meant.
-4. Return ONLY this JSON structure:
+5. Return ONLY this JSON structure:
 
 {{
   "answer_type": "direct" or "calculated" or "multi_span" or "insufficient_evidence",

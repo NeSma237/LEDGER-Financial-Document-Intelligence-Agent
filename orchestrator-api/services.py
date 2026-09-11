@@ -15,16 +15,23 @@ class ServiceError(Exception):
         super().__init__(f"[{service}] {message}")
 
 
-async def call_agent(question: str, conversation_id: str) -> Dict[str, Any]:
+async def call_agent(
+    question: str,
+    conversation_id: str,
+    document_id: Optional[str] = None,
+) -> Dict[str, Any]:
     """Forward a question to the agent service."""
     url = f"{settings.AGENT_SERVICE_URL}/agent/answer"
     logger.info(f"[ORCHESTRATOR] Sending question to agent: {url}")
     try:
         async with httpx.AsyncClient(timeout=settings.REQUEST_TIMEOUT) as client:
-            resp = await client.post(url, json={
+            payload = {
                 "question": question,
-                "conversation_id": conversation_id
-            })
+                "conversation_id": conversation_id,
+            }
+            if document_id:
+                payload["document_id"] = document_id
+            resp = await client.post(url, json=payload)
             resp.raise_for_status()
             data = resp.json()
             logger.info(f"[ORCHESTRATOR] Agent responded with answer_type='{data.get('answer_type')}'")

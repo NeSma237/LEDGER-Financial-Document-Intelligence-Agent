@@ -108,8 +108,8 @@ def load_holdout_set(path: str) -> List[BenchmarkQuestion]:
 # 2. Run the benchmark against the live pipeline
 # --------------------------------------------------------------------------
 
-OrchestratorCall = Callable[[str, str], dict]
-"""Signature: call_orchestrator(question, question_id) -> raw JSON answer dict.
+OrchestratorCall = Callable[[str, str, str], dict]
+"""Signature: call_orchestrator(question, question_id, document_id) -> raw JSON answer dict.
 
 question_id gets passed through as conversation_id — orchestrator's
 AskRequest only accepts `question`/`conversation_id` (extra="forbid"),
@@ -228,7 +228,7 @@ def run_benchmark(
 ) -> BenchmarkSummary:
     """Run every held-out question through the pipeline and score it.
 
-    `call_orchestrator(question, question_id)` should return the
+    `call_orchestrator(question, question_id, document_id)` should return the
     parsed JSON body of the orchestrator's response. Per agent-service's
     contract (confirmed with Thomas), that's the base answer schema
     (`answer_type`/`evidence`/`params`) plus `validated` (bool) and a
@@ -254,7 +254,7 @@ def run_benchmark(
         with traced_run(question_id=q.question_id, question=q.question) as run:
             with run.span("call_orchestrator", input={"question": q.question, "conversation_id": q.question_id}) as sp:
                 try:
-                    raw = call_orchestrator(q.question, q.question_id)
+                    raw = call_orchestrator(q.question, q.question_id, q.doc_id)
                     sp.end(output=raw)
                 except Exception as e:
                     print(f"[EVAL] orchestrator call failed for {q.question_id}: {e}")

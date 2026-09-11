@@ -15,6 +15,7 @@ VALIDATOR_URL = os.getenv("VALIDATOR_URL", "http://localhost:8005")
 class QuestionRequest(BaseModel):
     question: str
     conversation_id: str = "default"
+    document_id: str | None = None
 
 
 @app.post("/agent/answer")
@@ -25,6 +26,7 @@ def answer_question(req: QuestionRequest):
     result = agent.invoke({
         "question": req.question,
         "conversation_id": req.conversation_id,
+        "document_id": req.document_id,
         "question_type": "",
         "retrieved_chunks": [],
         "evidence_sufficient": False,

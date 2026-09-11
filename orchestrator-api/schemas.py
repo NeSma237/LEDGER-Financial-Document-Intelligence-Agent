@@ -6,6 +6,7 @@ class AskRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
     question: str
     conversation_id: str = "default"
+    document_id: Optional[str] = None
 
 
 class Evidence(BaseModel):

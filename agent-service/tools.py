@@ -2,18 +2,18 @@ import httpx, ast, operator, os
 
 RETRIEVAL_URL = os.getenv("RETRIEVAL_URL", "http://localhost:8002")
 
-def search_documents(query: str, top_k: int = 10) -> list:
+def search_documents(query: str, top_k: int = 10, document_id: str | None = None) -> list:
     try:
         r = httpx.post(f"{RETRIEVAL_URL}/search_documents",
-                       json={"query": query, "top_k": top_k}, timeout=10)
+                       json={"query": query, "top_k": top_k, "document_id": document_id}, timeout=10)
         return r.json()["results"]
     except:
         return []
 
-def search_tables(query: str, top_k: int = 10) -> list:
+def search_tables(query: str, top_k: int = 10, document_id: str | None = None) -> list:
     try:
         r = httpx.post(f"{RETRIEVAL_URL}/search_tables",
-                       json={"query": query, "top_k": top_k}, timeout=10)
+                       json={"query": query, "top_k": top_k, "document_id": document_id}, timeout=10)
         return r.json()["results"]
     except:
         return []

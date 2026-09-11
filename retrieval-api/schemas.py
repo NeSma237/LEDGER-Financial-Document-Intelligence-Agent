@@ -47,6 +47,7 @@ class IndexResponse(BaseModel):
 class SearchQueryRequest(BaseModel):
     query: str
     top_k: int = 10
+    document_id: Optional[str] = None
 
 
 class FilterDocumentsRequest(BaseModel):
