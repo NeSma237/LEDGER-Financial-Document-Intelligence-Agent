@@ -5,6 +5,7 @@ from schemas import AskRequest, AskResponse, IngestResponse, DocumentsResponse, 
 from services import call_agent, call_validator, call_doc_processor, call_retrieval_index, ServiceError
 from adapters import adapt_docling_output
 from config import settings
+from observability import observation
 
 # Configure logging
 logging.basicConfig(
@@ -33,75 +34,76 @@ async def ask_question(request: AskRequest):
     """
     logger.info(f"[ORCHESTRATOR] Received question: '{request.question}' (conversation_id={request.conversation_id})")
 
-    # Step 1: Call the Agent
-    try:
-        agent_response = await call_agent(request.question, request.conversation_id)
-    except ServiceError as e:
-        logger.error(f"[ORCHESTRATOR] Agent service failed: {e.message}")
-        return JSONResponse(
-            status_code=e.status_code or 502,
-            content={"error": f"Agent service error: {e.message}",
-                     "detail": "The agent service is unavailable or returned an error."}
-        )
+    with observation(
+        "ledger-question",
+        {"question": request.question, "conversation_id": request.conversation_id},
+    ) as trace:
+        try:
+            with observation("agent-service", {"question": request.question}) as span:
+                agent_response = await call_agent(request.question, request.conversation_id)
+                if span is not None:
+                    span.update(output=agent_response)
+        except ServiceError as e:
+            logger.error(f"[ORCHESTRATOR] Agent service failed: {e.message}")
+            return JSONResponse(
+                status_code=e.status_code or 502,
+                content={"error": f"Agent service error: {e.message}",
+                         "detail": "The agent service is unavailable or returned an error."}
+            )
 
-    # Step 2: Validate the response structure
-    if not isinstance(agent_response, dict):
-        logger.error("[ORCHESTRATOR] Agent returned non-dict response")
-        return JSONResponse(
-            status_code=502,
-            content={"error": "Invalid response from agent service",
-                     "detail": "Agent response is not a valid JSON object."}
-        )
+        if not isinstance(agent_response, dict):
+            return JSONResponse(
+                status_code=502,
+                content={"error": "Invalid response from agent service",
+                         "detail": "Agent response is not a valid JSON object."}
+            )
 
-    answer_type = agent_response.get("answer_type")
-    if not answer_type:
-        logger.error("[ORCHESTRATOR] Agent response missing answer_type")
-        return JSONResponse(
-            status_code=502,
-            content={"error": "Malformed agent response",
-                     "detail": "Agent response is missing 'answer_type'."}
-        )
+        answer_type = agent_response.get("answer_type")
+        if not answer_type:
+            return JSONResponse(
+                status_code=502,
+                content={"error": "Malformed agent response",
+                         "detail": "Agent response is missing 'answer_type'."}
+            )
 
-    # Step 3: Send to Answer Validator
-    try:
-        validator_result = await call_validator(agent_response)
-    except ServiceError as e:
-        logger.error(f"[ORCHESTRATOR] Validator service failed: {e.message}")
-        return JSONResponse(
-            status_code=e.status_code or 502,
-            content={"error": f"Validator service error: {e.message}",
-                     "detail": "The answer validator is unavailable."}
-        )
+        try:
+            with observation("answer-validator", {"answer_type": answer_type}) as span:
+                validator_result = await call_validator(agent_response)
+                if span is not None:
+                    span.update(output=validator_result)
+        except ServiceError as e:
+            logger.error(f"[ORCHESTRATOR] Validator service failed: {e.message}")
+            return JSONResponse(
+                status_code=e.status_code or 502,
+                content={"error": f"Validator service error: {e.message}",
+                         "detail": "The answer validator is unavailable."}
+            )
 
-    is_valid = validator_result.get("valid", False)
+        if not validator_result.get("valid", False):
+            val_reason = validator_result.get("reason", "Unknown validation failure")
+            response = AskResponse(
+                answer="Insufficient evidence to answer the question.",
+                answer_type="insufficient_evidence",
+                evidence=[],
+                params={"reason": f"Validation failed: {val_reason}"},
+                validated=False,
+                _trace=agent_response.get("_trace"),
+                usage=agent_response.get("_usage"),
+            )
+        else:
+            response = AskResponse(
+                answer=agent_response.get("answer", ""),
+                answer_type=answer_type,
+                evidence=agent_response.get("evidence", []),
+                params=agent_response.get("params", {}),
+                validated=True,
+                _trace=agent_response.get("_trace"),
+                usage=agent_response.get("_usage"),
+            )
 
-    # Step 4: Handle validation result
-    if not is_valid:
-        val_reason = validator_result.get("reason", "Unknown validation failure")
-        logger.warning(f"[ORCHESTRATOR] Answer rejected by validator: {val_reason}")
-
-        # Return a safe insufficient_evidence response instead of the invalid answer
-        return AskResponse(
-            answer="Insufficient evidence to answer the question.",
-            answer_type="insufficient_evidence",
-            evidence=[],
-            params={"reason": f"Validation failed: {val_reason}"},
-            validated=False,
-            _trace=agent_response.get("_trace"),
-            usage=agent_response.get("_usage"),
-        )
-
-    # Step 5: Return validated answer to UI using typed AskResponse model
-    logger.info(f"[ORCHESTRATOR] Returning validated answer of type '{answer_type}'")
-    return AskResponse(
-        answer=agent_response.get("answer", ""),
-        answer_type=answer_type,
-        evidence=agent_response.get("evidence", []),
-        params=agent_response.get("params", {}),
-        validated=True,
-        _trace=agent_response.get("_trace"),
-        usage=agent_response.get("_usage"),
-    )
+        if trace is not None:
+            trace.update(output=response.model_dump())
+        return response
 
 
 @app.post("/ingest", response_model=IngestResponse)

@@ -2,6 +2,7 @@ from langgraph.graph import StateGraph, END
 from typing import TypedDict, List, Optional
 from tools import search_documents, search_tables, calculate
 from llm_client import call_llm
+from observability import observation
 import time
 
 class AgentState(TypedDict):
@@ -16,44 +17,62 @@ class AgentState(TypedDict):
     llm_usage: dict
 
 def classify_question(state: AgentState) -> AgentState:
-    q = state["question"].lower()
-    numerical_kw = ["increase", "decrease", "change", "difference",
-                    "how much", "percent", "ratio", "total", "sum",
-                    "apart", "compare", "more than", "less than"]
-    table_kw = ["table", "breakdown", "list", "which companies",
-                "inventory", "balance", "finished goods"]
+    with observation("classify-question", {"question": state["question"]}) as span:
+        q = state["question"].lower()
+        numerical_kw = ["increase", "decrease", "change", "difference",
+                        "how much", "percent", "ratio", "total", "sum",
+                        "apart", "compare", "more than", "less than"]
+        table_kw = ["table", "breakdown", "list", "which companies",
+                    "inventory", "balance", "finished goods"]
 
-    if any(k in q for k in numerical_kw):
-        q_type = "numerical"
-    elif any(k in q for k in table_kw):
-        q_type = "table"
-    else:
-        q_type = "text"
+        if any(k in q for k in numerical_kw):
+            q_type = "numerical"
+        elif any(k in q for k in table_kw):
+            q_type = "table"
+        else:
+            q_type = "text"
 
-    return {**state, "question_type": q_type, "retry_count": 0, "start_time": time.time()}
+        result = {**state, "question_type": q_type, "retry_count": 0, "start_time": time.time()}
+        if span is not None:
+            span.update(output={"question_type": q_type})
+        return result
 
 def retrieve_text(state: AgentState) -> AgentState:
-    results = search_documents(state["question"])
-    return {**state, "retrieved_chunks": results, "retry_count": state["retry_count"] + 1}
+    with observation("retrieve-text", {"query": state["question"]}) as span:
+        results = search_documents(state["question"])
+        if span is not None:
+            span.update(output={"result_count": len(results)})
+        return {**state, "retrieved_chunks": results, "retry_count": state["retry_count"] + 1}
 
 
 def retrieve_tables(state: AgentState) -> AgentState:
-    text = search_documents(state["question"])
-    tables = search_tables(state["question"])
-    return {**state, "retrieved_chunks": text + tables}
+    with observation("retrieve-tables", {"query": state["question"]}) as span:
+        text = search_documents(state["question"])
+        tables = search_tables(state["question"])
+        if span is not None:
+            span.update(output={"text_results": len(text), "table_results": len(tables)})
+        return {
+            **state,
+            "retrieved_chunks": text + tables,
+            "retry_count": state["retry_count"] + 1,
+        }
 
 def check_evidence(state: AgentState) -> AgentState:
     chunks = state["retrieved_chunks"]
-    sufficient = len(chunks) >= 1 and any(c.get("score", 0) > 0.5 for c in chunks)
+    # Cross-encoder and BM25 scores are not probabilities (and can be negative),
+    # so treating 0.5 as a universal confidence threshold silently discards good
+    # evidence. Grounding is enforced after generation using source identifiers.
+    sufficient = bool(chunks)
     return {**state, "evidence_sufficient": sufficient}
 
 def generate_answer(state: AgentState) -> AgentState:
-    context = "\n\n".join([
-        f"[Source: {c['document_id']} | Page: {c['page']} | Section: {c['section']}]\n{c['content']}"
-        for c in state["retrieved_chunks"][:5]
-    ])
+    with observation("generate-answer", {"question": state["question"]}) as span:
+        context = "\n\n".join([
+            f"[Source: {c.get('document_id')} | Page: {c.get('page')} | Section: {c.get('section', '')}]\n{c.get('content', '')}"
+            for c in state["retrieved_chunks"][:6]
+        ])
 
-    prompt = f"""You must answer the financial question using ONLY the provided evidence.
+        prompt = f"""You must answer the financial question using ONLY the provided evidence.
 
 Question: {state['question']}
 
@@ -61,7 +80,7 @@ Evidence:
 {context}
 
 CRITICAL RULES:
-1. NEVER compute arithmetic yourself. Write the formula in "formula_to_calculate" and set "needs_calculation": true
+1. NEVER compute arithmetic yourself. Write the formula in "formula_to_calculate" and set "needs_calculation": true.
 2. For abs() differences use: "abs(x-y)" format
 3. MULTI-SOURCE CHECK (very important): The evidence above may come from MULTIPLE DIFFERENT document_id values, meaning it may belong to DIFFERENT companies or reports. Before answering:
    - If the question does NOT specify a company/document, and the evidence contains conflicting figures for the same metric coming from DIFFERENT document_id values, you MUST NOT arbitrarily pick one.
@@ -81,78 +100,99 @@ CRITICAL RULES:
   "needs_calculation": true or false,
   "formula_to_calculate": "expression or null"
 }}"""
-    context = "\n\n".join([
-        f"[Source: {c['document_id']} | Page: {c['page']} | Section: {c['section']}]\n{c['content']}"
-        for c in state["retrieved_chunks"][:5]
-    ])
-    print("\n--- CONTEXT PASSED TO LLM ---\n", context, "\n-----------------------------\n")
-    parsed = call_llm(prompt)
-    usage = parsed.pop("_usage", {"llm_calls": 0, "input_tokens": 0, "output_tokens": 0, "tokens": 0})
-    return {**state, "final_answer": parsed, "llm_usage": usage}
 
-def execute_calculation(state: AgentState) -> AgentState:
-    answer = dict(state["final_answer"])
-    formula = answer.get("formula_to_calculate")
-
-    if formula:
-        calc = calculate(formula)
-        if calc["error"] is None:
-            answer["params"]["value"] = calc["result"]
-            answer["params"]["formula"] = calc["formula"]
-        else:
-            answer["answer_type"] = "insufficient_evidence"
-            answer["params"] = {"reason": f"Calculation error: {calc['error']}"}
-
-    return {**state, "final_answer": answer}
+        parsed = call_llm(prompt)
+        usage = parsed.pop("_usage", {"llm_calls": 0, "input_tokens": 0, "output_tokens": 0, "tokens": 0})
+        answer = _ground_answer(parsed, state["retrieved_chunks"])
+        if span is not None:
+            span.update(output={"answer_type": answer.get("answer_type"), "usage": usage})
+        return {**state, "final_answer": answer, "llm_usage": usage}
 
 
-def clean_answer_schema(answer: dict) -> dict:
-    """
-    Sanitizes the final answer dictionary to ensure strict adherence to the expected output schema.
-    Strips out internal orchestration flags, HTTP responses, and unexpected parameters
-    that trigger validation errors during evaluation.
+def _insufficient(reason: str) -> dict:
+    return {
+        "answer_type": "insufficient_evidence",
+        "evidence": [],
+        "params": {"reason": reason},
+        "needs_calculation": False,
+        "formula_to_calculate": None,
+    }
+
+
+def _ground_answer(answer: dict, chunks: List[dict]) -> dict:
+    """Reject an LLM response that cites a source it was not given.
+
+    Schema validation alone establishes shape, not factual grounding. This small
+    deterministic check prevents a model from inventing document/page citations.
     """
     if not isinstance(answer, dict):
+        return _insufficient("The model returned an invalid answer format.")
+
+    answer_type = answer.get("answer_type")
+    allowed_types = {"direct", "calculated", "multi_span", "insufficient_evidence"}
+    if answer_type not in allowed_types:
+        return _insufficient("The model returned an unsupported answer type.")
+    if answer_type == "insufficient_evidence":
         return answer
 
-    # 1. Remove graph execution metadata and internal runtime keys
-    answer.pop("needs_calculation", None)
-    answer.pop("formula_to_calculate", None)
-    answer.pop("status_code", None)
-    answer.pop("response", None)
+    if not isinstance(answer.get("params"), dict):
+        return _insufficient("The answer parameters were invalid.")
 
-    # 2. Filter the 'params' object to retain ONLY the allowed keys based on 'answer_type'
-    if "params" in answer and isinstance(answer["params"], dict):
-        answer_type = answer.get("answer_type", "")
-        raw_params = answer["params"]
+    citations = answer.get("evidence")
+    if not isinstance(citations, list) or not citations:
+        return _insufficient("The answer did not include a source citation.")
 
-        # Map each valid answer type to its strictly allowed parameter keys
-        allowed_keys = {
-            "calculated": {"value", "unit", "formula"},
-            "direct": {"value", "unit"},
-            "multi_span": {"values"},
-            "insufficient_evidence": {"reason"}
-        }.get(answer_type, {"value", "values", "reason", "unit", "formula"})
+    available_sources = {
+        (chunk.get("document_id"), chunk.get("page"))
+        for chunk in chunks
+    }
+    for citation in citations:
+        if not isinstance(citation, dict) or (
+            citation.get("document_id"), citation.get("page")
+        ) not in available_sources:
+            return _insufficient("The answer cited a source that was not retrieved.")
 
-        # Reconstruct params keeping only validated/permitted keys
-        answer["params"] = {k: v for k, v in raw_params.items() if k in allowed_keys}
-
+    if answer_type == "calculated":
+        if not answer.get("formula_to_calculate"):
+            return _insufficient("A calculated answer did not provide a formula.")
+        # The calculator writes the numeric result, so a model-provided value
+        # can never be used as an unverified calculation.
+        answer["params"].pop("value", None)
+        answer["params"]["value"] = None
     return answer
+
+def execute_calculation(state: AgentState) -> AgentState:
+    with observation("calculate-answer", {"formula": state["final_answer"].get("formula_to_calculate")}) as span:
+        answer = dict(state["final_answer"])
+        formula = answer.get("formula_to_calculate")
+
+        if formula:
+            calc = calculate(formula)
+            if calc["error"] is None:
+                answer["params"]["value"] = calc["result"]
+                answer["params"]["formula"] = calc["formula"]
+            else:
+                answer["answer_type"] = "insufficient_evidence"
+                answer["params"] = {"reason": f"Calculation error: {calc['error']}"}
+
+        if span is not None:
+            span.update(output=answer)
+        return {**state, "final_answer": answer}
 
 def finalize_answer(state: AgentState) -> AgentState:
     """Strips internal-only fields before the answer leaves the agent,
     regardless of which path (calculated or not) produced it."""
-    answer = dict(state.get("final_answer", {}))
-    cleaned_answer = clean_answer_schema(answer)
-    return {**state, "final_answer": cleaned_answer}
+    answer = dict(state["final_answer"])
+    answer.pop("needs_calculation", None)
+    answer.pop("formula_to_calculate", None)
+    return {**state, "final_answer": answer}
 
 def insufficient_node(state: AgentState) -> AgentState:
-    answer = {
+    return {**state, "final_answer": {
         "answer_type": "insufficient_evidence",
         "evidence": [],
         "params": {"reason": "Could not find sufficient evidence."}
-    }
-    return {**state, "final_answer": answer}
+    }}
 
 # Conditional edges
 def route_by_type(state: AgentState) -> str:
@@ -167,7 +207,7 @@ def route_by_evidence(state: AgentState) -> str:
 
 def route_after_generation(state: AgentState) -> str:
     answer = state.get("final_answer", {})
-    if answer.get("needs_calculation") and answer.get("formula_to_calculate"):
+    if answer.get("answer_type") == "calculated" and answer.get("formula_to_calculate"):
         return "calculate"
     return "done"
 

@@ -47,10 +47,9 @@ async def call_validator(answer_payload: Dict[str, Any]) -> Dict[str, Any]:
     """Send an answer to the validator service for validation."""
     url = f"{settings.VALIDATOR_SERVICE_URL}/validate_answer"
     logger.info(f"[ORCHESTRATOR] Sending answer to validator: {url}")
-    
     validation_payload = {
         k: v for k, v in answer_payload.items()
-        if k not in ("_trace", "validated", "answer", "_usage")
+        if k not in ("_trace", "validated", "answer")
     }
     # Forward the payload without pipeline wrapper metadata (_trace, validated, answer)
     # Any unexpected extra fields injected by the agent are preserved so the validator can reject them

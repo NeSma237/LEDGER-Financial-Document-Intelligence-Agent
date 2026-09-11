@@ -141,6 +141,7 @@ class TracedRun:
     def _close(self):
         if self._root_cm is not None:
             self._root_cm.__exit__(None, None, None)
+            self._client.flush()
 
 
 @contextmanager

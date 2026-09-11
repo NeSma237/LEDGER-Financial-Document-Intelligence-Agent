@@ -75,8 +75,8 @@ SERVICES = [
     {
         "name": "eval-service",
         "cwd": REPO_ROOT / "eval-service",
-        "cmd": [sys.executable, "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8004"],
-        "port": 8004,
+        "cmd": [sys.executable, "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8006"],
+        "port": 8006,
         "health_path": "/health",
         "env": {},
         "required": False,
@@ -85,12 +85,12 @@ SERVICES = [
     {
         "name": "ui-service",
         "cwd": REPO_ROOT / "ui-service",
-        "cmd": [sys.executable, "app/main.py"],
+        "cmd": [sys.executable, "user_interface.py"],
         "port": 7860,
         "health_path": "/",
         "env": {},
         "required": False,
-        "check_file": "app/main.py",
+        "check_file": "user_interface.py",
     },
 ]
 
@@ -161,10 +161,8 @@ def main():
                 svc["cmd"],
                 cwd=str(cwd),
                 env=env,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.STDOUT,
-                text=True,
-                bufsize=1
+                stdout=None,
+                stderr=None,
             )
             running_processes.append((name, proc))
         except Exception as e:

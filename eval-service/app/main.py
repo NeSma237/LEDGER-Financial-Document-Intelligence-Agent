@@ -21,6 +21,7 @@ from typing import Optional
 import httpx
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from dotenv import load_dotenv
 
 from app.benchmark import build_holdout_set, load_holdout_set, run_benchmark, save_holdout_set
 from app.schemas import (
@@ -29,6 +30,8 @@ from app.schemas import (
     FailureAnalysis,
     FailureCase,
 )
+
+load_dotenv()
 
 app = FastAPI(title="LEDGER eval-service", version="0.1.0")
 
@@ -109,7 +112,7 @@ def benchmark_run(req: RunBenchmarkRequest):
     )
 
     out_path = DATA_DIR / f"{summary.run_id}.json"
-    out_path.write_text(summary.model_dump_json(indent=2))
+    out_path.write_text(summary.model_dump_json(indent=2), encoding="utf-8")
 
     print(
         f"[EVAL-SERVICE] run={summary.run_id} n={summary.n_questions} "
@@ -126,7 +129,7 @@ def _load_run(run_id: str) -> BenchmarkSummary:
     path = DATA_DIR / f"{run_id}.json"
     if not path.exists():
         raise HTTPException(404, f"No stored run: {run_id}")
-    return BenchmarkSummary.model_validate_json(path.read_text())
+    return BenchmarkSummary.model_validate_json(path.read_text(encoding="utf-8"))
 
 
 @app.get("/benchmark/failure-analysis/{run_id}", response_model=FailureAnalysis)
