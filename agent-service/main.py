@@ -39,9 +39,27 @@ def answer_question(req: QuestionRequest):
 
     # 2. send to Validator
     try:
+        validator_payload = {
+            key: answer[key]
+            for key in ("answer_type", "evidence", "params")
+            if key in answer
+        }
+        params = validator_payload.get("params")
+        if isinstance(params, dict):
+            allowed_params = {
+                "direct": {"value"},
+                "calculated": {"value", "formula"},
+                "multi_span": {"values"},
+                "insufficient_evidence": {"reason"},
+            }.get(validator_payload.get("answer_type"), set())
+            validator_payload["params"] = {
+                key: value
+                for key, value in params.items()
+                if key in allowed_params
+            }
         val_resp = httpx.post(
             f"{VALIDATOR_URL}/validate_answer",
-            json=answer,
+            json=validator_payload,
             timeout=10
         ).json()
 
