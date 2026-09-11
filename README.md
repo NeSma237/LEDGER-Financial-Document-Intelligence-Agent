@@ -65,6 +65,12 @@ ledger-repo/
 - Fix branches: `bugfix/<short-desc>`
 - All merges go through Pull Requests only
 
+## Demo Video
+
+A walkthrough of the running system (all seven microservices, chat, ingestion, and evaluation) is available here:
+
+[Watch the demo](RAABEK_HENA)
+
 ## Definition of Done
 See [`docs/definition-of-done.md`](docs/definition-of-done.md)
 
